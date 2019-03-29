@@ -49,7 +49,7 @@
 		"CVS"
 	],
 	"font_face": "consolas",
-	"font_size": 8,
+	"font_size": 9,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"ignored_packages":
