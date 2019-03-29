@@ -1,0 +1,15 @@
+{
+  "connections": {
+
+    "Mysql: wordpress": {
+      "type"    : "mysql",
+      "host"    : "127.0.0.1",
+      "port"    :  3306,
+      "database": "wp-vuejs",
+      "username": "root",
+      "password": "",
+      "default-character-set": "utf8",
+      "encoding": "utf-8"
+    },
+  }
+}

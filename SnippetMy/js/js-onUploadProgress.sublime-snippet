@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+onUploadProgress: (progressEvent) => {
+    const totalLength = progressEvent.lengthComputable ? progressEvent.total : progressEvent.target.getResponseHeader('content-length') || progressEvent.target.getResponseHeader('x-decompressed-content-length');
+    if (totalLength !== null) {
+        ${1:this.progressValue} = Math.round((progressEvent.loaded * 100) / totalLength);
+    }
+} ]]></content>
+    <tabTrigger>js-onUploadProgress</tabTrigger>
+    <description>js</description>
+</snippet>
+

@@ -1,0 +1,24 @@
+<snippet>
+       <!-- Type `loop` and hit tab to output a simple WP_Query loop. -->
+       <content><![CDATA[
+    
+\$args = array( 
+        '${1}' => '${2}',${3}
+        )   
+?>
+<?php \$query = new WP_Query( \$args ); ?>
+
+<?php if ( \$query->have_posts() ) : ?>
+
+        <?php while ( \$query->have_posts() ) 
+            : \$query->the_post(); ?>
+
+        <?php endwhile; ?>
+
+<?php endif; ?>
+<?php wp_reset_postdata();
+   ]]></content>
+       <tabTrigger>wp_query_loop</tabTrigger>
+       <description>A custom WordPress Loop</description>
+       <scope>source.php</scope>
+   </snippet>

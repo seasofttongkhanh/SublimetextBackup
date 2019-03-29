@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+alt+t"], "command": "terminal_view_open" },
+
+	{"keys": ["alt+c"], "command": "terminal_view_copy", "context": [{"key": "setting.terminal_view"}]}
+]

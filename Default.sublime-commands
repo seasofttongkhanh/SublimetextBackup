@@ -1,0 +1,66 @@
+[
+    {
+        "caption": "html_beautify selector",
+        "command": "html_beautify", // command that executes html_beautify
+        "context": [{
+            // these options ensure that the command is executed in the right files/context
+            "key": "selector",
+            "operator": "equal",
+        }]
+    },
+    {
+        "caption": "ChangeQuotesMy",
+        "command": "change_quotes"
+    },
+    {
+        "caption": "Reopen tabs undo",
+        "command": "scb_undo_tab"
+    },
+    {
+        "caption": "ExpandRegion",
+        "command": "expand_region"
+    },
+    {
+        "caption": "Terminus: Open Default Shell in Split View",
+        "command": "terminus_open",
+        "args": {
+            "config_name": "Default",
+            "pre_window_hooks": [
+                ["set_layout", {
+                    "cols": [0.0, 1.0],
+                    "rows": [0.0, 0.5, 1.0],
+                    "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+                }],
+                ["focus_group", {"group": 1}]
+            ]
+        }
+    },
+    {
+        "caption": "Terminus: Open Default Shell in Split View",
+        "command": "terminus_open",
+        "args": {
+            "config_name": "Default",
+            "post_window_hooks": [
+                ["carry_file_to_pane", {"direction": "down"}]
+            ]
+        }
+    },
+    {
+        "command": "set_layout",
+        "keys": ["alt+shift+7"],
+        "caption" : "Layout: 3 Pane bottom",
+        "args": {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [
+                [0, 0, 1, 1],
+                [1, 0, 2, 1],
+                [0, 1, 2, 2]
+            ]
+        }
+    },
+    {
+
+    }
+
+]

@@ -1,0 +1,28 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.ts"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		},
+		{
+			"characters": ".",
+			"selector": "source.vue"
+		}
+	],
+	"extensions":
+	[
+		"source.js",
+		"javascript",
+		"vue",
+		"source.jsx",
+		"source.vue",
+		"js"
+	],
+	"use_tab_stops": false,
+	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?"
+}

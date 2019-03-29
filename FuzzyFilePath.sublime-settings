@@ -1,0 +1,9 @@
+{
+
+    "base_directory": true,
+    "disable_autocompletions": true,
+    "exclude_folders":
+    [
+        "node_modules", "bower_components", "vendor"
+    ]
+}

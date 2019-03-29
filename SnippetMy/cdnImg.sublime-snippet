@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+https://picsum.photos/${1:width}/${2:height}?image=${3:number}]]></content>
+    <tabTrigger>cdn-img</tabTrigger>
+    <description>https://picsum.photos/</description>
+    <scope>source.js, source.php, source.ts, source.py,
+	     text.html, text.vue, text.xml, text.blade,
+ 	</scope>
+</snippet>
+

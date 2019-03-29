@@ -1,0 +1,74 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_complete_selector": "text.blade text.html.blade meta.tag.block.any.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php variable.function.php ,meta.attribute-with-value.html, text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "::",
+			"selector": "source.php"
+		}
+	],
+	"auto_find_in_selection": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.gz",
+		"*.msi",
+		"*.exe",
+		"*.git",
+		"LICENSE",
+		"node_modules/**",
+		"images/**",
+		"image/**"
+	],
+	"caret_extra_top": 5,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/User/Oceanic-scheme.sublime-color-scheme",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "consolas",
+	"font_size": 8,
+	"git_diff_target": "head",
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"10% Too Dull for My Tastes Color Scheme",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"index_files": true,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"margin": -1,
+	"sublime_merge_path": "C:/Users/Administrator/Desktop/Sublime Text Build 3184 x64/sublime merge/sublime_merge.exe",
+	"tab_size": 4,
+	"theme": "MyAdaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

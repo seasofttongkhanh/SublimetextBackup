@@ -1,0 +1,64 @@
+{
+	"256color": true,
+	"disable_keys":
+	[
+		"ctrl+c",
+		"ctrl+k",
+		"ctrl+p",
+		"ctrl+shift+p"
+	],
+	"natural_keyboard": true,
+	"scrollback_history_size": 1000,
+	"shell_configs":
+	[
+		{
+			"cmd": "cmd.exe",
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Command Prompt",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"default": true,
+			"enable": true,
+			"env":
+			{
+				"args":
+				[
+					"-l"
+				],
+				"arguments":
+				[
+					"-l"
+				]
+			},
+			"name": "Git",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "powershell",
+			"default": false,
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Power Shell",
+			"platforms":
+			[
+				"windows"
+			]
+		}
+	],
+	"theme": "seti",
+	"unix_term": "xterm-256color"
+}

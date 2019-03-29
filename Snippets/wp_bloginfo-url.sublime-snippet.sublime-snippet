@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+bloginfo('url')
+]]></content>
+<tabTrigger>bloginfo-url</tabTrigger>
+<description>WP</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.any.html, meta.attribute-with-value.html, string.quoted.double.html, meta.embedded.line.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

@@ -1,0 +1,95 @@
+{
+    "scope": "source.php",
+    "completions": [
+        {
+            "contents": "_POST['$1']",
+            "trigger": "_POST\tphp",
+        },{
+            "contents": "_GET['$1']",
+            "trigger": "_GET\tphp",
+        },{
+            "contents": "_COOKIE['$1']",
+            "trigger": "_COOKIE\tphp",
+        },{
+            "contents": "_SESSION['$1']",
+            "trigger": "_SESSION\tphp",
+        },
+
+        // class LARAVEL
+        {
+          "contents": "Illuminate\\Support\\Facades\\Schema;",
+          "trigger": "use-Illuminate\\Support\\Facades\\Schema;   \tlaravel"
+        },
+        {
+          "contents": "Illuminate\\Database\\Schema\\Blueprint",
+          "trigger": "use-Illuminate\\Database\\Schema\\Blueprint   \tlaravel"
+        },
+        {
+          "contents": "Illuminate\\Database\\Migrations\\Migration;",
+          "trigger": "use-Illuminate\\Database\\Migrations\\Migration;   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Database\\Eloquent$1",
+            "trigger": "use-Illuminate\\Database\\Eloquent   \tlaravel"
+        },
+        {
+            "contents": "App\\Http\\Controllers$1",
+            "trigger": "use-App\\Http\\Controllers   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Http\\Request$1",
+            "trigger": "use-Illuminate\\Http\\Request   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Foundation\\Auth\\AuthenticatesUsers$1",
+            "trigger": "use-Illuminate\\Foundation\\Auth\\AuthenticatesUsers   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Support\\Facades\\Schema$1",
+            "trigger": "use-Illuminate\\Support\\Facades\\Schema   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Support\\Facades\\$1",
+            "trigger": "use-Illuminate\\Support\\Facades\\   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Auth\\Notifications\\ResetPassword$1",
+            "trigger": "use-Illuminate\\Auth\\Notifications\\ResetPassword   \tlaravel"
+        },
+        {
+            "contents": "Illuminate\\Notifications\\Messages\\MailMessage$1",
+            "trigger": "use-Illuminate\\Notifications\\Messages\\MailMessage   \tlaravel"
+        },
+        // END
+
+        {
+            "contents": "isset(\\$_POST['$1'])",
+            "trigger": "isset_post\tPHP"
+        },
+        {
+            "contents": "isset(\\$_GET['$1'])",
+            "trigger": "isset_get\tPHP"
+        },
+
+        /*=================================
+        =            Wordpress (WP)       =
+        =================================*/
+        {
+            "contents": "define( 'WP_DEBUG_LOG', true );",
+            "trigger": "wp_debug_log\tWP"
+        },
+        {
+            "contents": "get_the_post_thumbnail_url()",
+            "trigger": "get_the_post_thumbnail_url\tWP"
+        },
+        {
+            "contents": "%$1\\$s",
+            "trigger": "%%\tWP get var"
+        },
+
+        /*===============================
+        =            Laravel            =
+        ===============================*/
+
+    ]
+}

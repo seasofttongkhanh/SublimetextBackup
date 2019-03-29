@@ -1,0 +1,9 @@
+{
+    /* Linux Guake */
+    // "terminal": "guake",
+    // "parameters": ["-n", "%CWD%"]
+
+    /* Windows  */
+    // "terminal": "C:/Users/Administrator/Desktop/conemu-maximus5/ConEmu64.exe",
+
+}

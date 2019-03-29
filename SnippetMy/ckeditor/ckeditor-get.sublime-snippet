@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+CKEDITOR.replace('id')]]></content>
+    <tabTrigger>ckeditor-get</tabTrigger>
+    <description>ckeditor</description>
+</snippet>

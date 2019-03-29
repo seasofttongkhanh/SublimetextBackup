@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+this.\$store.state.$1
+  ]]></content>
+    <tabTrigger>vue-store_state</tabTrigger>
+    <description>vue-store_state</description>
+    <scope>source.js</scope>
+</snippet>
+

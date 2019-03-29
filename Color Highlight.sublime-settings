@@ -1,0 +1,13 @@
+{
+	"default":
+	{
+		"gutter_icon": false,
+		"named_values": false
+	},
+	"user":
+	{
+		"gutter_icon": false,
+		"highlight": "load-save",
+		"named_values": false
+	}
+}

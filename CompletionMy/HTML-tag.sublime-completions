@@ -1,0 +1,22 @@
+{
+    "scope": "text.html - source - meta.tag, punctuation.definition.tag",
+    "completions":
+    [
+        { "trigger": "ffor", "contents": "<f:for each=\"$1\" as=\"$2\">$0</f:for>" },
+        { "trigger": "foobar", "contents": "<foobar>$0</foobar>" },
+
+        /*  UI vue js*/
+        //bootstrap-vue
+        { "trigger": "b-img-lazy", "contents": "<b-img-lazy center fluid-grow \n\twidth=\"600\" height=\"400\" \n\tblank-color=\"#bbb\" \n\t:alt=\"'${2:img}'\" \n\t:src=\"'${1:source}'\"\n/>" },
+        { "trigger": "b-card", "contents": "<b-card>$0</b-card>" },
+        { "trigger": "b-card-header", "contents": "<b-card-header>$0</b-card-header>" },
+        { "trigger": "b-card-body", "contents": "<b-card-body>$0</b-card-body>" },
+        { "trigger": "b-col", "contents": "<b-col>$0</b-col>" },
+        { "trigger": "b-row", "contents": "<b-row>$0</b-row>" },
+        { "trigger": "b-btn", "contents": "<b-btn>$0</b-btn>" },
+        { "trigger": "b-collapse", "contents": "<b-btn v-b-toggle=\"'${1:idToggle}'\" class=\"m-1\">${2:value toogle}</b-btn>\n<b-collapse :id=\"'${1:idToggle}'\">\n\t<b-card>${0:content toggle}</b-card>\n</b-collapse>" },
+        // KeenUI
+        { "trigger": "ui-collapsible", "contents": "<ui-collapsible title=\"title\">${0:Content}</ui-collapsible>" },
+
+    ]
+}

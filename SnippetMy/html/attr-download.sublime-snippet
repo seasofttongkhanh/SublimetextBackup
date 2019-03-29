@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+download]]></content>
+    <tabTrigger>attr-download</tabTrigger>
+    <description>attr</description>
+</snippet>

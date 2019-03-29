@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+{
+    path: '/$1',
+    name: '$2',
+    component: () => import('$3')
+}, ]]></content>
+    <tabTrigger>route-import-resolve</tabTrigger>
+    <description>vue-router</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+watch: {
+	'${1:data}': {
+		handler(val){
+            return this.${2:method}(val);
+        },
+        deep: true,
+	},
+},//watch
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-watch</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

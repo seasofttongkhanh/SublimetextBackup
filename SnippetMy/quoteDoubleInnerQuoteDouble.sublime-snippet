@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\"$1\"]]></content>
+    <tabTrigger>""</tabTrigger>
+    <description>" \" this \" "</description>
+    <scope>source.php, source.json, source.JSON, text.xml, text.html, text.*, source.js, source.jsx,source.ts,source.tsx, source.*, source.blade, source.py</scope>
+</snippet>

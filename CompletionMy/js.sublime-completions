@@ -1,0 +1,21 @@
+{
+    "scope": "source.ts, source.js",
+    "completions": [
+      {
+        "contents": "pushState(${1:\"data\"},${2:\"title\"},${3:\"URL\"})",
+        "trigger": "pushState\tJS property",
+      },
+      {
+        "contents": "innerHTML = ${1:\"string\"}",
+        "trigger": "innerHTML\tJS property",
+      },
+      {
+        "contents": "textContent",
+        "trigger": "textContent\tJS property",
+      },
+      {
+        "contents": "resolve => require(['$1'],resolve)",
+        "trigger": "js_resolve_require\tJS template",
+      },
+    ]
+}

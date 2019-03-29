@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+DB::table('${1:table}')
+            ->where('id', ${2:id})
+            ->update([
+				$3,
+				"updated_at" => \Carbon\Carbon::now(),
+            ]);
+]]></content>
+    <tabTrigger>DB::update</tabTrigger>
+    <scope>source.php</scope>
+    <description>Run an update statement against the database.</description>
+</snippet>

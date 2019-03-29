@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+apply_filters(${1:tag}, ${2:value})
+]]></content>
+<tabTrigger>apply_filters</tabTrigger>
+<description>wordpress</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

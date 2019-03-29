@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+protected function ${1:namefunction}() {
+    $2
+} ]]></content>
+    <tabTrigger>pro</tabTrigger>
+    <description>php</description>
+</snippet>

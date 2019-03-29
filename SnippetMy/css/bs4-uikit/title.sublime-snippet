@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<div class="title">
+    <h3>Textarea</h3>
+</div>]]></content>
+    <tabTrigger>ui4-title</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

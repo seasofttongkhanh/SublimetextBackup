@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+\$request->isMethod('${1:methods}')]]></content>
+    <tabTrigger>isMethod</tabTrigger>
+    <description>laravel</description>
+</snippet>

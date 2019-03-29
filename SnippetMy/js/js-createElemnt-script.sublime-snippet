@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+let arrEmbedScript = [
+    {${1:path}},//return string url or path
+]
+arrEmbedScript.forEach((item, index) => {
+    var el = document.createElement('script')
+    el.setAttribute('src', item.path)
+    document.head.appendChild(el)
+})]]></content>
+    <tabTrigger>js-createElemnt-script</tabTrigger>
+    <description>js</description>
+</snippet>

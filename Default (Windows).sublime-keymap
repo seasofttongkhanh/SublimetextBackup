@@ -1,0 +1,808 @@
+[
+    {
+        "keys": ["ctrl+alt+p"],
+        "command": "open_url",
+        "args": {
+            "url": "?",
+            "show_menu": true
+        },
+    },
+
+    { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
+         "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+    },
+    {
+        "keys": ["ctrl+k", "ctrl+s"],
+        "command": "show_overlay",
+        "args":
+        {
+            "overlay": "goto",
+            "text": "sydney\\"
+        }
+    },
+
+    {
+        "keys": ["ctrl+s"],
+        "command": "save"
+    },
+
+    {
+        "keys": ["alt+shift+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [
+                [0, 0, 1, 1],
+                [1, 0, 2, 1]
+            ]
+        }
+    },
+    {
+        "keys": ["shift+f11"],
+        "command": "better_bookmarks",
+        "args":
+        {
+            "subcommand": "clear_marks"
+        }
+    },
+    {
+        "keys": ["alt+a", "alt+a"],
+        "command": "move_to",
+        "args":
+        {
+            "to": "bol",
+            "extend": true
+        }
+    },
+    {
+        "keys": ["alt+z", "alt+z"],
+        "command": "move_to",
+        "args":
+        {
+            "to": "eol",
+            "extend": true
+        }
+    },
+    // {"keys" : ["ctrl+s"], "command": "prompt_save_as", },
+    {
+        "keys": ["ctrl+f3"],
+        "command": "show_search_window"
+    },
+    {
+        "keys": ["ctrl+f4"],
+        "command": "close_pane"
+    },
+
+    {
+        "keys": ["alt+shift+f"], //  create your own key command combination here!
+        "command": "html_beautify", // command that executes html_beautify
+        "context": [
+        {
+            // these options ensure that the command is executed in the right files/context
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"
+        }]
+    },
+    {
+        "keys": ["/"],
+        "command": "close_tag",
+        "args":
+        {
+            "insert_slash": true
+        },
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "(text.html, text.xml, meta.jsx.js) - string - comment",
+            "match_all": true
+        },
+        {
+            "key": "preceding_text",
+            "operator": "regex_match",
+            "operand": ".*<$",
+            "match_all": true
+        },
+        {
+            "key": "setting.auto_close_tags"
+        }]
+    },
+    {
+        "keys": ["ctrl+space"],
+        "command": "auto_complete"
+    },
+    {
+        "keys": ["ctrl+space"],
+        "command": "replace_completion_with_auto_complete",
+        "context": [
+        {
+            "key": "last_command",
+            "operator": "equal",
+            "operand": "insert_best_completion"
+        },
+        {
+            "key": "auto_complete_visible",
+            "operator": "equal",
+            "operand": false
+        },
+        {
+            "key": "setting.tab_completion",
+            "operator": "equal",
+            "operand": true
+        }]
+    },
+
+    {
+        "keys": ["ctrl+alt+`"],
+        "command": "terminus_open",
+        "args":
+        {
+            "config_name": "Default",
+            "pre_window_hooks": [
+                ["set_layout",
+                {
+                    "cols": [0.0, 1.0],
+                    "rows": [0.0, 0.5, 1.0],
+                    "cells": [
+                        [0, 0, 1, 1],
+                        [0, 1, 1, 2]
+                    ]
+                }],
+                ["focus_group",
+                {
+                    "group": 1
+                }]
+            ]
+        }
+    },
+    {
+        "keys": ["ctrl+shift+j"],
+        "command": "run_emmet_action",
+        "args":
+        {
+            "action": "balance_outward"
+        },
+    },
+
+
+    {
+        "keys": ["ctrl+t"],
+        "command": "show_overlay",
+        "args":
+        {
+            "overlay": "goto",
+            "text": "#"
+        }
+    },
+
+    {
+        "keys": ["ctrl+alt+left"],
+        "command": "move_to_neighboring_group",
+        "args":
+        {
+            "forward": false
+        }
+    },
+    {
+        "keys": ["ctrl+alt+right"],
+        "command": "move_to_neighboring_group",
+        "args":
+        {
+            "forward": true
+        },
+    },
+    {
+        "keys": ["ctrl+f12"],
+        "command": "typescript_go_to_definition",
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "source.ts, source.tsx, source.js, source.jsx, source.vue"
+        }]
+    },
+    {
+        "keys": ["ctrl+f11"],
+        "command": "typescript_go_to_type_definitiontion"
+    },
+    // {
+    //     "keys": ["ctrl+shift+m"],
+    //     "command": "expand_region",
+    // },
+    {
+        "keys": ["ctrl+shift+m"],
+        "command": "expand_selection",
+        "args":
+        {
+            "to": "scope"
+        }
+    },
+    {
+        "keys": ["ctrl+alt+`"],
+        "command": "exec_output_focus",
+    },
+    {
+        "keys": ["alt+shift+right"],
+        "command": "focus_neighboring_group"
+    },
+    {
+        "keys": ["alt+shift+left"],
+        "command": "focus_neighboring_group",
+        "args":
+        {
+            "forward": false
+        },
+    },
+    {
+        "keys": ["ctrl+alt+shift+right"],
+        "command": "move_to_neighboring_group"
+    },
+    {
+        "keys": ["ctrl+alt+shift+left"],
+        "command": "move_to_neighboring_group",
+        "args":
+        {
+            "forward": false
+        },
+    },
+
+
+    {
+        "keys": ["ctrl+'"],
+        "command": "expand_selection_to_quotes"
+    },
+    {
+        "keys": ["ctrl+shift+alt+'"],
+        "command": "change_quotes"
+    },
+    {
+        "keys": ["f2"],
+        "command": "side_bar_rename"
+    },
+    {
+        "keys": ["ctrl+delete"],
+        "command": "side_bar_delete",
+    },
+    {
+        "keys": ["ctrl+k", "n"],
+        "command": "side_bar_new_file",
+    },
+    {
+        "keys": ["shift+f2"],
+        "command": "side_bar_reveal",
+    },
+    {
+        "keys": ["ctrl+alt+shift+e"],
+        "command": "side_bar_reveal",
+    },
+    {
+        "keys": ["ctrl+\\"],
+        "command": "new_pane",
+        "args":
+        {
+            "move": false
+        },
+    },
+    {
+        "keys": ["ctrl+alt+c"],
+        "command": "copy_path",
+    },
+    {
+        "keys": ["alt+a"],
+        "command": "align_tab",
+        "args":
+        {
+            "live_preview": true
+        }
+    },
+
+    {
+        "keys": ["ctrl+w"],
+        "command": "close_file"
+    },
+
+    {
+        "keys": ["ctrl+alt+f"],
+        "command": "html_beautify",
+    },
+    {
+        "keys": ["alt+left"],
+        "command": "resize_active_group",
+        "args":
+        {
+            "direction": "left"
+        }
+    },
+    {
+        "keys": ["alt+right"],
+        "command": "resize_active_group",
+        "args":
+        {
+            "direction": "right"
+        }
+    },
+    {
+        "keys": ["alt+up"],
+        "command": "resize_active_group",
+        "args":
+        {
+            "direction": "up"
+        }
+    },
+    {
+        "keys": ["alt+down"],
+        "command": "resize_active_group",
+        "args":
+        {
+            "direction": "down"
+        }
+    },
+    {
+        "keys": ["shift+f1"],
+        "command": "find_use",
+    },
+    {
+        "keys": ["alt+f1"],
+        "command": "expand_fqcn",
+    },
+    {
+        "keys": ["ctrl+k", "m"],
+        "command": "show_overlay",
+        "args":
+        {
+            "overlay": "command_palette",
+            "text": "Set Syntax: "
+        }
+    },
+
+
+    {
+        "keys": ["f5"],
+        "command": "sublimecodeintel_enable_live_lang",
+        "args":
+        {
+            "action": "lang-on"
+        }
+    },
+    {
+        "keys": [" "],
+        "command": "dired_open_external",
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.dired"
+        },
+        {
+            "key": "setting.dired_rename_mode",
+            "operand": false
+        },
+        {
+            "key": "num_selections",
+            "operator": "equal",
+            "operand": 1
+        }]
+    },
+    {
+        "keys": ["o"],
+        "command": "dired_open_external",
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.dired"
+        },
+        {
+            "key": "setting.dired_rename_mode",
+            "operand": false
+        },
+        {
+            "key": "num_selections",
+            "operator": "equal",
+            "operand": 1
+        }]
+    },
+    {
+        "keys": ["ctrl+alt+n"],
+        "command": "advanced_new_file"
+    },
+    {
+        "keys": ["tab"],
+        "command": "insert",
+        "args":
+        {
+            "characters": "\t"
+        },
+        "context": [
+        {
+            "key": "setting.anf_panel"
+        }]
+    },
+    {
+        "keys": ["ctrl+v"],
+        "command": "paste_and_indent"
+    },
+
+    {
+        "keys": ["alt+f12"],
+        "command": "side_bar_open_in_browser",
+        "args":
+        {
+            "paths": [],
+            "type": "testing",
+            "browser": "C:/Program Files/Firefox Developer Edition/firefox.exe"
+        }
+    },
+
+    {
+        "keys": ["ctrl+alt+f"],
+        "command": "code_formatter"
+    },
+
+    {
+        "keys": ["ctrl+v"],
+        "command": "paste_and_indent"
+    },
+
+    {
+        "keys": ["alt+s"],
+        "command": "new_snippet"
+    },
+
+    //"keys" : ["alt+r"], "command": "reveal_in_side_bar" },
+
+    // {
+    //     "keys" : ["alt+enter"],
+    //     "command": "find_all",
+    //     "context": [
+    //         {"key": "panel", "operand": "find_in_files"},
+    //         {"key": "panel_has_focus"}
+    //     ]
+    // },
+
+    {
+        "keys": ["f1"],
+        "command": "show_overlay",
+        "args":
+        {
+            "overlay": "command_palette"
+        }
+    },
+    {
+        "keys": ["ctrl+f1"],
+        "command": "opened_files",
+        "args":
+        {
+            "focus": true,
+        }
+    },
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "reveal_in_side_bar",
+    },
+    {
+        "keys": ["alt+s"],
+        "command": "new_snippet"
+    },
+    {
+        "keys": ["ctrl+shift+enter"],
+        "command": "focus_group",
+        "args":
+        {
+            "group": 1
+        }
+    },
+    {
+        "keys": ["f12"],
+        "command": "goto_definition"
+    },
+
+    {
+        "keys": ["shift+enter"],
+        "command": "dired_preview",
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.dired"
+        },
+        {
+            "key": "setting.dired_rename_mode",
+            "operand": false
+        }]
+    },
+    {
+        "keys": ["d"],
+        "command": "dired_create",
+        "args":
+        {
+            "which": "directory"
+        },
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.dired"
+        },
+        {
+            "key": "setting.dired_rename_mode",
+            "operand": false
+        }]
+    },
+    {
+        "keys": ["f"],
+        "command": "dired_create",
+        "args":
+        {
+            "which": "file"
+        },
+        "context": [
+        {
+            "key": "selector",
+            "operator": "equal",
+            "operand": "text.dired"
+        },
+        {
+            "key": "setting.dired_rename_mode",
+            "operand": false
+        }]
+    },
+    {
+        "keys": ["shift+alt+up"],
+        "command": "select_lines",
+        "args":
+        {
+            "forward": false
+        }
+    },
+    {
+        "keys": ["shift+alt+down"],
+        "command": "select_lines",
+        "args":
+        {
+            "forward": true
+        }
+    },
+    {
+        "keys": ["ctrl+shift+e"],
+        "command": "focus_side_bar"
+    },
+
+    // Terminus
+
+    // { "keys" : ["ctrl+shift+t"], "command": "open_terminal_project_folder"},
+    // { "keys" : ["ctrl+shift+t"], "command": "toggle_terminus_panel"},
+    {
+        "keys": ["alt+`"],
+        "command": "toggle_terminus_panel"
+    },
+    {
+        "keys": ["ctrl+shift+t"],
+        "command": "terminus_open",
+        "args":
+        {
+            "config_name": "Default",
+            "pre_window_hooks": [
+                ["set_layout",
+                {
+                    "cols": [0.0, 1.0],
+                    "rows": [0.0, 0.5, 1.0],
+                    "cells": [
+                        [0, 0, 1, 1],
+                        [0, 1, 1, 2]
+                    ]
+                }],
+                ["focus_group",
+                {
+                    "group": 1
+                }]
+            ]
+        }
+    },
+    // Terminus content
+    {
+        "keys": ["alt+a"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " php artisan ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+s", "alt+s"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " ssh -p 22 root@103.200.5.105",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+n", "alt+n"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " npm run ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+n", "w"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " npm run watch",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+n", "i"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " npm i --save -dev ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+n", "g"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " npm i -g ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    {
+        "keys": ["alt+c"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " composer require ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+
+    {
+        "keys": ["alt+c", "i"],
+        "command": "terminus_keypress",
+        "args":
+        {
+            "key": " composer install ",
+            "alt": true
+        },
+        "context": [
+        {
+            "key": "terminus_view"
+        }]
+    },
+    // ======================================
+    {
+        "keys": ["ctrl+f1"],
+        "command": "package_resource_viewer"
+    },
+
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "prompt_open_folder"
+    },
+
+
+    {
+        "keys": ["ctrl+up"],
+        "command": "scroll_lines",
+        "args":
+        {
+            "amount": 1.2
+        }
+    },
+    {
+        "keys": ["ctrl+down"],
+        "command": "scroll_lines",
+        "args":
+        {
+            "amount": -1.2
+        }
+    },
+    {
+        "keys": ["alt+shift+6"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [
+                [0, 0, 1, 1],
+                [1, 0, 2, 1],
+                [1, 0, 2, 1],
+                [0, 1, 2, 2]
+            ]
+        }
+    },
+    {
+        "keys": ["alt+shift+7"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [
+                [0, 0, 1, 2],
+                [1, 0, 2, 1],
+                [1, 1, 2, 2]
+            ]
+        }
+    },
+    {
+        "keys": ["alt+shift+0"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 0.25, 0.75, 1.0],
+            "cells": [
+                [0, 0, 1, 2],
+                [1, 0, 2, 1],
+                [0, 2, 1, 3],
+                [1, 1, 2, 3]
+            ]
+        }
+    },
+
+    // color highlighter
+    {
+        "keys": ["shift+alt+c"],
+        "command": "color_highlighter_pick_color",
+    },
+
+
+    // open easy workspace
+    {
+        "keys": ["ctrl+alt+o"],
+        "command": "open_easy_workspace"
+    },
+
+    // save easy workspace
+    {
+        "keys": ["ctrl+alt+s"],
+        "command": "save_easy_workspace"
+    },
+
+    // save as easy workspace
+    {
+        "keys": ["ctrl+shift+alt+s"],
+        "command": "save_as_easy_workspace"
+    },
+]

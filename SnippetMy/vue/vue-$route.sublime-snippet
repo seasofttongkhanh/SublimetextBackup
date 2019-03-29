@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+this.\$route.${1:query | params}.${2:value} ]]></content>
+    <tabTrigger>vue-route</tabTrigger>
+    <description>vue</description>
+</snippet>
+

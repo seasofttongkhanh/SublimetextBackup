@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+return this.data = this.data.filter(key => key.id !== item.id);]]></content>
+    <tabTrigger>js-remove-key-filter</tabTrigger>
+    <description>js</description>
+</snippet>

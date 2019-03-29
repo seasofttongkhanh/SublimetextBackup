@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+this.\$store.dispatch('$1')
+  ]]></content>
+    <tabTrigger>vue-store_dispatch</tabTrigger>
+    <description>vue-store_dispatch</description>
+    <scope>source.js</scope>
+</snippet>
+

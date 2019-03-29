@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+data-$1="$2"
+]]></content>
+<tabTrigger>data-</tabTrigger>
+<description>attr</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, meta.attribute-with-value.html, entity.other.attribute-name.html</scope>
+</snippet>
