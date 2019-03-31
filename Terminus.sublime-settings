@@ -28,8 +28,7 @@
 			"cmd": "C:\\Program Files\\Git\\bin\\bash.exe",
 			"default": true,
 			"enable": true,
-			"env":
-			{
+			"env": {
 				"args":
 				[
 					"-l"

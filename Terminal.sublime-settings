@@ -4,6 +4,6 @@
     // "parameters": ["-n", "%CWD%"]
 
     /* Windows  */
-    // "terminal": "C:/Users/Administrator/Desktop/conemu-maximus5/ConEmu64.exe",
+    "terminal": "C:\\Program Files\\ConEmu\\ConEmu64.exe",
 
 }

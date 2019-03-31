@@ -94,6 +94,7 @@
 		"SublimeLinter-gcc",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
+		"SublimeLinter-phplint",
 		"TabsExtra",
 		"Terminal",
 		"Terminus",

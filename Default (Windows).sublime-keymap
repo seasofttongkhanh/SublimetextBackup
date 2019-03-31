@@ -9,62 +9,62 @@
     },
 
     { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
-         "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-    },
+    "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+},
+{
+    "keys": ["ctrl+k", "ctrl+s"],
+    "command": "show_overlay",
+    "args":
     {
-        "keys": ["ctrl+k", "ctrl+s"],
-        "command": "show_overlay",
-        "args":
-        {
-            "overlay": "goto",
-            "text": "sydney\\"
-        }
-    },
+        "overlay": "goto",
+        "text": "sydney\\"
+    }
+},
 
-    {
-        "keys": ["ctrl+s"],
-        "command": "save"
-    },
+{
+    "keys": ["ctrl+s"],
+    "command": "save"
+},
 
+{
+    "keys": ["alt+shift+2"],
+    "command": "set_layout",
+    "args":
     {
-        "keys": ["alt+shift+2"],
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 0.5, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [
-                [0, 0, 1, 1],
-                [1, 0, 2, 1]
-            ]
-        }
-    },
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [
+            [0, 0, 1, 1],
+            [1, 0, 2, 1]
+        ]
+    }
+},
+{
+    "keys": ["shift+f11"],
+    "command": "better_bookmarks",
+    "args":
     {
-        "keys": ["shift+f11"],
-        "command": "better_bookmarks",
-        "args":
-        {
-            "subcommand": "clear_marks"
-        }
-    },
+        "subcommand": "clear_marks"
+    }
+},
+{
+    "keys": ["alt+a", "alt+a"],
+    "command": "move_to",
+    "args":
     {
-        "keys": ["alt+a", "alt+a"],
-        "command": "move_to",
-        "args":
-        {
-            "to": "bol",
-            "extend": true
-        }
-    },
+        "to": "bol",
+        "extend": true
+    }
+},
+{
+    "keys": ["alt+z", "alt+z"],
+    "command": "move_to",
+    "args":
     {
-        "keys": ["alt+z", "alt+z"],
-        "command": "move_to",
-        "args":
-        {
-            "to": "eol",
-            "extend": true
-        }
-    },
+        "to": "eol",
+        "extend": true
+    }
+},
     // {"keys" : ["ctrl+s"], "command": "prompt_save_as", },
     {
         "keys": ["ctrl+f3"],
@@ -79,7 +79,7 @@
         "keys": ["alt+shift+f"], //  create your own key command combination here!
         "command": "html_beautify", // command that executes html_beautify
         "context": [
-        {
+            {
             // these options ensure that the command is executed in the right files/context
             "key": "selector",
             "operator": "equal",
@@ -94,21 +94,21 @@
             "insert_slash": true
         },
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "(text.html, text.xml, meta.jsx.js) - string - comment",
-            "match_all": true
-        },
-        {
-            "key": "preceding_text",
-            "operator": "regex_match",
-            "operand": ".*<$",
-            "match_all": true
-        },
-        {
-            "key": "setting.auto_close_tags"
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "(text.html, text.xml, meta.jsx.js) - string - comment",
+                "match_all": true
+            },
+            {
+                "key": "preceding_text",
+                "operator": "regex_match",
+                "operand": ".*<$",
+                "match_all": true
+            },
+            {
+                "key": "setting.auto_close_tags"
+            }]
     },
     {
         "keys": ["ctrl+space"],
@@ -118,21 +118,21 @@
         "keys": ["ctrl+space"],
         "command": "replace_completion_with_auto_complete",
         "context": [
-        {
-            "key": "last_command",
-            "operator": "equal",
-            "operand": "insert_best_completion"
-        },
-        {
-            "key": "auto_complete_visible",
-            "operator": "equal",
-            "operand": false
-        },
-        {
-            "key": "setting.tab_completion",
-            "operator": "equal",
-            "operand": true
-        }]
+            {
+                "key": "last_command",
+                "operator": "equal",
+                "operand": "insert_best_completion"
+            },
+            {
+                "key": "auto_complete_visible",
+                "operator": "equal",
+                "operand": false
+            },
+            {
+                "key": "setting.tab_completion",
+                "operator": "equal",
+                "operand": true
+            }]
     },
 
     {
@@ -143,18 +143,18 @@
             "config_name": "Default",
             "pre_window_hooks": [
                 ["set_layout",
-                {
-                    "cols": [0.0, 1.0],
-                    "rows": [0.0, 0.5, 1.0],
-                    "cells": [
-                        [0, 0, 1, 1],
-                        [0, 1, 1, 2]
-                    ]
-                }],
+                    {
+                        "cols": [0.0, 1.0],
+                        "rows": [0.0, 0.5, 1.0],
+                        "cells": [
+                            [0, 0, 1, 1],
+                            [0, 1, 1, 2]
+                        ]
+                    }],
                 ["focus_group",
-                {
-                    "group": 1
-                }]
+                    {
+                        "group": 1
+                    }]
             ]
         }
     },
@@ -198,11 +198,11 @@
         "keys": ["ctrl+f12"],
         "command": "typescript_go_to_definition",
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "source.ts, source.tsx, source.js, source.jsx, source.vue"
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.ts, source.tsx, source.js, source.jsx, source.vue"
+            }]
     },
     {
         "keys": ["ctrl+f11"],
@@ -371,39 +371,39 @@
         "keys": [" "],
         "command": "dired_open_external",
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "text.dired"
-        },
-        {
-            "key": "setting.dired_rename_mode",
-            "operand": false
-        },
-        {
-            "key": "num_selections",
-            "operator": "equal",
-            "operand": 1
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "text.dired"
+            },
+            {
+                "key": "setting.dired_rename_mode",
+                "operand": false
+            },
+            {
+                "key": "num_selections",
+                "operator": "equal",
+                "operand": 1
+            }]
     },
     {
         "keys": ["o"],
         "command": "dired_open_external",
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "text.dired"
-        },
-        {
-            "key": "setting.dired_rename_mode",
-            "operand": false
-        },
-        {
-            "key": "num_selections",
-            "operator": "equal",
-            "operand": 1
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "text.dired"
+            },
+            {
+                "key": "setting.dired_rename_mode",
+                "operand": false
+            },
+            {
+                "key": "num_selections",
+                "operator": "equal",
+                "operand": 1
+            }]
     },
     {
         "keys": ["ctrl+alt+n"],
@@ -417,9 +417,9 @@
             "characters": "\t"
         },
         "context": [
-        {
-            "key": "setting.anf_panel"
-        }]
+            {
+                "key": "setting.anf_panel"
+            }]
     },
     {
         "keys": ["ctrl+v"],
@@ -504,15 +504,15 @@
         "keys": ["shift+enter"],
         "command": "dired_preview",
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "text.dired"
-        },
-        {
-            "key": "setting.dired_rename_mode",
-            "operand": false
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "text.dired"
+            },
+            {
+                "key": "setting.dired_rename_mode",
+                "operand": false
+            }]
     },
     {
         "keys": ["d"],
@@ -522,15 +522,15 @@
             "which": "directory"
         },
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "text.dired"
-        },
-        {
-            "key": "setting.dired_rename_mode",
-            "operand": false
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "text.dired"
+            },
+            {
+                "key": "setting.dired_rename_mode",
+                "operand": false
+            }]
     },
     {
         "keys": ["f"],
@@ -540,15 +540,15 @@
             "which": "file"
         },
         "context": [
-        {
-            "key": "selector",
-            "operator": "equal",
-            "operand": "text.dired"
-        },
-        {
-            "key": "setting.dired_rename_mode",
-            "operand": false
-        }]
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "text.dired"
+            },
+            {
+                "key": "setting.dired_rename_mode",
+                "operand": false
+            }]
     },
     {
         "keys": ["shift+alt+up"],
@@ -587,18 +587,18 @@
             "config_name": "Default",
             "pre_window_hooks": [
                 ["set_layout",
-                {
-                    "cols": [0.0, 1.0],
-                    "rows": [0.0, 0.5, 1.0],
-                    "cells": [
-                        [0, 0, 1, 1],
-                        [0, 1, 1, 2]
-                    ]
-                }],
+                    {
+                        "cols": [0.0, 1.0],
+                        "rows": [0.0, 0.5, 1.0],
+                        "cells": [
+                            [0, 0, 1, 1],
+                            [0, 1, 1, 2]
+                        ]
+                    }],
                 ["focus_group",
-                {
-                    "group": 1
-                }]
+                    {
+                        "group": 1
+                    }]
             ]
         }
     },
@@ -612,9 +612,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+s", "alt+s"],
@@ -625,9 +625,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+n", "alt+n"],
@@ -638,9 +638,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+n", "w"],
@@ -651,9 +651,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+n", "i"],
@@ -664,9 +664,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+n", "g"],
@@ -677,9 +677,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     {
         "keys": ["alt+c"],
@@ -690,9 +690,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
 
     {
@@ -704,9 +704,9 @@
             "alt": true
         },
         "context": [
-        {
-            "key": "terminus_view"
-        }]
+            {
+                "key": "terminus_view"
+            }]
     },
     // ======================================
     {
@@ -805,4 +805,6 @@
         "keys": ["ctrl+shift+alt+s"],
         "command": "save_as_easy_workspace"
     },
+    // macro
+    { "keys": ["shift+tab"], "command": "run_macro_file", "args": {"file": "Packages/User/reindentTab.sublime-macro"} }
 ]
