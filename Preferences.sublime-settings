@@ -1,4 +1,12 @@
 {
+
+	"enki_theme_accent_indigo": true,
+	"enki_theme_compact_sidebar": true,
+	"enki_theme_panel_separator": true,
+	"enki_theme_small_statusbar": true,
+	"enki_theme_small_tab": true,
+	"enki_theme_tree_headings": false,
+
 	"always_show_minimap_viewport": true,
 	"auto_complete_selector": "text.blade text.html.blade meta.tag.block.any.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php variable.function.php ,meta.attribute-with-value.html, text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
 	"auto_complete_triggers":
@@ -68,7 +76,7 @@
 	"margin": -1,
 	"sublime_merge_path": "C:/Users/Administrator/Desktop/Sublime Text Build 3184 x64/sublime merge/sublime_merge.exe",
 	"tab_size": 4,
-	"theme": "MyAdaptive.sublime-theme",
+	"theme": "Enki-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }

@@ -138,7 +138,7 @@
 		},
 		{
 			"name": "npm run watch",
-			"shell_cmd": "start cmd.exe /c npm run watch",
+			"shell_cmd": "echo \"npm run watching\" && start cmd.exe /c npm run watch",
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",
 		},

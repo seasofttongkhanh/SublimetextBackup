@@ -22,7 +22,9 @@
         }
     },
     // ---------------------- Command My --------------
+    // October cms (laravel)
 
+    //
     {
         "caption": "Laravel Artisan 5: Make:Resource Collection",
         "command": "command_my_plugin",
