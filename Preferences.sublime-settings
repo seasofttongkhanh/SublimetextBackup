@@ -1,12 +1,4 @@
 {
-
-	"enki_theme_accent_indigo": true,
-	"enki_theme_compact_sidebar": true,
-	"enki_theme_panel_separator": true,
-	"enki_theme_small_statusbar": true,
-	"enki_theme_small_tab": true,
-	"enki_theme_tree_headings": false,
-
 	"always_show_minimap_viewport": true,
 	"auto_complete_selector": "text.blade text.html.blade meta.tag.block.any.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php variable.function.php ,meta.attribute-with-value.html, text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
 	"auto_complete_triggers":
@@ -48,6 +40,12 @@
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
 	"color_scheme": "Packages/User/Oceanic-scheme.sublime-color-scheme",
+	"enki_theme_accent_indigo": true,
+	"enki_theme_compact_sidebar": true,
+	"enki_theme_panel_separator": true,
+	"enki_theme_small_statusbar": true,
+	"enki_theme_small_tab": true,
+	"enki_theme_tree_headings": false,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
@@ -57,7 +55,7 @@
 		"CVS"
 	],
 	"font_face": "consolas",
-	"font_size": 9,
+	"font_size": 10,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"ignored_packages":

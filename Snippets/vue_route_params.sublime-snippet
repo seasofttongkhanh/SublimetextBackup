@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+this.\$route.params.$1
+]]></content>
+<tabTrigger>vue_route_params</tabTrigger>
+<description>Vue template</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, variable.language.this.js</scope>
+</snippet>

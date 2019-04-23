@@ -43,7 +43,7 @@
 
         "guide": "var(base01)",
         "active_guide": "var(base01)",
-        "stack_guide": "var(base1)",
+        "stack_guide": "var(base01)",
 
         "selection": "color(var(base01) blend(var(base03) 25%))",
         "selection_border": "color(var(base01) blend(var(base03) 50%))",
@@ -61,6 +61,31 @@
     },
     "rules":
     [
+        {
+            "scope": "col_19191FFF",
+            "background": "#19191FFF",
+            "foreground": "#999999FF"
+        },
+        {
+            "foreground": "#FBFBFBFF",
+            "background": "#1697F6FF",
+            "scope": "col_1697F6FF"
+        },
+        {
+            "foreground": "#363636FF",
+            "background": "#7BC6FFFF",
+            "scope": "col_7BC6FFFF"
+        },
+        {
+            "foreground": "#525252FF",
+            "background": "#AEDDFFFF",
+            "scope": "col_AEDDFFFF"
+        },
+        {
+            "foreground": "#D9D9D9FF",
+            "background": "#1867C0FF",
+            "scope": "col_1867C0FF"
+        },
         {
             "background": "#004888FF",
             "scope": "col_004888FF",
@@ -9954,8 +9979,20 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "{{}}",
+            "scope": "punctuation.definition.template.begin.html, punctuation.definition.template.end.html",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
+        {
+            "name": "\"\" tag",
+            "scope": "text.html.vue meta.tag.custom.html meta.attribute-with-value.html string.quoted.double.html",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
+        {
             "name": "(),{}",
-            "scope": "meta.brace.round, meta.brace.curly, punctuation.section, punctuation.section.block, punctuation.definition.parameters, punctuation.section.group",
+            "scope": "text.html.vue meta.tag.custom.html source.js meta.group.braces.curly, meta.brace.round, meta.brace.curly, punctuation.section, punctuation.section.block, punctuation.definition.parameters, punctuation.section.group",
             "foreground": "var(base00)"
         },
         {

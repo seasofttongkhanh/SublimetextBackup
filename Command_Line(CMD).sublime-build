@@ -141,6 +141,11 @@
 			"shell_cmd": "echo \"npm run watching\" && start cmd.exe /c npm run watch",
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",
+		},{
+			"name": "npm run serve",
+			"shell_cmd": "echo \"npm run serving\" && start cmd.exe /c npm run serve",
+			"working_dir": "${project_path:${folder}}",
+			"selector": "*",
 		},
 		// sass
 		{

@@ -449,7 +449,7 @@
 
     {
         "keys": ["alt+s"],
-        "command": "new_snippet"
+        "command": "make_snippet"
     },
 
     //"keys" : ["alt+r"], "command": "reveal_in_side_bar" },
@@ -482,10 +482,6 @@
     {
         "keys": ["ctrl+shift+r"],
         "command": "reveal_in_side_bar",
-    },
-    {
-        "keys": ["alt+s"],
-        "command": "new_snippet"
     },
     {
         "keys": ["ctrl+shift+enter"],
@@ -806,5 +802,7 @@
         "command": "save_as_easy_workspace"
     },
     // macro
+    { "keys": ["f11"], "command": "toggle_full_screen" },
+
     { "keys": ["shift+tab"], "command": "run_macro_file", "args": {"file": "Packages/User/reindentTab.sublime-macro"} }
 ]
