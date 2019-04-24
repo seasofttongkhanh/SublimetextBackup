@@ -801,8 +801,9 @@
         "keys": ["ctrl+shift+alt+s"],
         "command": "save_as_easy_workspace"
     },
-    // macro
     { "keys": ["f11"], "command": "toggle_full_screen" },
 
-    { "keys": ["shift+tab"], "command": "run_macro_file", "args": {"file": "Packages/User/reindentTab.sublime-macro"} }
+    // macro
+    { "keys": ["shift+tab"], "command": "run_macro_file", "args": {"file": "Packages/User/reindentTab.sublime-macro"} },
+    { "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/clear_tab.sublime-macro"} }
 ]

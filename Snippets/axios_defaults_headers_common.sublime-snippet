@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+axios.defaults.headers.common['${1:Access-Control-Allow-Origin}'] = $2
+]]></content>
+<tabTrigger>axios_defaults_headers_common</tabTrigger>
+<description>axios</description>
+<scope>source.ts, source.js, punctuation.accessor.ts</scope>
+</snippet>

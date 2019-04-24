@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+($1) => {
+  $2
+}
+]]></content>
+<tabTrigger>function_es6</tabTrigger>
+<description>js</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, source.ts, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.round, meta.function.arrow.js</scope>
+</snippet>

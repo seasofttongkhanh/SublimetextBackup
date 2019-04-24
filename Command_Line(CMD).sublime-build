@@ -158,6 +158,11 @@
 			"shell_cmd": "echo compiler... && sass ${file_name}:${file_base_name}.css --style compressed --no-source-map",
 			"working_dir": "${project_path}",
 		},
+		{
+			"name": "less compiler file",
+			"shell_cmd": "echo compiler... && lessc ${file_name} ${file_base_name}.css -x",
+			"working_dir": "${project_path}",
+		},
 
 		{
 			"name": "Linux Laravel stop server 8000",

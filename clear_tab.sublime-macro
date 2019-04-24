@@ -1,0 +1,23 @@
+[
+	{
+		"args":
+		{
+			"forward": false
+		},
+		"command": "delete_word"
+	},
+	{
+		"args":
+		{
+			"forward": false
+		},
+		"command": "delete_word"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	}
+]

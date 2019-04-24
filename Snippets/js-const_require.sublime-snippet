@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+const $1 = require('$2')
+]]></content>
+<tabTrigger>const_require</tabTrigger>
+<description>javascript</description>
+<scope>source.ts, source.js, meta.var.expr.ts, storage.type.ts</scope>
+</snippet>
