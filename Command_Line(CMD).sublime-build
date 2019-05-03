@@ -104,7 +104,7 @@
 		},
 		{
 			"name": "git add all && git commit \"commit\" && git push",
-			"shell_cmd": "cd && echo gitting... && git add -A && git commit -m \"commit\" && git push"
+			"shell_cmd": "echo path && cd && echo gitting... && git add -A && git commit -m \"commit\" && echo git pushing.. && git push"
 		},
 		{
 			/*
