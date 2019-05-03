@@ -103,6 +103,10 @@
 			"shell_cmd": "echo git... && git pull origin master",
 		},
 		{
+			"name": "git add all && git commit \"commit\" && git push",
+			"shell_cmd": "start cmd.exe /c echo giting... && git add -A && git commit -m \"commit\" && git push"
+		},
+		{
 			/*
 				Add System variables
 				JAVA_HOME : (Path :jdk/bin)
