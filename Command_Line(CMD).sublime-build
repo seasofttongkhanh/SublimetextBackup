@@ -142,6 +142,11 @@
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",
 		},{
+			"name": "npm run dev",
+			"shell_cmd": "echo \"npm run deving\" && start cmd.exe /c npm run dev",
+			"working_dir": "${project_path:${folder}}",
+			"selector": "*",
+		},{
 			"name": "npm run serve",
 			"shell_cmd": "echo \"npm run serving\" && start cmd.exe /c npm run serve",
 			"working_dir": "${project_path:${folder}}",

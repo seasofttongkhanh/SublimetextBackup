@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
-this.\$store.commit('$1')
-  ]]></content>
+this.\$store.commit('$1')]]></content>
     <tabTrigger>vue-store_commit</tabTrigger>
     <description>vue-store_commit</description>
     <scope>source.js</scope>
