@@ -2,7 +2,7 @@
     <content><![CDATA[
 Event::makeListener(${1:listener});
 ]]></content>
-    <tabTrigger>Event::makeListener</tabTrigger>
+    <tabTrigger>Event_makeListener</tabTrigger>
     <scope>source.php</scope>
     <description>Register an event listener with the dispatcher.</description>
 </snippet>

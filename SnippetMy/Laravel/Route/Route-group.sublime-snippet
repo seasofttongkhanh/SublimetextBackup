@@ -4,7 +4,7 @@ Route::group(${1:['${2:prefix}' => '${3:admin}']}, function() {
     ${4://}
 });
 ]]></content>
-    <tabTrigger>Route::group</tabTrigger>
+    <tabTrigger>Route_group</tabTrigger>
     <scope>source.php</scope>
     <description>Create a Group of Routes</description>
 </snippet>

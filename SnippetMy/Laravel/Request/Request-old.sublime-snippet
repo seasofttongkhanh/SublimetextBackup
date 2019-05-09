@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->old(${1:'key'}${2:, 'default'})
 ]]></content>
-    <tabTrigger>Request::old</tabTrigger>
+    <tabTrigger>Request_old</tabTrigger>
     <scope>source.php</scope>
     <description>Retrieve an old input item.</description>
 </snippet>

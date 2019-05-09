@@ -41,9 +41,9 @@
         "fold_marker": "var(yellow)",
         "caret": "var(blue)",
 
-        "guide": "var(base01)",
+        "guide": "var(base03)",
         "active_guide": "var(base01)",
-        "stack_guide": "var(base01)",
+        "stack_guide": "var(base03)",
 
         "selection": "color(var(base01) blend(var(base03) 25%))",
         "selection_border": "color(var(base01) blend(var(base03) 50%))",

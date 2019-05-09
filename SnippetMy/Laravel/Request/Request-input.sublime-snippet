@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->input(${1:'key'}${2:, 'default'})
 ]]></content>
-    <tabTrigger>Request::input</tabTrigger>
+    <tabTrigger>Request_input</tabTrigger>
     <scope>source.php</scope>
     <description>Retrieve an input item from the request.</description>
 </snippet>

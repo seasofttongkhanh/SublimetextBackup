@@ -18,7 +18,7 @@ Mail::raw('${1:plain text message}', function (${2:\$message}) {
     ${2}->attach(${17:'pathToFile'});
 });
 ]]></content>
-    <tabTrigger>Mail::raw</tabTrigger>
+    <tabTrigger>Mail_raw</tabTrigger>
     <scope>source.php</scope>
     <description>Send a new message when only a raw text part.</description>
 </snippet>

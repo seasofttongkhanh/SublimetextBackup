@@ -2,7 +2,7 @@
     <content><![CDATA[
 Cache::flush();
 ]]></content>
-    <tabTrigger>Cache::flush</tabTrigger>
+    <tabTrigger>Cache_flush</tabTrigger>
     <scope>source.php</scope>
     <description>Remove all items from the cache.</description>
 </snippet>

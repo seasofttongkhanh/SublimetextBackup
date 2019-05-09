@@ -2,7 +2,7 @@
     <content><![CDATA[
 auth();
 ]]></content>
-    <tabTrigger>Helper::misc-auth</tabTrigger>
+    <tabTrigger>Helper_misc-auth</tabTrigger>
     <scope>source.php</scope>
     <description>Returns an authenticator instance.</description>
 </snippet>

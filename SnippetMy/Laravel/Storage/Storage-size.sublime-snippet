@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Storage::size(${1:filePath});
 ]]></content>
-	<tabTrigger>Storage::size</tabTrigger>
+	<tabTrigger>Storage_size</tabTrigger>
 	<scope>source.php</scope>
 	<description>Get the size of the file in bytes</description>
 </snippet>

@@ -2,7 +2,7 @@
   <content><![CDATA[
 \$this->error('${1:Message}');
 ]]></content>
-  <tabTrigger>Console::error</tabTrigger>
+  <tabTrigger>Console_error</tabTrigger>
   <scope>source.php</scope>
   <description>Log error to the console in red</description>
 </snippet>

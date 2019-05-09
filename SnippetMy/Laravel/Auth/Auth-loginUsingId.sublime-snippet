@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Auth::loginUsingId(${1:\$id})
 ]]></content>
-	<tabTrigger>Auth::loginUsingId</tabTrigger>
+	<tabTrigger>Auth_loginUsingId</tabTrigger>
 	<scope>source.php</scope>
     <description>Log a user instance into the application by their Id.</description>
 </snippet>

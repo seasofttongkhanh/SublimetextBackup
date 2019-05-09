@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Storage::extension(${1:filePath});
 ]]></content>
-	<tabTrigger>Storage::extension</tabTrigger>
+	<tabTrigger>Storage_extension</tabTrigger>
 	<scope>source.php</scope>
 	<description>Extract the file extension from a file path.</description>
 </snippet>

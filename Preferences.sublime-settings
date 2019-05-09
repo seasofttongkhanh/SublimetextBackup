@@ -39,13 +39,13 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark.tmTheme",
-	"enki_theme_accent_indigo": true,
+	"color_scheme": "Packages/User/Oceanic-scheme.sublime-color-scheme",
+	"enki_theme_accent_indigo": false,
 	"enki_theme_compact_sidebar": true,
 	"enki_theme_panel_separator": true,
 	"enki_theme_small_statusbar": true,
 	"enki_theme_small_tab": true,
-	"enki_theme_tree_headings": false,
+	"enki_theme_tree_headings": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[

@@ -2,7 +2,7 @@
     <content><![CDATA[
 encrypt(${1:\$unencryptedValue})
 ]]></content>
-    <tabTrigger>Helper::misc-encrypt</tabTrigger>
+    <tabTrigger>Helper_misc-encrypt</tabTrigger>
     <scope>source.php</scope>
     <description>Encrypts the given value.</description>
 </snippet>

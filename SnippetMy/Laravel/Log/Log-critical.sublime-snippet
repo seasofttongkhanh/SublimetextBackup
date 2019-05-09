@@ -2,7 +2,7 @@
     <content><![CDATA[
 Log::critical('${1:message}');
 ]]></content>
-    <tabTrigger>Log::critical</tabTrigger>
+    <tabTrigger>Log_critical</tabTrigger>
     <scope>source.php</scope>
     <description>Log a critical message to the logs.</description>
 </snippet>

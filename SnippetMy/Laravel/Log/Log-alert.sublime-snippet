@@ -2,7 +2,7 @@
     <content><![CDATA[
 Log::alert('${1:message}');
 ]]></content>
-    <tabTrigger>Log::alert</tabTrigger>
+    <tabTrigger>Log_alert</tabTrigger>
     <scope>source.php</scope>
     <description>Log an alert message to the logs.</description>
 </snippet>

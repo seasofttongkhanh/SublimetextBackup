@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->session()->flash('${1:key}', ${2:\$value});
 ]]></content>
-    <tabTrigger>Session::flash</tabTrigger>
+    <tabTrigger>Session_flash</tabTrigger>
     <scope>source.php</scope>
     <description>Flash an Item in the Session</description>
 </snippet>

@@ -18,7 +18,7 @@ Mail::send('${1:Html.view}', ${2:\$data}, function (${3:\$message}) {
     ${3}->attach(${18:'pathToFile'});
 });
 ]]></content>
-    <tabTrigger>Mail::send</tabTrigger>
+    <tabTrigger>Mail_send</tabTrigger>
     <scope>source.php</scope>
     <description>Send a new message using a view.</description>
 </snippet>

@@ -4,7 +4,7 @@
 	${2:content}
 @endslot
 ]]></content>
-    <tabTrigger>Blade::slot</tabTrigger>
+    <tabTrigger>Blade_slot</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @slot</description>
 </snippet>

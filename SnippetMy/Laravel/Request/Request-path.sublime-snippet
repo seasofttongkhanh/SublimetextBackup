@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->path()
 ]]></content>
-    <tabTrigger>Request::path</tabTrigger>
+    <tabTrigger>Request_path</tabTrigger>
     <scope>source.php</scope>
     <description>Get the current path info for the request.</description>
 </snippet>

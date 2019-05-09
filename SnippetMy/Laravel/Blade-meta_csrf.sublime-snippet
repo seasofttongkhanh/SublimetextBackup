@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<meta name="csrf-token" content="{{ csrf_token() }}">]]></content>
+<meta name="csrf-token" content="{{ csrf::token() }}">]]></content>
     <tabTrigger>meta_csrf</tabTrigger>
     <description>blade-tag</description>
     <scope>source.php, text.html</scope>

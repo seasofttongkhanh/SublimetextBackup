@@ -4,6 +4,6 @@ DB::table('${1:tableRelationship}')
     ->join( "${2:tableSelect}", "${2:tableSelect}.id", '=', "${1:tableRelationship}.${2:tableSelect}")
     ->where('${1:tableRelationship}.${4:colQuery}', '=', ${3:idSelect})
     ->paginate(\$total);]]></content>
-    <tabTrigger>DB::join</tabTrigger>
+    <tabTrigger>DB_join</tabTrigger>
     <description>DB laravel</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->session()->forget('${1:key}');
 ]]></content>
-    <tabTrigger>Session::forget</tabTrigger>
+    <tabTrigger>Session_forget</tabTrigger>
     <scope>source.php</scope>
     <description>Remove an Item from the Session</description>
 </snippet>

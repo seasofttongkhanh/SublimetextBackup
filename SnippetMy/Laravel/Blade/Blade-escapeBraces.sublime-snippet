@@ -2,7 +2,7 @@
     <content><![CDATA[
 @{{ ${1:This will not be processed by Blade} }}
 ]]></content>
-    <tabTrigger>Blade::{{</tabTrigger>
+    <tabTrigger>Blade_{{</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade escape curly braces</description>
 </snippet>

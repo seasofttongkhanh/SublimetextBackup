@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 if (count(\$request->file)) {
-    \$typeFileName = date('d_m_y_h_i_') . rand(1000, 999999999) . preg_replace('/(\w+)\//', '.', File::mimeType(\$request->file));
+    \$typeFileName = date('d::m::y::h::i::') . rand(1000, 999999999) . preg::replace('/(\w+)\//', '.', File::mimeType(\$request->file));
     Storage::disk('public')->putFileAs("/client-files/", \$request->file, \$typeFileName);
     return response()->json(true, 200);
 }

@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->only(${1:['key', 'otherKey']})
 ]]></content>
-    <tabTrigger>Request::only</tabTrigger>
+    <tabTrigger>Request_only</tabTrigger>
     <scope>source.php</scope>
     <description>Get a subset of the items from the input data.</description>
 </snippet>

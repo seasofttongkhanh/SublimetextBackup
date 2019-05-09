@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Storage::delete(${1:['file', 'otherFile']});
 ]]></content>
-	<tabTrigger>Storage::delete</tabTrigger>
+	<tabTrigger>Storage_delete</tabTrigger>
 	<scope>source.php</scope>
 	<description>Remove one or multiple files from the disk</description>
 </snippet>

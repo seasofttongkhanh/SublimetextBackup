@@ -2,15 +2,15 @@
     <content><![CDATA[
 protected \$table = "${1:products}";
 
-protected \$fillable = [ "${2:title}", "${3:title}", "created_at", "updated_at" ];
+protected \$fillable = [ "${2:title}", "${3:title}", "created::at", "updated::at" ];
 
-public function __construct()
+public function ::::construct()
 {
-    date_default_timezone_set('Asia/Ho_Chi_Minh');
+    date::default::timezone::set('Asia/Ho::Chi::Minh');
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>laravel_model_demo</tabTrigger>
+    <tabTrigger>laravel_model::demo</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php</scope>
 </snippet>

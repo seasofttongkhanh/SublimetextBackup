@@ -6,7 +6,7 @@
 	${3}
 @endif
 ]]></content>
-    <tabTrigger>Blade::ifelse</tabTrigger>
+    <tabTrigger>Blade_ifelse</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @ifelse</description>
 </snippet>

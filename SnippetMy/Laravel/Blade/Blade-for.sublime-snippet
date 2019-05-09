@@ -4,7 +4,7 @@
 	${4}
 @endfor
 ]]></content>
-    <tabTrigger>Blade::for</tabTrigger>
+    <tabTrigger>Blade_for</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @for</description>
 </snippet>

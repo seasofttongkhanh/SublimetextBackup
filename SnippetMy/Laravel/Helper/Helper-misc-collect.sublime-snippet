@@ -2,7 +2,7 @@
     <content><![CDATA[
 collect([${1:'taylor', 'abigail'}]);
 ]]></content>
-    <tabTrigger>Helper::misc-collect</tabTrigger>
+    <tabTrigger>Helper_misc-collect</tabTrigger>
     <scope>source.php</scope>
     <description>Create a collection from the given value.</description>
 </snippet>

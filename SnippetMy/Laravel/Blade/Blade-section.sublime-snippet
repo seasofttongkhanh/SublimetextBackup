@@ -4,7 +4,7 @@
 	${2}
 @stop
 ]]></content>
-    <tabTrigger>Blade::section</tabTrigger>
+    <tabTrigger>Blade_section</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @section</description>
 </snippet>

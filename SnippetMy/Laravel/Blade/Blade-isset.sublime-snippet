@@ -4,7 +4,7 @@
     ${2:content}
 @endisset
 ]]></content>
-    <tabTrigger>Blade::isset</tabTrigger>
+    <tabTrigger>Blade_isset</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @isset</description>
 </snippet>

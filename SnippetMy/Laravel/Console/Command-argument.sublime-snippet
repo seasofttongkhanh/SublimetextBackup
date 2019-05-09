@@ -2,7 +2,7 @@
   <content><![CDATA[
 \$this->argument('${1:key}');
 ]]></content>
-  <tabTrigger>Console::argument</tabTrigger>
+  <tabTrigger>Console_argument</tabTrigger>
   <scope>source.php</scope>
   <description>Get an argument from constructor</description>
 </snippet>

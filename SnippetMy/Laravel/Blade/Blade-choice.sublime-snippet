@@ -2,7 +2,7 @@
     <content><![CDATA[
 @choice('${1:file.message}', ${2:\$count})
 ]]></content>
-    <tabTrigger>Blade::choice</tabTrigger>
+    <tabTrigger>Blade_choice</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @choice</description>
 </snippet>

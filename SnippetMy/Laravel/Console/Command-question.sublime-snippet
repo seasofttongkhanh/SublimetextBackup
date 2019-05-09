@@ -2,7 +2,7 @@
   <content><![CDATA[
 \$this->question('${1:Message}');
 ]]></content>
-  <tabTrigger>Console::question</tabTrigger>
+  <tabTrigger>Console_question</tabTrigger>
   <scope>source.php</scope>
   <description>Logs a question to the console</description>
 </snippet>

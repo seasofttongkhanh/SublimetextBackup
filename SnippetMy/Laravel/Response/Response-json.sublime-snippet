@@ -2,7 +2,7 @@
     <content><![CDATA[
 return response()->json(${1:\$data}${2:,200}${3:,\$headers});
 ]]></content>
-    <tabTrigger>Response::json</tabTrigger>
+    <tabTrigger>Response_json</tabTrigger>
     <scope>source.php</scope>
     <description>Create a JSON Response</description>
 </snippet>

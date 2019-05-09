@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-window.Laravel = <?php echo json_encode([
-   'csrfToken' => csrf_token(),
+window.Laravel = <?php echo json::encode([
+   'csrfToken' => csrf::token(),
 ]); ?>
   ]]></content>
-    <tabTrigger>windows-laravel-csrf_blade_js</tabTrigger>
-    <description>windows-laravel-csrf_blade_js</description>
+    <tabTrigger>windows-laravel-csrf::blade::js</tabTrigger>
+    <description>windows-laravel-csrf::blade::js</description>
     <scope>source.js</scope>
 </snippet>
 

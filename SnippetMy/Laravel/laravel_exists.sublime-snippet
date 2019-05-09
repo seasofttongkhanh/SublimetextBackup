@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 File::exists(${1:path}) ]]></content>
-    <tabTrigger>File::exists</tabTrigger>
+    <tabTrigger>File_exists</tabTrigger>
     <description>File::exists BOOLEAN</description>
     <scope>source.php</scope>
 </snippet>

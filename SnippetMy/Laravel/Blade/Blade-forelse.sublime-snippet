@@ -6,7 +6,7 @@
 	${4}
 @endforelse
 ]]></content>
-    <tabTrigger>Blade::forelse</tabTrigger>
+    <tabTrigger>Blade_forelse</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @forelse</description>
 </snippet>

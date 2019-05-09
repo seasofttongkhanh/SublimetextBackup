@@ -4,7 +4,7 @@
 	${2}
 @endunless
 ]]></content>
-    <tabTrigger>Blade::unless</tabTrigger>
+    <tabTrigger>Blade_unless</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @unless</description>
 </snippet>

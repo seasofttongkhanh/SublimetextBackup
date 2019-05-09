@@ -4,7 +4,7 @@ Config::set([
     '${1:key}' => ${2:\$value},
 ]);
 ]]></content>
-    <tabTrigger>Config::setMany</tabTrigger>
+    <tabTrigger>Config_setMany</tabTrigger>
     <scope>source.php</scope>
     <description>Set a given configuration value.</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 Cache::pull('${1:key}');
 ]]></content>
-    <tabTrigger>Cache::pull</tabTrigger>
+    <tabTrigger>Cache_pull</tabTrigger>
     <scope>source.php</scope>
     <description>Pulling An Item From The Cache</description>
 </snippet>

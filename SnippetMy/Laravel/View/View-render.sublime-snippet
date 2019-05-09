@@ -2,7 +2,7 @@
     <content><![CDATA[
 view(${1:'name'}, ${2:\$data})->render();
 ]]></content>
-    <tabTrigger>View::render</tabTrigger>
+    <tabTrigger>View_render</tabTrigger>
     <scope>source.php</scope>
     <description>Render a view with some data</description>
 </snippet>

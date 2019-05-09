@@ -1,19 +1,19 @@
 <snippet>
     <content><![CDATA[
-if (\$slugMenu == 'menu_chuyen_muc') {
+if (\$slugMenu == 'menu::chuyen::muc') {
     if(DB::table(\$slugMenu)->where('id', \$id)->count()){
         if(DB::table(\$slugMenu)->where('id', \$id)->count()){
             DB::table(\$slugMenu)->where('id', \$id)->delete();
         }
-        \$queryRelationship = DB::table('menu_relationship')->where(\$slugMenu, \$id);
+        \$queryRelationship = DB::table('menu::relationship')->where(\$slugMenu, \$id);
         foreach (\$queryRelationship->get() as \$key => \$column) {
             // Table children 1
-            if(DB::table('menu_nhom')->where('id', \$column->menu_nhom)->count() ){
-                DB::table('menu_nhom')->where('id', \$column->menu_nhom)->delete();
+            if(DB::table('menu::nhom')->where('id', \$column->menu::nhom)->count() ){
+                DB::table('menu::nhom')->where('id', \$column->menu::nhom)->delete();
             }
             // Table children 2
-            if(DB::table('menu_loai')->where('id', \$column->menu_loai)->count()){
-                DB::table('menu_loai')->where('id', \$column->menu_loai)->delete();
+            if(DB::table('menu::loai')->where('id', \$column->menu::loai)->count()){
+                DB::table('menu::loai')->where('id', \$column->menu::loai)->delete();
             }
         }
         if (\$queryRelationship->count()) {

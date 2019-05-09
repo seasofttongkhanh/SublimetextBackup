@@ -4,7 +4,7 @@
 	${2}
 @endwhile
 ]]></content>
-    <tabTrigger>Blade::while</tabTrigger>
+    <tabTrigger>Blade_while</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @while</description>
 </snippet>

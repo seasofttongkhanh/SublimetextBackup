@@ -2,7 +2,7 @@
     <content><![CDATA[
 view('${1:view.name}', ${2:\$data});
 ]]></content>
-    <tabTrigger>View::make</tabTrigger>
+    <tabTrigger>View_make</tabTrigger>
     <scope>source.php</scope>
     <description>Create a View with Data</description>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 File::mimeTye(${1:path}) ]]></content>
-    <tabTrigger>File::mimeTye</tabTrigger>
+    <tabTrigger>File_mimeTye</tabTrigger>
     <description>File::mimeTye</description>
     <scope>source.php</scope>
 </snippet>

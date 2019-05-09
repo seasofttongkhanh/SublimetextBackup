@@ -18,7 +18,7 @@ Mail::plain('${1:plainText.view}', ${2:\$data}, function (${3:\$message}) {
     ${3}->attach(${18:'pathToFile'});
 });
 ]]></content>
-    <tabTrigger>Mail::plain</tabTrigger>
+    <tabTrigger>Mail_plain</tabTrigger>
     <scope>source.php</scope>
     <description>Send a new message when only a plain part.</description>
 </snippet>

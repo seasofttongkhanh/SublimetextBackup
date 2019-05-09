@@ -2,7 +2,7 @@
     <content><![CDATA[
 Config::get('${1:key}', '${2:default}');
 ]]></content>
-    <tabTrigger>Config::get</tabTrigger>
+    <tabTrigger>Config_get</tabTrigger>
     <scope>source.php</scope>
     <description>Get the specified configuration value.</description>
 </snippet>

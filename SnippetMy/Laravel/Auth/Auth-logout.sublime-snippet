@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Auth::logout()
 ]]></content>
-	<tabTrigger>Auth::logout</tabTrigger>
+	<tabTrigger>Auth_logout</tabTrigger>
 	<scope>source.php</scope>
     <description>Log the user out of the application.</description>
 </snippet>

@@ -9,7 +9,7 @@
         Default case...}
 @endswitch
 ]]></content>
-    <tabTrigger>Blade::switch</tabTrigger>
+    <tabTrigger>Blade_switch</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @switch</description>
 </snippet>

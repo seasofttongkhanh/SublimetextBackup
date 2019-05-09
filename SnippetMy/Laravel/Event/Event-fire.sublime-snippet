@@ -2,7 +2,7 @@
     <content><![CDATA[
 Event::fire(${1:new MyCustomEvent()});
 ]]></content>
-    <tabTrigger>Event::fire</tabTrigger>
+    <tabTrigger>Event_fire</tabTrigger>
     <scope>source.php</scope>
     <description>Fire an event and call the listeners.</description>
 </snippet>

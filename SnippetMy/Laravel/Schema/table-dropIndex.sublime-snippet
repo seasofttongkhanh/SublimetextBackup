@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$table->dropIndex('${1:geo_state_index}');
+\$table->dropIndex('${1:geo::state::index}');
 ]]></content>
-    <tabTrigger>Column::dropIndex</tabTrigger>
+    <tabTrigger>column_dropIndex</tabTrigger>
     <scope>source.php</scope>
     <description>Drop a basic Index</description>
 </snippet>

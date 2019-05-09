@@ -4,7 +4,7 @@ DB::table('${1:table}')
             ->where('id', ${2:id})
             ->delete();
 ]]></content>
-    <tabTrigger>DB::delete</tabTrigger>
+    <tabTrigger>DB_delete</tabTrigger>
     <scope>source.php</scope>
     <description>Run an delete statement against the database.</description>
 </snippet>

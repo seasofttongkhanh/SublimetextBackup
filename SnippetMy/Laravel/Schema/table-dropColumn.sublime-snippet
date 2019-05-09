@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$table->dropColumn('${1:column}');
 ]]></content>
-    <tabTrigger>Column::dropColumn</tabTrigger>
+    <tabTrigger>column_dropColumn</tabTrigger>
     <scope>source.php</scope>
     <description>Drop a column</description>
 </snippet>

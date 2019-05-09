@@ -4,7 +4,7 @@
     ${2:content}
 @endempty
 ]]></content>
-    <tabTrigger>Blade::empty</tabTrigger>
+    <tabTrigger>Blade_empty</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @empty</description>
 </snippet>

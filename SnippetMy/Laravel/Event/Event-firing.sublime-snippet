@@ -2,7 +2,7 @@
     <content><![CDATA[
 Event::firing()
 ]]></content>
-    <tabTrigger>Event::firing</tabTrigger>
+    <tabTrigger>Event_firing</tabTrigger>
     <scope>source.php</scope>
     <description>Get the event that is currently firing.</description>
 </snippet>

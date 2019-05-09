@@ -2,7 +2,7 @@
     <content><![CDATA[
 Log::useFiles('${1:path}', '${2:level}');
 ]]></content>
-    <tabTrigger>Log::useFiles</tabTrigger>
+    <tabTrigger>Log_useFiles</tabTrigger>
     <scope>source.php</scope>
     <description>Register a file log handler.</description>
 </snippet>

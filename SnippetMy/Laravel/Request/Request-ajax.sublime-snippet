@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->ajax()
 ]]></content>
-    <tabTrigger>Request::ajax</tabTrigger>
+    <tabTrigger>Request_ajax</tabTrigger>
     <scope>source.php</scope>
     <description>Determine if the request is the result of an AJAX call.</description>
 </snippet>

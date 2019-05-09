@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->query(${1:'key'}, '${2:default'})
 ]]></content>
-    <tabTrigger>Request::query</tabTrigger>
+    <tabTrigger>Request_query</tabTrigger>
     <scope>source.php</scope>
     <description>Retrieve a query string item from the request.</description>
 </snippet>

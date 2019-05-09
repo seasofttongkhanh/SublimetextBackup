@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Storage::exists(${1:filePath});
 ]]></content>
-	<tabTrigger>Storage::exists</tabTrigger>
+	<tabTrigger>Storage_exists</tabTrigger>
 	<scope>source.php</scope>
 	<description>Determine if a file exists.</description>
 </snippet>

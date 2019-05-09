@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Auth::id()
 ]]></content>
-	<tabTrigger>Auth::id</tabTrigger>
+	<tabTrigger>Auth_id</tabTrigger>
 	<scope>source.php</scope>
     <description>Get the currently authenticated Id.</description>
 </snippet>

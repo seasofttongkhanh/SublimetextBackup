@@ -2,7 +2,7 @@
     <content><![CDATA[
 ->with('${1:flashKey}', '${2:flashValue}')
 ]]></content>
-    <tabTrigger>Redirect::withFlashData</tabTrigger>
+    <tabTrigger>Redirect_withFlashData</tabTrigger>
     <scope>source.php</scope>
     <description>Redirect to URL, Route or Controller with Flash Data</description>
 </snippet>

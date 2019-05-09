@@ -4,7 +4,7 @@
 	${2}
 @endif
 ]]></content>
-    <tabTrigger>Blade::if</tabTrigger>
+    <tabTrigger>Blade_if</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @if</description>
 </snippet>

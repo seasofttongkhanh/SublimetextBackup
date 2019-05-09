@@ -2,7 +2,7 @@
     <content><![CDATA[
 @extends('${1:layouts.name}')
 ]]></content>
-    <tabTrigger>Blade::extends</tabTrigger>
+    <tabTrigger>Blade_extends</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @extends</description>
 </snippet>

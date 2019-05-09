@@ -4,7 +4,7 @@ Route::delete('${1:users/{id\}}', function(${2:$id}) {
     ${3://}
 });
 ]]></content>
-    <tabTrigger>Route::delete</tabTrigger>
+    <tabTrigger>Route_delete</tabTrigger>
     <scope>source.php</scope>
     <description>Basic Delete Route.</description>
 </snippet>

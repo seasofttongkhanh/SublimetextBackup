@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->session()->put('${1:key}', ${2:\$value});
 ]]></content>
-    <tabTrigger>Session::put</tabTrigger>
+    <tabTrigger>Session_put</tabTrigger>
     <scope>source.php</scope>
     <description>Store an Item in the Session</description>
 </snippet>

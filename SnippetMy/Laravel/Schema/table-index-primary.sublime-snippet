@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$table->primary('${1:id}');
 ]]></content>
-    <tabTrigger>Column::index-primary</tabTrigger>
+    <tabTrigger>column_index-primary</tabTrigger>
     <scope>source.php</scope>
     <description>Add a primary or array of composite keys</description>
 </snippet>

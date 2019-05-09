@@ -4,7 +4,7 @@
 	${2}
 @endpush
 ]]></content>
-    <tabTrigger>Blade::push</tabTrigger>
+    <tabTrigger>Blade_push</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @push</description>
 </snippet>

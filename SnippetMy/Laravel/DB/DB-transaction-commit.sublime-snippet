@@ -2,7 +2,7 @@
     <content><![CDATA[
 DB::commit();
 ]]></content>
-    <tabTrigger>DB::transaction_commit</tabTrigger>
+    <tabTrigger>DB_transaction::commit</tabTrigger>
     <scope>source.php</scope>
     <description>Commit the active database transaction.</description>
 </snippet>

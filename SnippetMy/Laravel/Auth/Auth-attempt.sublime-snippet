@@ -2,7 +2,7 @@
     <content><![CDATA[
 Auth::attempt(['email' => ${1:\$email}, 'password' => ${2:\$password}])
 ]]></content>
-    <tabTrigger>Auth::attempt</tabTrigger>
+    <tabTrigger>Auth_attempt</tabTrigger>
     <scope>source.php</scope>
     <description>Initiate an Authentication attempt</description>
 </snippet>

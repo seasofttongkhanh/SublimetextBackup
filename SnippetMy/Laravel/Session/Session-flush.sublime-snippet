@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->session()->flush();
 ]]></content>
-    <tabTrigger>Session::flush</tabTrigger>
+    <tabTrigger>Session_flush</tabTrigger>
     <scope>source.php</scope>
     <description>Remove All Items from the Session</description>
 </snippet>

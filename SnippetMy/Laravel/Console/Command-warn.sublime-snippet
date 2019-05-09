@@ -2,7 +2,7 @@
   <content><![CDATA[
 \$this->warn('${1:Message}');
 ]]></content>
-  <tabTrigger>Console::warn</tabTrigger>
+  <tabTrigger>Console_warn</tabTrigger>
   <scope>source.php</scope>
   <description>Logs a warn message to the console</description>
 </snippet>

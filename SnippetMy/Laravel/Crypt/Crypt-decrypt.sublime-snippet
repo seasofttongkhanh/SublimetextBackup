@@ -6,7 +6,7 @@ try {
     ${3://}
 }
 ]]></content>
-	<tabTrigger>Crypt::decrypt</tabTrigger>
+	<tabTrigger>Crypt_decrypt</tabTrigger>
 	<scope>source.php</scope>
 	<description>Decrypt a value</description>
 </snippet>

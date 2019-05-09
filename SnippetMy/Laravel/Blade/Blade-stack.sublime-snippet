@@ -3,7 +3,7 @@
     <content><![CDATA[
 @stack('${1:name}')
 ]]></content>
-    <tabTrigger>Blade::stack</tabTrigger>
+    <tabTrigger>Blade_stack</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @stack</description>
 </snippet>

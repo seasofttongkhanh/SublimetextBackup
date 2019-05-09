@@ -4,7 +4,7 @@
     ${2:content}
 @endguest
 ]]></content>
-    <tabTrigger>Blade::guest</tabTrigger>
+    <tabTrigger>Blade_guest</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @guest</description>
 </snippet>

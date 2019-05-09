@@ -4,7 +4,7 @@
     ${3}
 @endcannot
 ]]></content>
-    <tabTrigger>Blade::cannot</tabTrigger>
+    <tabTrigger>Blade_cannot</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @cannot</description>
 </snippet>

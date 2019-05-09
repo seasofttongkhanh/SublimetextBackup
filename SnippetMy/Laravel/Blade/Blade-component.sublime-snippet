@@ -4,7 +4,7 @@
 	${2:content}
 @endcomponent
 ]]></content>
-    <tabTrigger>Blade::component</tabTrigger>
+    <tabTrigger>Blade_component</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @component</description>
 </snippet>

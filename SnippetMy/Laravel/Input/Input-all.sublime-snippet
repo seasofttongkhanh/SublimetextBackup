@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->all();
 ]]></content>
-    <tabTrigger>Input::all</tabTrigger>
+    <tabTrigger>Input_all</tabTrigger>
     <scope>source.php</scope>
     <description>Retrieve all Inputs</description>
 </snippet>

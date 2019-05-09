@@ -4,7 +4,7 @@ Cache::rememberForever('${1:key}', function() {
     ${2:return 'value';}
 });
 ]]></content>
-    <tabTrigger>Cache::rememberForever</tabTrigger>
+    <tabTrigger>Cache_rememberForever</tabTrigger>
     <scope>source.php</scope>
     <description>Retrieve item or Store a default value permanently</description>
 </snippet>

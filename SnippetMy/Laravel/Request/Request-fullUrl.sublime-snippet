@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->fullUrl()
 ]]></content>
-    <tabTrigger>Request::fullRrl</tabTrigger>
+    <tabTrigger>Request_fullRrl</tabTrigger>
     <scope>source.php</scope>
     <description>Get the full URL for the request.</description>
 </snippet>

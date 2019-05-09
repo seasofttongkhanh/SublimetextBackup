@@ -2,7 +2,7 @@
     <content><![CDATA[
 info(${1:'debug message'});
 ]]></content>
-    <tabTrigger>Helper::misc-info</tabTrigger>
+    <tabTrigger>Helper_misc-info</tabTrigger>
     <scope>source.php</scope>
     <description>Writes information to the log.</description>
 </snippet>

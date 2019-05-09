@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->json()
 ]]></content>
-    <tabTrigger>Request::json</tabTrigger>
+    <tabTrigger>Request_json</tabTrigger>
     <scope>source.php</scope>
     <description>Determine if the request is sending JSON.</description>
 </snippet>

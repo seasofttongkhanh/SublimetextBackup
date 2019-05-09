@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$router->pattern('${1:id}', '${2:[0-9]+}');
 ]]></content>
-    <tabTrigger>Router::pattern</tabTrigger>
+    <tabTrigger>Router_pattern</tabTrigger>
     <scope>source.php</scope>
     <description>Set a global where pattern on all routes.</description>
 </snippet>

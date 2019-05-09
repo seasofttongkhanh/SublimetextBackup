@@ -25,7 +25,7 @@ class UserController extends Controller
         if (Auth::attempt(\$input)) {
             \$user = Auth::user();
 
-            \$checkToken = DB::table('oauth_access_tokens')->where('user_id', \$user->id);
+            \$checkToken = DB::table('oauth::access::tokens')->where('user::id', \$user->id);
 
             if (\$checkToken->exists()) {
                 \$checkToken->delete();
@@ -54,7 +54,7 @@ class UserController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'password' => 'required',
-            // 'c_password' => 'required|same:password',
+            // 'c::password' => 'required|same:password',
         ]);
         if (\$validator->fails()) {
             return response()->json(['error' => \$validator->errors()], 401);
@@ -81,7 +81,7 @@ class UserController extends Controller
     {
         if (Auth::check()) {
            \$user = Auth::user();
-           \$tokenAccess= DB::table('oauth_access_tokens')->where('user_id', \$user->id);
+           \$tokenAccess= DB::table('oauth::access::tokens')->where('user::id', \$user->id);
            \$tokenAccess->delete();
            return response()->json(true, 200);
         }
@@ -91,7 +91,7 @@ class UserController extends Controller
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>laravel_api_user</tabTrigger>
+	<tabTrigger>laravel_api::user</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
 </snippet>

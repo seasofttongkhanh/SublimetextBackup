@@ -2,7 +2,7 @@
     <content><![CDATA[
 Hash::check(${1:\$value}, ${2:\$hashedValue})
 ]]></content>
-    <tabTrigger>Hash::check</tabTrigger>
+    <tabTrigger>Hash_check</tabTrigger>
     <scope>source.php</scope>
 	<description>Check the given plain value against a hash.</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 optional(${1:\$user->name})
 ]]></content>
-    <tabTrigger>Helper::misc-optional</tabTrigger>
+    <tabTrigger>Helper_misc-optional</tabTrigger>
     <scope>source.php</scope>
     <description>Accepts any argument and allows you to access properties or call methods on that object. If the given object is null, properties and methods will simply return null instead of causing an error.</description>
 </snippet>

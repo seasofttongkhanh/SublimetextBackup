@@ -5,7 +5,7 @@
     ${1:content}
 @endverbatim
 ]]></content>
-    <tabTrigger>Blade::verbatim</tabTrigger>
+    <tabTrigger>Blade_verbatim</tabTrigger>
     <scope>text.blade</scope>
     <description>Blade @verbatim</description>
 </snippet>

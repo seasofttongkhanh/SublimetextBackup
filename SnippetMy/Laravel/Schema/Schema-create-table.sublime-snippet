@@ -6,7 +6,7 @@ Schema::create('${1:users}', function (Blueprint \$table) {
     \$table->timestamps();
 });
 ]]></content>
-    <tabTrigger>Schema::create-table</tabTrigger>
+    <tabTrigger>Schema_create-table</tabTrigger>
     <scope>source.php</scope>
     <description>Create new table</description>
 </snippet>

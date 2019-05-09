@@ -18,7 +18,7 @@ Mail::queue('${1:Html.view}', ${2:\$data}, function (${3:\$message}) {
     ${3}->attach(${18:'pathToFile'});
 });
 ]]></content>
-    <tabTrigger>Mail::queue</tabTrigger>
+    <tabTrigger>Mail_queue</tabTrigger>
     <scope>source.php</scope>
     <description>Queue a new e-mail message for sending.</description>
 </snippet>

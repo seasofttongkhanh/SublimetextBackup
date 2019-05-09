@@ -2,7 +2,7 @@
     <content><![CDATA[
 Auth::guard(${1:name})
 ]]></content>
-    <tabTrigger>Auth::guard</tabTrigger>
+    <tabTrigger>Auth_guard</tabTrigger>
     <scope>source.php</scope>
     <description>Specify a guard for authentication</description>
 </snippet>

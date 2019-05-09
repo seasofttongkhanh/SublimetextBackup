@@ -2,7 +2,7 @@
 	<content><![CDATA[
 Storage::isWritable(${1:path});
 ]]></content>
-	<tabTrigger>Storage::iswritable</tabTrigger>
+	<tabTrigger>Storage_iswritable</tabTrigger>
 	<scope>source.php</scope>
 	<description>Determine if the given path is writable.</description>
 </snippet>

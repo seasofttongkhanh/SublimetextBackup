@@ -2,10 +2,10 @@
     <content><![CDATA[
 public function ${1:user}()
 {
-    return \$this->belongsTo(${2:User::class}${3:, '${4:foreign_key}'}${5:, '${6:other_key}'});
+    return \$this->belongsTo(${2:User::class}${3:, '${4:foreign::key}'}${5:, '${6:other::key}'});
 }
 ]]></content>
-    <tabTrigger>Relation::belongsTo</tabTrigger>
+    <tabTrigger>Relation_belongsTo</tabTrigger>
     <scope>source.php</scope>
     <description>A one-to-one inverse relationship.</description>
 </snippet>

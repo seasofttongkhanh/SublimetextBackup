@@ -2,7 +2,7 @@
     <content><![CDATA[
 \$request->decodedPath()
 ]]></content>
-    <tabTrigger>Request::decodedPath</tabTrigger>
+    <tabTrigger>Request_decodedPath</tabTrigger>
     <scope>source.php</scope>
     <description>Get the current encoded path info for the request.</description>
 </snippet>
