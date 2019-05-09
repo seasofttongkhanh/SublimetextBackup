@@ -39,7 +39,7 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/User/Oceanic-scheme.sublime-color-scheme",
+	"color_scheme": "Packages/User/Color Highlighter/themes/base16-ocean.dark.tmTheme",
 	"enki_theme_accent_indigo": true,
 	"enki_theme_compact_sidebar": true,
 	"enki_theme_panel_separator": true,
@@ -55,7 +55,7 @@
 		"CVS"
 	],
 	"font_face": "consolas",
-	"font_size": 9,
+	"font_size": 10,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"ignored_packages":
