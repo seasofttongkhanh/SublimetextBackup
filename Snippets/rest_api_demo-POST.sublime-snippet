@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+POST ${1:http://localhost:${2:8000}/${3:api/menu/data}}
+Content-type: application/json
+Accept: application/json
+Authorization: Bearer $5
+
+POST_BODY:
+{
+    "data": "$0"
+}
+]]></content>
+<tabTrigger>rest_api_demo-POST</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>

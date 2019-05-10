@@ -88,7 +88,7 @@
 		//  git
 		{
 			"name": "git push --set-upstream origin master",
-			"shell_cmd": "echo git... && git push --set-upstream origin master",
+			"shell_cmd": "echo git... && git push --set-upstream master master",
 		},
 		{
 			"name": "git push -f origin master",

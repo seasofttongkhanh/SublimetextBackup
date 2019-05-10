@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+GET ${1:http://localhost:${2:8000}/${3:api/menu/data}}?data=${5:data}
+Content-type: application/json
+Accept: application/json
+Authorization: Bearer
+
+]]></content>
+<tabTrigger>rest_api_demo-GET</tabTrigger>
+<description></description>
+<scope></scope>
+</snippet>
