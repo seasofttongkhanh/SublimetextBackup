@@ -28,7 +28,8 @@
 			"cmd": "C:\\Program Files\\Git\\bin\\bash.exe",
 			"default": true,
 			"enable": true,
-			"env": {
+			"env":
+			{
 				"args":
 				[
 					"-l"
@@ -58,6 +59,6 @@
 			]
 		}
 	],
-	"theme": "seti",
+	"theme": "tomorrow-night",
 	"unix_term": "xterm-256color"
 }

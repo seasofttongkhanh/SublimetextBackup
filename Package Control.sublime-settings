@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Add Folder To Project",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -40,6 +41,7 @@
 		"Highlight Trailing Whitespace",
 		"Hover Image Preview",
 		"HTML-CSS-JS Prettify",
+		"Http Requester",
 		"Icon Fonts (Legacy)",
 		"INI",
 		"JavaScript & NodeJS Snippets",
@@ -61,7 +63,6 @@
 		"October Twig Highlighter",
 		"Open In Browser",
 		"Open URL",
-		"OpenPath",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
