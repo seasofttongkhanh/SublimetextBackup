@@ -17,7 +17,7 @@
         ,"--node"
         // tolerate 'this'
         ,"--this"
-        // 
+        //
         ,"--javascript(Babel)"
     ]
 
@@ -37,7 +37,6 @@
     //    * Linux: ["node", "~/.config/sublime-text-2/Packages/JSLint/linter.js"]
     //    * Mac: ["node", "~/Library/Application Support/Sublime Text 2/Packages/JSLint/linter.js"]
     //    * Windows: ["node", "%APPDATA%/Sublime Text 2/Packages/JSLint/linter.js"]
-
     // ,"jslint" : ["jslint"]
 
 
