@@ -11,5 +11,25 @@
       "default-character-set": "utf8",
       "encoding": "utf-8"
     },
-  }
+    "Mysql: laravel": {
+      "type"    : "mysql",
+      "host"    : "127.0.0.1",
+      "port"    :  3306,
+      "database": "laravel",
+      "username": "root",
+      "password": "",
+      "default-character-set": "utf8",
+      "encoding": "utf-8"
+    },
+    "Mysql: laravel": {
+      "type"    : "mysql",
+      "host"    : "127.0.0.1",
+      "port"    :  3306,
+      "database": "laravel",
+      "username": "root",
+      "password": "",
+      "default-character-set": "utf8",
+      "encoding": "utf-8"
+    },
+}//connection
 }
