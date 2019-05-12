@@ -580,21 +580,9 @@
         "command": "terminus_open",
         "args":
         {
-            "config_name": "Default",
+            "cwd": "${file_path:${folder}}",
             "pre_window_hooks": [
-                ["set_layout",
-                    {
-                        "cols": [0.0, 1.0],
-                        "rows": [0.0, 0.5, 1.0],
-                        "cells": [
-                            [0, 0, 1, 1],
-                            [0, 1, 1, 2]
-                        ]
-                    }],
-                ["focus_group",
-                    {
-                        "group": 1
-                    }]
+                ["carry_file_to_pane", {"direction": "down"}]
             ]
         }
     },

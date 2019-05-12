@@ -60,5 +60,10 @@
 		}
 	],
 	"theme": "tomorrow-night",
-	"unix_term": "xterm-256color"
+	"unix_term": "xterm",
+	"user_theme_colors":
+	{
+		"00": "#777777"
+	}
+
 }
