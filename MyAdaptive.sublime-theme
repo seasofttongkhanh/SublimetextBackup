@@ -278,8 +278,8 @@
         "tab_max_width": 9,
         "content_margin": [0, -2, 10, 0],
         "tint_index": 0,
-        "tab_height": 30,
-        "tab_overlap": 18
+        "tab_height": 25,
+        "tab_overlap": 15
     },
     {
         "class": "tabset_control",
@@ -391,51 +391,56 @@
         "class": "tab_control",
         "attributes": ["dirty", "selected"],
         "settings": ["highlight_modified_tabs"],
-        "layer2.opacity": 1.0
+        "layer2.opacity": 1.0,
+        "font.bold": true
     },
     {
         "class": "tab_label",
         "fg": [152, 152, 152],
         "shadow_color": [0, 0, 0, 0.25],
-        "shadow_offset": [0, -1]
+        "shadow_offset": [0, -1],
+        "font.size": 12
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["file_light"]}],
         "fg": [140, 140, 140],
         "shadow_color": [255, 255, 255, 0.25],
-        "shadow_offset": [0, 1]
+        "shadow_offset": [0, 1],
+        "font.size": 12
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["file_medium"]}],
         "fg": [192, 192, 192],
-        "shadow_color": [0, 0, 0, 0.12]
+        "shadow_color": [0, 0, 0, 0.12],
+        "font.size": 12
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [200, 200, 200]
+        "fg": [200, 200, 200],
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [200, 200, 200]
+        "fg": [200, 200, 200],
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected", "file_light"]}],
-        "fg": [50, 50, 50]
+        "fg": [50, 50, 50],
+        "font.bold": true,
     },
     {
         "class": "tab_label",
         "attributes": ["transient"],
-        "font.italic": true
+        "font.italic": true,
+        "font.bold": true,
     },
     {
         "class": "tab_close_button",
@@ -451,7 +456,7 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+            "layer0.opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
     },
     {
         "class": "tab_close_button",

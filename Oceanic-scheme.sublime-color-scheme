@@ -1,6 +1,6 @@
 {
     "name": "Solarized (dark)",
-    "author": "Koen Lageveen",
+    "author": "hkdark",
     "variables":
     {
         "bg": "#19191F",
@@ -11950,13 +11950,14 @@
         },
         {
             "name": "Tag name",
-            "scope": "entity.name.tag,meta.selector entity.name.tag.css, meta.selector entity.name.tag.scss ,meta.selector entity.name.tag.less, meta.selector entity.name.tag.sass",
-            "foreground": "var(red)"
+            "scope": "source.scss meta.selector.css punctuation.separator.css, entity.name.tag,meta.selector entity.name.tag.css, meta.selector entity.name.tag.scss ,meta.selector entity.name.tag.less, meta.selector entity.name.tag.sass",
+            "foreground": "var(red)",
+            "font_style": "bold"
         },
         {
             "name": "Tag start/end",
             "scope": "punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
-            "foreground": "var(base01)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Library function",

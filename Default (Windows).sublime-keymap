@@ -259,10 +259,6 @@
         "command": "change_quotes"
     },
     {
-        "keys": ["f2"],
-        "command": "side_bar_rename"
-    },
-    {
         "keys": ["ctrl+delete"],
         "command": "side_bar_delete",
     },
@@ -770,8 +766,10 @@
         "keys": ["shift+alt+c"],
         "command": "color_highlighter_pick_color",
     },
-
-
+    {
+        "keys": ["f2"],
+        "command": "rename_file"
+    },
     // open easy workspace
     {
         "keys": ["ctrl+alt+o"],
