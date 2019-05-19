@@ -2,6 +2,15 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Add Folder To Project",
+		"Case Conversion",
+		"FavoriteFiles",
+		"FuzzyFilePath",
+		"Highlight Trailing Whitespace",
+		"INI",
+		"Open In Browser",
+		"PackageDev",
+		"SideBarEnhancements"
 	],
 	"installed_packages":
 	[
@@ -30,7 +39,6 @@
 		"DocBlockr",
 		"EasyWorkspace",
 		"Emmet",
-		"Enki Theme",
 		"FavoriteFiles",
 		"FuzzyFilePath",
 		"Git",
