@@ -1,7 +1,7 @@
 {
 	"cli":{
         // "mysql": "D:\\xampp\\mysql\\bin/mysql.exe"
-		"mysql": "G:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin/mysql.exe"
+		"mysql": "E:\\laragon\\bin\\mysql\\mysql-5.7.24-winx64\\bin/mysql.exe"
 	},
     "show_result_on_window": true,
     "focus_on_result": true,

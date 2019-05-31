@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"cmd": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"cmd": "E:/laragon/bin/git/bin/bash.exe",
 			"default": false,
 			"enable": true,
 			"env":

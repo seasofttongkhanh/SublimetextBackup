@@ -160,7 +160,13 @@
 			"shell_cmd": "echo \"npm run serving\" && start cmd.exe /c npm run serve",
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",
+		},{
+			"name": "NODEMON (watch node)",
+			"shell_cmd": "echo \"npm nodemon file\" && start cmd.exe /c nodemon ${file}",
+			"working_dir": "${project_path:${folder}}",
+			"selector": "*",
 		},
+		// nodemod
 		// sass
 		{
 			"name": "Sass Scss watch file",

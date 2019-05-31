@@ -2,9 +2,9 @@
     /* Linux Guake */
     // "terminal": "guake",
     // "parameters": ["-n", "%CWD%"]
-
+    "terminal": "E:/laragon/bin/git/bin/bash.exe",
     /* Windows  */
     // "terminal": "C:\\Program Files\\ConEmu\\ConEmu64.exe",
-    "terminal": "cmd.exe",
+    // "terminal": "cmd.exe",
 
 }
