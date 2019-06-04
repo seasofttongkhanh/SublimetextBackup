@@ -19,6 +19,8 @@
 		"Better Bookmarks",
 		"Blade Snippets",
 		"Bootstrap 3 Autocomplete",
+		"Bootstrap 4x Snippets",
+		"Brackets Color Scheme",
 		"Browser Sync",
 		"Case Conversion",
 		"ColorHints",
@@ -70,6 +72,7 @@
 		"SFTP",
 		"SideBarEnhancements",
 		"SnippetMaker",
+		"SortBy",
 		"SQLTools",
 		"StringEncode",
 		"SublimeCodeIntel",
@@ -94,7 +97,6 @@
 		"Vuejs Snippets",
 		"Vuetify",
 		"WordPress",
-		"WordPress Completions",
-		"Bootstrap 4x Snippets"
+		"WordPress Completions"
 	]
 }

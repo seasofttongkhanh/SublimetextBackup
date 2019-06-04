@@ -18,7 +18,7 @@
         "magenta": "#BB80B3",
         "violet":  "#6c71c4",
         "blue":    "#268bd2",
-        "cyan":    "#2aa198",
+        "cyan":    "#36BCB2",
         "green":   "#859900",//859900
     },
     "globals":
@@ -11963,6 +11963,12 @@
             "name": "Tag start/end",
             "scope": "punctuation.definition.tag, punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "template-string js",
+            "scope": "punctuation.template-string.element.end.js, punctuation.template-string.element.begin.js",
+            "foreground": "var(blue)",
+            "font_style": "bold"
         },
         {
             "name": "Library function",

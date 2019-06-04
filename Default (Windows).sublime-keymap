@@ -599,9 +599,11 @@
     {
         "keys": ["alt+s", "alt+s"],
         "command": "terminus_keypress",
+        // ssh putty
+        // password gFY1x72QUq8e
         "args":
         {
-            "key": " ssh -p 22 root@103.200.5.105",
+            "key": " ssh -p 22 root@45.251.112.97",
             "alt": true
         },
         "context": [
@@ -791,5 +793,10 @@
 
     // macro
     { "keys": ["shift+tab"], "command": "run_macro_file", "args": {"file": "Packages/User/reindentTab.sublime-macro"} },
-    { "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/clear_tab.sublime-macro"} }
+    { "keys": ["shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/clear_tab.sublime-macro"} },
+
+    { "keys": ["ctrl+shift+["], "command": "fold" },
+    { "keys": ["ctrl+shift+]"], "command": "unfold" },
+    { "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
+    { "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
 ]
