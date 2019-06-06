@@ -3,8 +3,8 @@
     "rules": [
         {
             "name": "Outline", 
-            "foreground": "#FF0000", 
-            "scope": "HighlightTrailingWhitespace"
+            "scope": "HighlightTrailingWhitespace", 
+            "foreground": "#FF0000"
         }
     ]
 }

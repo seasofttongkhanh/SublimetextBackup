@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+requests.post('http://localhost:${1:8000/${2:api/menu/}}',
+    headers={'Authorization': 'Bearer my_secret_token'},
+    json={
+    	$3
+        "data":{
+           "id":111,
+           "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur tenetur, quod ut totam dolorum, debitis, illo nemo, corporis nostrum dolorem eligendi magni id aliquam nam. Ut facilis, voluptate ea sit."
+       },
+	}
+)
+]]></content>
+<tabTrigger>requests_post</tabTrigger>
+<description>Requester</description>
+<scope></scope>
+</snippet>
