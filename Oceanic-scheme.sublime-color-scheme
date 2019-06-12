@@ -62,6 +62,26 @@
     "rules":
     [
         {
+            "foreground": "#FDFDFDFF",
+            "scope": "col_FF4064FF",
+            "background": "#FF4064FF"
+        },
+        {
+            "foreground": "#C0C0C0FF",
+            "scope": "col_DADADA33",
+            "background": "#DADADA33"
+        },
+        {
+            "foreground": "#F9F9F9FF",
+            "scope": "col_DADADA7F",
+            "background": "#DADADA7F"
+        },
+        {
+            "foreground": "#1F1F1FFF",
+            "scope": "col_DADADAB2",
+            "background": "#DADADAB2"
+        },
+        {
             "foreground": "#121212FF",
             "background": "#36BCB2FF",
             "scope": "col_36BCB2FF"

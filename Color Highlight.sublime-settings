@@ -6,7 +6,6 @@
 	},
 	"user":
 	{
-		"gutter_icon": true,
 		"highlight": "save-only",
 		"named_values": false
 	}

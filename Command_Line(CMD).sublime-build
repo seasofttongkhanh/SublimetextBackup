@@ -177,6 +177,14 @@
 			"name": "Sass Scss compiler file",
 			"shell_cmd": "echo compiler... && sass ${file_name}:${file_base_name}.css --style compressed --no-source-map",
 			"working_dir": "${project_path}",
+		},{
+			"name": "Css compiler minify",
+			"shell_cmd": "echo compiler... && sass ${file_name}:${file_base_name}.min.css --style compressed --no-source-map",
+			"working_dir": "${project_path}",
+		},{
+			"name": "(Javascript)JS compiler minify",
+			"shell_cmd": "echo compiler... && uglifyjs ${file_name} -o ${file_base_name}.min.js",
+			"working_dir": "${project_path}",
 		},
 		{
 			"name": "less compiler file",

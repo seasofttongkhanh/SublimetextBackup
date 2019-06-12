@@ -108,7 +108,7 @@
     {
         "class": "sidebar_heading",
         "fg": ["background", 0, 255, 255, 0.55],
-        "font.size": 9,
+        "font.size": 10,
         "font.bold": false,
         "shadow_color": [0, 0, 0, 0.1],
         "shadow_offset": [0, 6]
@@ -123,7 +123,7 @@
     {
         "class": "sidebar_label",
         "fg": ["background", 233, 233, 233, 0.6],
-        "font.size": 12
+        "font.size": 12.4
     },
     {
         "class": "sidebar_label",
@@ -278,7 +278,7 @@
         "tab_max_width": 9,
         "content_margin": [0, -2, 10, 0],
         "tint_index": 0,
-        "tab_height": 25,
+        "tab_height": 27,
         "tab_overlap": 15
     },
     {
@@ -419,7 +419,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [200, 200, 200],
+        "fg": [210, 210, 210],
     },
     {
         "class": "tab_label",
