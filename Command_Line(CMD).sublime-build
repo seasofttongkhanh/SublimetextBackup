@@ -151,7 +151,7 @@
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",
 		},{
-			"name": "npm run dev",
+			"name": "npm run start",
 			"shell_cmd": "echo \"npm run starting\" && start cmd.exe /c npm run start",
 			"working_dir": "${project_path:${folder}}",
 			"selector": "*",

@@ -260,12 +260,11 @@
     },
     {
         "keys": ["ctrl+delete"],
-        "command": "delete_current_file",
+        "command": "side_bar_delete",
     },
     {
         "keys": ["ctrl+k", "n"],
-      "command": "side_bar_menu_new_file",
-      "args": { "paths": [] }
+      "command": "side_bar_new_file",
     },
     {
         "keys": ["shift+f2"],
@@ -771,8 +770,7 @@
     },
     {
         "keys": ["f2"],
-        "command": "side_bar_menu_rename",
-        "args": { "paths": [] }
+        "command": "side_bar_rename",
     },
     // open easy workspace
     {
@@ -801,4 +799,5 @@
     { "keys": ["ctrl+shift+]"], "command": "unfold" },
     { "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
     { "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
+    { "keys": ["ctrl+shift+alt+p"], "command": "show_scope_name", },
 ]
