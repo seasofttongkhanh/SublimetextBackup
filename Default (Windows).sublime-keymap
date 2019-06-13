@@ -260,11 +260,12 @@
     },
     {
         "keys": ["ctrl+delete"],
-        "command": "side_bar_delete",
+        "command": "delete_current_file",
     },
     {
         "keys": ["ctrl+k", "n"],
-        "command": "side_bar_new_file",
+      "command": "side_bar_menu_new_file",
+      "args": { "paths": [] }
     },
     {
         "keys": ["shift+f2"],
@@ -770,7 +771,8 @@
     },
     {
         "keys": ["f2"],
-        "command": "rename_file"
+        "command": "side_bar_menu_rename",
+        "args": { "paths": [] }
     },
     // open easy workspace
     {
