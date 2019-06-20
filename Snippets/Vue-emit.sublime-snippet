@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+emit('${1:string_event}', ${2:payload})
+]]></content>
+<tabTrigger>emit</tabTrigger>
+<description>Vue-event</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, meta.function-call.method.with-arguments.js, entity.name.function.js</scope>
+</snippet>
