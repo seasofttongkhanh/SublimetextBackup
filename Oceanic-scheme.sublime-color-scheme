@@ -13734,5 +13734,10 @@
             "font_style": "italic",
             "foreground": "var(blue)"
         },
+        {
+            "name": "blue",
+            "scope": "variable.parameter.function",
+            "foreground": "var(blue)"
+        },
     ]
 }

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+mapGetters
+]]></content>
+<tabTrigger>mapGetters</tabTrigger>
+<description>vuex</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, variable.other.readwrite.js</scope>
+</snippet>

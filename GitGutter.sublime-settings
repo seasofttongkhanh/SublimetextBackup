@@ -1,6 +1,6 @@
 // GitGutter Settings - User
 {
-	"git_binary": "C:/Program Files/Git/cmd/git.exe",
+	// "git_binary": "E:/laragon/bin/git/bin/git.exe",
 	"protected_regions":
 	[
 		"sublimelinter-warning-gutter-marks", "sublimelinter-error-gutter-marks", "sublime_linter.protected_regions", "lsp_error", "lsp_warning", "lsp_info"
