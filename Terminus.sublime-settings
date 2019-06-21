@@ -1,69 +1,58 @@
 {
-	"256color": true,
-	"disable_keys":
-	[
-		"ctrl+c",
-		"ctrl+k",
-		"ctrl+p",
-		"ctrl+shift+p"
-	],
-	"natural_keyboard": true,
-	"scrollback_history_size": 1000,
-	"shell_configs":
-	[
-		{
-			"cmd": "cmd.exe",
-			"default": true,
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Command Prompt",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "E:/laragon/bin/git/bin/bash.exe",
-			"default": false,
-			"enable": true,
-			"env":
-			{
-				"args":
-				[
-					"-l"
-				],
-				"arguments":
-				[
-					"-l"
-				]
-			},
-			"name": "Git",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "powershell",
-			"default": false,
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Power Shell",
-			"platforms":
-			[
-				"windows"
-			]
-		}
-	],
-	"theme": "tomorrow-night",
-	"unix_term": "xterm",
-	"user_theme_colors":
-	{
-		"00": "#777777"
-	}
-
+    "256color": true,
+    "natural_keyboard": false,
+    "scrollback_history_size": 1000,
+    "shell_configs": [
+    {
+        "cmd": "cmd.exe",
+        "default": false,
+        "enable": true,
+        "env":
+        {},
+        "name": "Command Prompt",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "E:/laragon/bin/git/bin/bash.exe",
+        "default": true,
+        "enable": true,
+        "env":
+        {
+            "args": [
+                "-l"
+            ],
+            "arguments": [
+                "-l"
+            ]
+        },
+        "name": "Git",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "powershell",
+        "default": false,
+        "enable": true,
+        "env":
+        {},
+        "name": "Power Shell",
+        "platforms": [
+            "windows"
+        ]
+    }],
+    "theme": "tomorrow-night",
+    "unix_term": "xterm-256color",
+    "user_theme_colors":
+    {
+        "00": "#777777"
+    },
+    "preserve_keys": [
+        "ctrl+c",
+        "ctrl+k",
+        "ctrl+p",
+        "ctrl+shift+p"
+    ]
 }

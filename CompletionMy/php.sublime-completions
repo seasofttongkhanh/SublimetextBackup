@@ -90,6 +90,134 @@
         /*===============================
         =            Laravel            =
         ===============================*/
+        {
+            "contents": "hasMany('${1:class}')",
+            "trigger": "hasMany\tEloquent laravel"
+        },
+        {
+            "contents": "belongsTo('${1:class}')",
+            "trigger": "belongsTo\tEloquent laravel"
+        },
+        {
+            "contents": "belongsToMany('${1:class}')",
+            "trigger": "belongsToMany\tEloquent laravel"
+        },
+        {
+            "contents": "hasManyThrough('${1:class}')",
+            "trigger": "hasManyThrough\tEloquent laravel"
+        },
+        {
+            "contents": "morphTo('${1:class}')",
+            "trigger": "morphTo\tEloquent laravel"
+        },
+        {
+            "contents": "has('${1:class}')",
+            "trigger": "has\tEloquent laravel"
+        },
+        {
+            "contents": "whereHas('${1:class}')",
+            "trigger": "whereHas\tEloquent laravel"
+        },
+        {
+            "contents": "with('${1:class}')",
+            "trigger": "with\tEloquent laravel"
+        },
+        {
+            "contents": "orderBy('${1:class}')",
+            "trigger": "orderBy\tEloquent laravel"
+        },
+        {
+            "contents": "find('${1:class}')",
+            "trigger": "find\tEloquent laravel"
+        },
+        {
+            "contents": "whereIn()",
+            "trigger": "whereIn\tBuilder laravel"
+        },
+        {
+            "contents": "lists()",
+            "trigger": "lists\tBuilder laravel"
+        },
+        {
+            "contents": "distinct()",
+            "trigger": "distinct\tBuilder laravel"
+        },
+        {
+            "contents": "addSelect()",
+            "trigger": "addSelect\tBuilder laravel"
+        },
+        {
+            "contents": "orWhere()",
+            "trigger": "orWhere\tBuilder laravel"
+        },
+        {
+            "contents": "whereBetween()",
+            "trigger": "whereBetween\tBuilder laravel"
+        },
+        {
+            "contents": "whereNotIn()",
+            "trigger": "whereNotIn\tBuilder laravel"
+        },
+        {
+            "contents": "whereNull()",
+            "trigger": "whereNull\tBuilder laravel"
+        },
+        {
+            "contents": "whereIdAndEmail()",
+            "trigger": "whereIdAndEmail\tBuilder laravel"
+        },
+        {
+            "contents": "whereId()",
+            "trigger": "whereId\tBuilder laravel"
+        },
+        {
+            "contents": "whereNameOrAge()",
+            "trigger": "whereNameOrAge\tBuilder laravel"
+        },
+        {
+            "contents": "orderBy()",
+            "trigger": "orderBy\tBuilder laravel"
+        },
+        {
+            "contents": "groupBy()",
+            "trigger": "groupBy\tBuilder laravel"
+        },
+        {
+            "contents": "having()",
+            "trigger": "having\tBuilder laravel"
+        },
+        {
+            "contents": "skip()",
+            "trigger": "skip\tBuilder laravel"
+        },
+        {
+            "contents": "skip()",
+            "trigger": "skip\tBuilder laravel"
+        },
+        {
+            "contents": "join()",
+            "trigger": "join\tBuilder laravel"
+        },
+        {
+            "contents": "max()",
+            "trigger": "max\tBuilder laravel"
+        },
+        {
+            "contents": "min()",
+            "trigger": "min\tBuilder laravel"
+        },
+        {
+            "contents": "avg()",
+            "trigger": "avg\tBuilder laravel"
+        },
+        {
+            "contents": "sum()",
+            "trigger": "sum\tBuilder laravel"
+        },
+        {
+            "contents": "insertGetId()",
+            "trigger": "insertGetId\tBuilder laravel"
+        },
 
     ]
 }
