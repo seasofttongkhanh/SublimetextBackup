@@ -1,7 +1,6 @@
 // settings in here override those in "Requester/Requester.sublime-settings",
 
 {
-
-    "fmt": "indent",
-    "pin_tabs_by_default": true
+  "fmt": "indent",
+  "pin_tabs_by_default": true
 }

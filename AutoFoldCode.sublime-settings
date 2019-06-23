@@ -1946,6 +1946,25 @@
 			221753
 		]
 	],
+	"C:\\Users\\Administrator\\Desktop\\test.js":
+	[
+		[
+			12,
+			34302
+		],
+		[
+			34316,
+			57823
+		],
+		[
+			57837,
+			82112
+		],
+		[
+			82126,
+			106401
+		]
+	],
 	"D:\\Programmer\\Working\\backend-5.7-API\\Modules\\Adminpress\\Resources\\views\\landing.blade.php":
 	[
 		[
@@ -2301,6 +2320,20 @@
 		[
 			88,
 			1456
+		]
+	],
+	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\js\\components\\Button.vue":
+	[
+		[
+			14,
+			409
+		]
+	],
+	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\js\\components\\Dialog.vue":
+	[
+		[
+			26,
+			564
 		]
 	],
 	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\js\\components\\Loading.vue":

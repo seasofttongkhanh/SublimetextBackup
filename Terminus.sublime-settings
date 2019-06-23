@@ -16,7 +16,7 @@
     },
     {
         "cmd": "E:/laragon/bin/git/bin/bash.exe",
-        "default": true,
+        "default": false,
         "enable": true,
         "env":
         {
@@ -34,7 +34,7 @@
     },
     {
         "cmd": "powershell",
-        "default": false,
+        "default": true,
         "enable": true,
         "env":
         {},

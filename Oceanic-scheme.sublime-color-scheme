@@ -7,8 +7,8 @@
         "base03":  "#1B2B34",
         "base02":  "#19191F",
         "base01":  "#586e75",
-        "base00":  "#657b83",
-        "base0":   "#839496",
+        "base00":  "#7C96A0",
+        "base0":   "#9FB5B8",
         "base1":   "#93a1a1",
         "base2":   "#eee8d5",
         "base3":   "#fdf6e3",
@@ -18,8 +18,8 @@
         "magenta": "#BB80B3",
         "violet":  "#6c71c4",
         "blue":    "#268bd2",
-        "cyan":    "#36BCB2",
-        "green":   "#859900",//859900
+        "cyan":    "#2EAEA4",
+        "green":   "#859900",//#859900
     },
     "globals":
     {
@@ -13731,8 +13731,7 @@
         {
             "name": "italic and blue",
             "scope": "constant.other.object.key string.unquoted.label",
-            "font_style": "italic",
-            "foreground": "var(blue)"
+            "foreground": "var(base0)"
         },
         {
             "name": "blue",
