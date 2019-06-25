@@ -100,19 +100,6 @@
 			{
 				"args":
 				{
-					"stop": "2"
-				},
-				"command": "text_pastry_range",
-				"text": "range 2"
-			},
-			"key": "3a7d910a1f9af0c965c93a249c7dc552",
-			"label": "range 2"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"stop": "4"
 				},
 				"command": "text_pastry_range",
@@ -283,6 +270,19 @@
 			{
 				"args":
 				{
+					"stop": "2"
+				},
+				"command": "text_pastry_range",
+				"text": "range 2"
+			},
+			"key": "3a7d910a1f9af0c965c93a249c7dc552",
+			"label": "range 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "2"
 				},
 				"command": "text_pastry_step",
@@ -290,15 +290,30 @@
 			},
 			"key": "c81e728d9d4c2f636f067f89cc14862c",
 			"label": "2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "5",
+					"stop": "5"
+				},
+				"command": "text_pastry_range",
+				"text": "range 5 5"
+			},
+			"key": "3c0fed2b5ed1fa0492afb2045c23ec60",
+			"label": "range 5 5"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "2"
+			"start": "5",
+			"stop": "5"
 		},
-		"command": "text_pastry_step",
-		"text": "2"
+		"command": "text_pastry_range",
+		"text": "range 5 5"
 	}
 }

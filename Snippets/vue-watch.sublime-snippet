@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+watch: {
+  '$1'(val){
+    $2
+  },
+},//watch
+]]></content>
+<tabTrigger>vue-watch</tabTrigger>
+<description>Vue</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly</scope>
+</snippet>
