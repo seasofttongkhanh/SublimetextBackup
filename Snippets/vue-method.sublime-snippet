@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+$1(){
+  $2
+},
+]]></content>
+<tabTrigger>vue-method</tabTrigger>
+<description>Vue</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.method.js, entity.name.method.js</scope>
+</snippet>

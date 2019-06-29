@@ -572,6 +572,10 @@
         "command": "toggle_terminus_panel"
     },
     {
+        "keys": ["alt+j"],
+        "command": "toggle_terminus_panel"
+    },
+    {
         "keys": ["ctrl+shift+t"],
         "command": "terminus_open",
         "args":
