@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Abaqus",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -32,6 +33,7 @@
 		"EditorConfig",
 		"Element UI Snippets",
 		"Emmet",
+		"Extract Text to Laravel Blade View",
 		"FavoriteFiles",
 		"FuzzyFilePath",
 		"Git",
@@ -48,10 +50,12 @@
 		"JavaScript Snippets",
 		"JavaScriptNext - ES6 Syntax",
 		"JSON Reindent",
+		"JsPrettier",
 		"Laravel 5 Snippets",
 		"Laravel Blade AutoComplete",
 		"Laravel Blade Highlighter",
 		"Laravel Blade Spacer",
+		"Laravel Helper Completions",
 		"Log Highlight",
 		"MarkdownPreview",
 		"npm",

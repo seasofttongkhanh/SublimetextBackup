@@ -23,20 +23,20 @@
 	// "cancel": {"kill": true},
 
 	"variants": [
-
 		{
 			"name": "Open Project",
 			"shell_cmd": "C:\\Users\\Administrator\\Desktop\\conemu-maximus5\\ConEmu.exe",
-			"working_dir": "${project_path:${folder}}",
-		},{
+			"working_dir": "${project_path:${folder}}"
+		},
+		{
 			"name": "Open Project",
 			"shell_cmd": "C:\\Users\\Administrator\\Desktop\\conemu-maximus5\\ConEmu.exe",
-			"working_dir": "${project_path:${folder}}",
+			"working_dir": "${project_path:${folder}}"
 		},
 		{
 			"name": "Open file current",
 			// "shell_cmd":"\"C:\\Users\\Administrator\\Desktop\\cmder\\vendor\\conemu-maximus5\\ConEmu64.exe\" ",
-			"shell_cmd":"cmd",
+			"shell_cmd": "cmd",
 			"working_dir": "${project_path}"
 		},
 		{
@@ -86,21 +86,30 @@
 			"selector": "source.cpp"
 		},
 		//  git
+
+		// In folser project
+		{
+			"name": "git config",
+			"shell_cmd": "echo git... && git config --global user.name \"hkdark github\" && git config --global user.email \"hkngokhong@gmail.com\"",
+			"working_dir": "${project_path:${folder}}",
+		},
+
+		// In File current view
 		{
 			"name": "git push --set-upstream origin master",
-			"shell_cmd": "echo git... && git push --set-upstream master master",
+			"shell_cmd": "echo git... && git push --set-upstream master master"
 		},
 		{
 			"name": "git push -f origin master",
-			"shell_cmd": "echo git... && git push -f origin master",
+			"shell_cmd": "echo git... && git push -f origin master"
 		},
 		{
 			"name": "git config credential.helper store",
-			"shell_cmd": "echo git... && git config credential.helper store",
+			"shell_cmd": "echo git... && git config credential.helper store"
 		},
 		{
 			"name": "git pull origin master",
-			"shell_cmd": "echo git... && git pull origin master",
+			"shell_cmd": "echo git... && git pull origin master"
 		},
 		{
 			"name": "git add all && git commit \"commit\" && git push",
@@ -144,85 +153,91 @@
 			"name": "npm run watch",
 			"shell_cmd": "echo \"npm run watching\" && start cmd.exe /c npm run watch",
 			"working_dir": "${project_path:${folder}}",
-			"selector": "*",
-		},{
+			"selector": "*"
+		},
+		{
 			"name": "npm run dev",
 			"shell_cmd": "echo \"npm run deving\" && start cmd.exe /c npm run dev",
 			"working_dir": "${project_path:${folder}}",
-			"selector": "*",
-		},{
+			"selector": "*"
+		},
+		{
 			"name": "npm run start",
 			"shell_cmd": "echo \"npm run starting\" && start cmd.exe /c npm run start",
 			"working_dir": "${project_path:${folder}}",
-			"selector": "*",
-		},{
+			"selector": "*"
+		},
+		{
 			"name": "npm run serve",
 			"shell_cmd": "echo \"npm run serving\" && start cmd.exe /c npm run serve",
 			"working_dir": "${project_path:${folder}}",
-			"selector": "*",
-		},{
+			"selector": "*"
+		},
+		{
 			"name": "NODEMON (watch node)",
 			"shell_cmd": "echo \"npm nodemon file\" && start cmd.exe /c nodemon ${file}",
 			"working_dir": "${project_path:${folder}}",
-			"selector": "*",
+			"selector": "*"
 		},
 		// nodemod
 		// sass
 		{
 			"name": "Sass Scss watch file",
 			"shell_cmd": "start cmd.exe /c sass --watch ${file_name}:${file_base_name}.css --style compressed --no-source-map",
-			"working_dir": "${project_path}",
+			"working_dir": "${project_path}"
 		},
 		{
 			"name": "Sass Scss compiler file",
 			"shell_cmd": "echo compiler... && sass ${file_name}:${file_base_name}.css --style compressed --no-source-map",
-			"working_dir": "${project_path}",
-		},{
+			"working_dir": "${project_path}"
+		},
+		{
 			"name": "Css compiler minify",
 			"shell_cmd": "echo compiler... && sass ${file_name}:${file_base_name}.min.css --style compressed --no-source-map",
-			"working_dir": "${project_path}",
-		},{
+			"working_dir": "${project_path}"
+		},
+		{
 			"name": "(Javascript)JS compiler minify",
 			"shell_cmd": "echo compiler... && uglifyjs ${file_name} -o ${file_base_name}.min.js",
-			"working_dir": "${project_path}",
+			"working_dir": "${project_path}"
 		},
 		{
 			"name": "less compiler file",
 			"shell_cmd": "echo compiler... && lessc ${file_name} ${file_base_name}.css -x",
-			"working_dir": "${project_path}",
+			"working_dir": "${project_path}"
 		},
 
 		{
 			"name": "Linux Laravel stop server 8000",
 			"working_dir": "${project_path}",
-			"cmd" : ["${args}"],
-			"shell_cmd": "fuser -n tcp -k 8000",
+			"cmd": ["${args}"],
+			"shell_cmd": "fuser -n tcp -k 8000"
 		},
 		{
 			"name": "Linux guake open",
 			"working_dir": "${folder}",
-			"cmd" : ["${args}"],
-			"shell_cmd": "guake",
+			"cmd": ["${args}"],
+			"shell_cmd": "guake"
 		},
 		{
 			"name": "npm live-server",
 			"working_dir": "${folder}",
-			"shell_cmd": "live-server",
+			"shell_cmd": "live-server"
 		},
 		{
 			"name": "composer install",
 			"working_dir": "${folder}",
-			"shell_cmd": "composer install",
+			"shell_cmd": "composer install"
 		},
 		{
 			"name": "npm install",
 			"working_dir": "${folder}",
-			"shell_cmd": "npm install",
+			"shell_cmd": "npm install"
 		},
 		{
 			"name": "npm install",
 			"working_dir": "${folder}",
-			"shell_cmd": "npm install",
-		},
+			"shell_cmd": "npm install"
+		}
 	]
 }
