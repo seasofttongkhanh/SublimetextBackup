@@ -206,7 +206,11 @@
 			"shell_cmd": "echo compiler... && lessc ${file_name} ${file_base_name}.css -x",
 			"working_dir": "${project_path}"
 		},
-
+		{
+			"name": "Vue Format",
+			"shell_cmd": "html-beautify ${file_name} -r -s 2 -A force -i 2", //force, force-expand-multiline
+			"working_dir": "${project_path}"
+		},
 		{
 			"name": "Linux Laravel stop server 8000",
 			"working_dir": "${project_path}",

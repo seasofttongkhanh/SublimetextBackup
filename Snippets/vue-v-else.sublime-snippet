@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+v-else
+]]></content>
+<tabTrigger>v_else</tabTrigger>
+<description>vue</description>
+<scope>text.html.vue, meta.tag.template.begin.html, punctuation.definition.tag.end.html</scope>
+</snippet>

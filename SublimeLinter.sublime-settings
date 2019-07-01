@@ -1,36 +1,29 @@
 // SublimeLinter Settings - User
 {
-
-    "linters": {
-        "jsxhint": {
-            "config_filename": ".jsxhintrc"
-        },
-        "eslint": {
-            "selector": "text.html.vue, source.js - meta.attribute-with-value"
-        }
+  "linters": {
+    "jsxhint": {
+      "config_filename": ".jsxhintrc"
     },
-
-
-	"styles": [
-	    {
-	        "mark_style": "stippled_underline",
-	        "priority": 1,
-	        "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
-	        "icon": "none",
-	        "types": [
-	            "warning"
-	        ]
-	    },
-	    {
-	        "mark_style": "fill",
-	        "priority": 1,
-	        "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
-	        "icon": "dot",
-	        "types": [
-	            "error"
-	        ]
-	    }
-	],
-	"delay": 1,
-	"statusbar.show_active_linters": false,
+    "eslint": {
+      "selector": "text.html.vue, source.js - meta.attribute-with-value"
+    }
+  },
+  "styles": [
+    {
+      "mark_style": "stippled_underline",
+      "priority": 1,
+      "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "none",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "fill",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "dot",
+      "types": ["error"]
+    }
+  ],
+  "delay": 1,
+  "statusbar.show_active_linters": false
 }

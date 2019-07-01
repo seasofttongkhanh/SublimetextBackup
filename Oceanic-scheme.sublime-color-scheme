@@ -13472,12 +13472,6 @@
             "font_style": "bold",
         },
         {
-            "name": "\"\" tag",
-            "scope": "text.html.vue meta.tag.custom.html meta.attribute-with-value.html string.quoted.double.html",
-            "foreground": "var(blue)",
-            "font_style": "bold",
-        },
-        {
             "name": "(),{}",
             "scope": "text.html.vue meta.tag.custom.html source.js meta.group.braces.curly, meta.brace.round, meta.brace.curly, punctuation.section, punctuation.section.block, punctuation.definition.parameters, punctuation.section.group",
             "foreground": "var(base00)"

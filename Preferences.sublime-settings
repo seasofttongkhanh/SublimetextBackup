@@ -62,7 +62,6 @@
 	"ignored_packages":
 	[
 		"10% Too Dull for My Tastes Color Scheme",
-		"SublimeLinter-php",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -71,7 +70,8 @@
 		"draw_active"
 	],
 	"index_files": true,
-	"line_padding_bottom": 10,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"margin": -1,
 	"sublime_merge_path": "C:/Users/Administrator/Desktop/Sublime Text Build 3184 x64/sublime merge/sublime_merge.exe",
 	"tab_size": 2,
