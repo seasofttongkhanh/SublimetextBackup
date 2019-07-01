@@ -76,6 +76,7 @@
 		"SQLTools",
 		"StringEncode",
 		"SublimeCodeIntel",
+		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-contrib-scss-lint",
