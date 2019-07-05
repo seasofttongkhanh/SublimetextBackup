@@ -208,7 +208,7 @@
 		},
 		{
 			"name": "Vue Format",
-			"shell_cmd": "html-beautify ${file_name} -r -s 2 -A force -i 2", //force, force-expand-multiline
+			"shell_cmd": "html-beautify ${file_name} -r -s 2 -A force-expand-multiline -i 2", //force, force-expand-multiline
 			"working_dir": "${project_path}"
 		},
 		{

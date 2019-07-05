@@ -2308,23 +2308,38 @@
 			3973
 		]
 	],
+	"E:\\laragon\\www\\LayoutNew-master\\resources\\js\\layouts\\material.vue":
+	[
+		[
+			1632,
+			1694
+		]
+	],
 	"E:\\laragon\\www\\QuanLiExcel\\resources\\js\\components\\excel\\Handsontable.vue":
 	[
 		[
-			2539,
-			4622
+			3174,
+			3861
 		],
 		[
-			4638,
-			5408
+			3901,
+			4021
 		],
 		[
-			6073,
-			6623
+			4118,
+			4220
 		],
 		[
-			6670,
-			6985
+			4299,
+			4475
+		],
+		[
+			4550,
+			5158
+		],
+		[
+			5212,
+			6076
 		]
 	],
 	"E:\\laragon\\www\\index.php":
@@ -2339,6 +2354,20 @@
 		[
 			26,
 			564
+		]
+	],
+	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\js\\components\\Excel\\Import.vue":
+	[
+		[
+			13,
+			212
+		]
+	],
+	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\js\\components\\Handsontable.vue":
+	[
+		[
+			7,
+			85
 		]
 	],
 	"E:\\laragon\\www\\laravel-vue-spa-master\\resources\\views\\errors\\layout.blade.php":
