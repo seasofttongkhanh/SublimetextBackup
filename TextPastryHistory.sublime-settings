@@ -139,19 +139,6 @@
 			{
 				"args":
 				{
-					"text": "5"
-				},
-				"command": "text_pastry_step",
-				"text": "5"
-			},
-			"key": "e4da3b7fbbce2345d7772b0674a318d5",
-			"label": "5"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "200"
 				},
 				"command": "text_pastry_step",
@@ -304,16 +291,28 @@
 			},
 			"key": "3c0fed2b5ed1fa0492afb2045c23ec60",
 			"label": "range 5 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5"
+				},
+				"command": "text_pastry_step",
+				"text": "5"
+			},
+			"key": "e4da3b7fbbce2345d7772b0674a318d5",
+			"label": "5"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"start": "5",
-			"stop": "5"
+			"text": "5"
 		},
-		"command": "text_pastry_range",
-		"text": "range 5 5"
+		"command": "text_pastry_step",
+		"text": "5"
 	}
 }

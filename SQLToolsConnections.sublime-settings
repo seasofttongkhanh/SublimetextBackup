@@ -13,12 +13,23 @@
             "default-character-set": "utf8",
             "encoding": "utf-8"
         },
-        "Mysql: vihas.vn":
+        "Mysql: quan_li_excel":
         {
             "type": "mysql",
             "host": "127.0.0.1",
             "port": 3306,
-            "database": "vihas.vn",
+            "database": "quan_li_excel",
+            "username": "root",
+            "password": "",
+            "default-character-set": "utf8",
+            "encoding": "utf-8"
+        },
+        "Mysql: laraveladmin":
+        {
+            "type": "mysql",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "database": "laraveladmin",
             "username": "root",
             "password": "",
             "default-character-set": "utf8",
