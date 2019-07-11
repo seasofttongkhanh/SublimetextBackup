@@ -2,7 +2,6 @@
 	"extensions":
 	[
 		"scss",
-		"less",
-		"css"
+		"less"
 	]
 }

@@ -1,0 +1,34 @@
+<snippet>
+<content><![CDATA[
+{
+    "type": "ftp",
+
+    "host": "${1:ip}",
+    "user": "${2:user}",
+    "password": "${3:password}",
+    "remote_path": "/",
+
+    "save_before_upload": true,
+    "upload_on_save": false,
+    "sync_down_on_open": false,
+    "sync_skip_deletes": false,
+    "sync_same_age": true,
+    "confirm_downloads": true,
+    "confirm_sync": true,
+    "confirm_overwrite_newer": false,
+
+    "ignore_regexes": [
+        ".vscode/*",
+        "\\\\.vscode/, .*/*, .git*,\\\\.sublime-(project|workspace)", "sftp-config.json","sftp-config(-alt\\\\d?)?\\\\.json",
+        "sftp-settings\\\\.json", "/venv/", "\\\\.svn/", "\\\\.hg/", "\\\\.git/",
+        "\\\\.bzr", "_darcs", "CVS", "\\\\.DS_Store", "Thumbs\\\\.db", "desktop\\\\.ini"
+    ],
+    "connect_timeout": 30
+
+}
+
+]]></content>
+<tabTrigger>sftp_demo</tabTrigger>
+<description>SFTP</description>
+<scope>source.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json</scope>
+</snippet>
