@@ -156,6 +156,12 @@
 			"selector": "*"
 		},
 		{
+			"name": "npm run production",
+			"shell_cmd": "echo \"npm run production\" && start cmd.exe /c npm run production",
+			"working_dir": "${project_path:${folder}}",
+			"selector": "*"
+		},
+		{
 			"name": "npm run dev",
 			"shell_cmd": "echo \"npm run deving\" && start cmd.exe /c npm run dev",
 			"working_dir": "${project_path:${folder}}",
@@ -231,17 +237,12 @@
 		{
 			"name": "composer install",
 			"working_dir": "${folder}",
-			"shell_cmd": "composer install"
+			"shell_cmd": "echo \"composer install\" && start cmd.exe /c composer install"
 		},
 		{
 			"name": "npm install",
 			"working_dir": "${folder}",
-			"shell_cmd": "npm install"
+			"shell_cmd": "echo \"npm install\" && start cmd.exe /c npm install"
 		},
-		{
-			"name": "npm install",
-			"working_dir": "${folder}",
-			"shell_cmd": "npm install"
-		}
 	]
 }
