@@ -2345,12 +2345,20 @@
 	"E:\\laragon\\www\\QuanLiExcel_shop\\resources\\js\\components\\excel\\VanDonDangTheoDoi.vue":
 	[
 		[
+			184,
+			1424
+		],
+		[
 			1547,
 			1785
 		],
 		[
 			1810,
 			3033
+		],
+		[
+			4739,
+			9147
 		]
 	],
 	"E:\\laragon\\www\\index.php":
@@ -2447,6 +2455,51 @@
 		[
 			6656,
 			6841
+		]
+	],
+	"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\management\\BangNhapHang.blade.php":
+	[
+		[
+			890,
+			1356
+		],
+		[
+			1391,
+			2373
+		],
+		[
+			2432,
+			2832
+		]
+	],
+	"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\management\\ThongKeTonKho\\TongThongKe.blade.php":
+	[
+		[
+			3823,
+			3914
+		],
+		[
+			3949,
+			4225
+		],
+		[
+			4263,
+			4885
+		]
+	],
+	"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\management\\VanDonDangTheoDoi.blade.php":
+	[
+		[
+			1738,
+			2097
+		],
+		[
+			2128,
+			2219
+		],
+		[
+			5097,
+			5599
 		]
 	],
 	"E:\\laragon\\www\\vihas.vn\\wp-content\\themes\\vng\\views\\sections\\blogs\\navigation.blade.php":
