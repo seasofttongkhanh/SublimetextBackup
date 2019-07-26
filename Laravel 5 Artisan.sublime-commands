@@ -21,10 +21,23 @@
             "fill_in_lable": "Enter Port",
         }
     },
-    // ---------------------- Command My --------------
-    // October cms (laravel)
-
-    //
+    {
+        "caption": "Window: Kill file",
+        "command": "command_my_plugin",
+        "args": {
+            "command": "taskkill /F /IM ",
+            "fill_in": true,
+            "fill_in_lable": "Enter App",
+        }
+    },
+    // --------------  Window -----------------------
+    // Laravel artisan
+    {
+        "caption": "Window: stop artisan serve",
+        "command": "command_my_plugin",
+        "args": {
+            "command": "taskkill /F /PID php.exe ",        }
+    },
     {
         "caption": "Laravel Artisan 5: Make:Resource Collection",
         "command": "command_my_plugin",
