@@ -2490,16 +2490,24 @@
 	"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\management\\VanDonDangTheoDoi.blade.php":
 	[
 		[
-			1738,
-			2097
+			82,
+			1542
 		],
 		[
-			2128,
-			2219
+			1754,
+			2005
 		],
 		[
-			5097,
-			5599
+			2040,
+			2399
+		],
+		[
+			2426,
+			3836
+		],
+		[
+			3908,
+			7955
 		]
 	],
 	"E:\\laragon\\www\\vihas.vn\\wp-content\\themes\\vng\\views\\sections\\blogs\\navigation.blade.php":
@@ -3395,5 +3403,54 @@
 			2284,
 			4556
 		]
-	]
+	],
+	"folds":
+	{
+		"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Default (Windows).sublime-keymap":
+		{
+			"0x38c1feba":
+			[
+				[
+					3140,
+					3756
+				]
+			]
+		},
+		"C:\\Users\\Administrator\\Desktop\\get_started_complete\\popup.html":
+		{
+			"0xcfc6b87b":
+			[
+				[
+					479,
+					555
+				]
+			]
+		},
+		"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\calendars\\global.blade.php":
+		{
+			"0x28eaca97":
+			[
+				[
+					173,
+					4254
+				],
+				[
+					4292,
+					7720
+				]
+			]
+		},
+		"E:\\laragon\\www\\wordpress\\wp-content\\plugins\\import-json\\assets\\scripts\\script.js":
+		{
+			"0x5f52a63a":
+			[
+				[
+					1363,
+					2315
+				]
+			]
+		}
+	},
+	"max_buffer_size": 1000000,
+	"version": 1
 }

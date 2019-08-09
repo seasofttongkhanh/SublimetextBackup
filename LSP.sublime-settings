@@ -1,0 +1,17 @@
+{
+	"clients":
+	{
+		"intelephense-ls":
+		{
+			"enabled": true
+		},
+		"javascript-typescript-langserver":
+		{
+			"enabled": true
+		},
+		"phpls":
+		{
+			"enabled": true
+		}
+	}
+}

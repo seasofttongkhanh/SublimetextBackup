@@ -1,4 +1,26 @@
 [
+  // terminus
+    {
+        "caption": "terminus-string: git log current path",
+        "command": "terminus_send_string",
+        "args": {
+          "string": "git log -p ",
+        },
+    },
+    {
+        "caption": "terminus-string: php artisan serve",
+        "command": "terminus_send_string",
+        "args": {
+          "string": "php artisan serve",
+        },
+    },{
+        "caption": "terminus-string: npm run watch",
+        "command": "terminus_send_string",
+        "args": {
+          "string": "npm run watch",
+        },
+    },
+  // end terminus
     {
         "caption": "html_beautify selector",
         "command": "html_beautify", // command that executes html_beautify
@@ -59,8 +81,4 @@
             ]
         }
     },
-    {
-
-    }
-
 ]
