@@ -89,8 +89,8 @@
 
 		// In folser project
 		{
-			"name": "git config",
-			"shell_cmd": "echo git... && git config --global user.name \"hkdark github\" && git config --global user.email \"hkngokhong@gmail.com\"",
+			"name": "git config ...",
+			"shell_cmd": "echo git... && git config --global credential.helper store && git config --global user.name \"hkdark github\" && git config --global user.email \"hkngokhong@gmail.com\"",
 			"working_dir": "${project_path:${folder}}",
 		},
 
