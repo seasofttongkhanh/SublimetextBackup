@@ -3449,6 +3449,56 @@
 					2315
 				]
 			]
+		},
+		"G:\\Project Lap Trinh\\quan-li-excel\\resources\\views\\admin\\management\\BangDLMau\\DLmau.blade.php":
+		{
+			"0xa42e7f31":
+			[
+				[
+					7424,
+					8651
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\public\\handsontable\\js\\custom.js":
+		{
+			"0x34f26355":
+			[
+				[
+					105,
+					668
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\includes\\navbar.blade.php":
+		{
+			"0xeed6da64":
+			[
+				[
+					6924,
+					7237
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\BaoCaoBanHang\\Sheet2.blade.php":
+		{
+			"0x6a7c7f80":
+			[
+				[
+					202,
+					552
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\components\\FieldSwitchRowSKU.blade.php":
+		{
+			"0x9048c2c9":
+			[
+				[
+					2056,
+					2780
+				]
+			]
 		}
 	},
 	"max_buffer_size": 1000000,

@@ -1,10 +1,5 @@
 {
-  "gruvbox_tabs_xxs": true,
-  "gruvbox_underline_modified_tabs_thick": true,
-  "gruvbox_sidebar_heading_bold": true,
-  "gruvbox_highlight_active_tree_row": true,  // Highlight the active file in the sidebar tree
-    // "gruvbox_sidebar_label_bold": true,
-  "always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
 	"auto_complete_selector": "text.blade text.html.blade meta.tag.block.any.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php variable.function.php ,meta.attribute-with-value.html, text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
@@ -65,10 +60,15 @@
 	],
 	"font_face": "consolas",
 	"font_size": 10,
+	"gruvbox_highlight_active_tree_row": true,
+	"gruvbox_sidebar_heading_bold": true,
+	"gruvbox_tabs_xxs": true,
+	"gruvbox_underline_modified_tabs_thick": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"10% Too Dull for My Tastes Color Scheme",
+		"A File Icon",
 		"SublimeCodeIntel",
 		"Vintage"
 	],

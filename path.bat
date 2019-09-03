@@ -1,5 +1,5 @@
 @echo off
-SET st2Path=C:\Program Files\Sublime Text 3\sublime_text.exe
+SET st2Path=C:\Users\Admin\Desktop\Sublime Text Build 3207 x64\sublime_text.exe
 
 rem add it for all file types
 @reg add "HKEY_CLASSES_ROOT\*\shell\Open with Sublime Text"         /t REG_SZ /v "" /d "Open with Sublime Text"   /f

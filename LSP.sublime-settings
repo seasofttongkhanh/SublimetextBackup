@@ -13,5 +13,6 @@
 		{
 			"enabled": true
 		}
-	}
+	},
+  "auto_show_diagnostics_panel": false
 }
