@@ -13,5 +13,7 @@
 		{
 			"enabled": true
 		}
-	}
+	},
+  "show_view_status": false,
+  "auto_show_diagnostics_panel": false
 }
