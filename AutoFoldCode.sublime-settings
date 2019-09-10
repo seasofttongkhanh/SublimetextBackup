@@ -3408,11 +3408,21 @@
 	{
 		"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Default (Windows).sublime-keymap":
 		{
-			"0x38c1feba":
+			"0xde8199f6":
 			[
 				[
-					3140,
-					3756
+					3315,
+					3931
+				]
+			]
+		},
+		"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Preferences.sublime-settings":
+		{
+			"0xcb02e314":
+			[
+				[
+					754,
+					1003
 				]
 			]
 		},
@@ -3477,16 +3487,6 @@
 				[
 					6924,
 					7237
-				]
-			]
-		},
-		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\BaoCaoBanHang\\Sheet2.blade.php":
-		{
-			"0x6a7c7f80":
-			[
-				[
-					202,
-					552
 				]
 			]
 		},
