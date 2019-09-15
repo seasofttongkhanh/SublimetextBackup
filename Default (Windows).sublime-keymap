@@ -729,7 +729,7 @@
         }
     },
     {
-        "keys": ["alt+shift+6"],
+        "keys": ["alt+shift+3"],
         "command": "set_layout",
         "args":
         {

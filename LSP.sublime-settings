@@ -14,11 +14,5 @@
 			"enabled": true
 		}
 	},
-<<<<<<< HEAD
   "auto_show_diagnostics_panel": false
 }
-=======
-  "show_view_status": false,
-  "auto_show_diagnostics_panel": false
-}
->>>>>>> a0af3f5ff8a1174f31f8d1a2f9973b99b794e8ee

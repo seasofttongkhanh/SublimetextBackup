@@ -3408,21 +3408,11 @@
 	{
 		"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Default (Windows).sublime-keymap":
 		{
-			"0xde8199f6":
+			"0x1fbd66ad":
 			[
 				[
 					3315,
 					3931
-				]
-			]
-		},
-		"C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Preferences.sublime-settings":
-		{
-			"0xcb02e314":
-			[
-				[
-					754,
-					1003
 				]
 			]
 		},
@@ -3433,6 +3423,26 @@
 				[
 					479,
 					555
+				]
+			]
+		},
+		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\js\\components\\excel\\DLmau.vue":
+		{
+			"0xad20d1ff":
+			[
+				[
+					3603,
+					3842
+				]
+			]
+		},
+		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\views\\admin\\management\\BangNhapHang.blade.php":
+		{
+			"0x5634cf0":
+			[
+				[
+					3278,
+					3595
 				]
 			]
 		},
