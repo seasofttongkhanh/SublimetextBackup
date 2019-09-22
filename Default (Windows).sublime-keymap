@@ -810,4 +810,11 @@
     { "keys": ["alt+1"], "command": "move_to_group", "args": { "group": 0 } },
     { "keys": ["alt+2"], "command": "move_to_group", "args": { "group": 1 } },
     { "keys": ["ctrl+shift+alt+p"], "command": "show_scope_name", },
+    {
+        "keys": ["alt+z"],
+        "command": "toggle_setting",
+        "args": {
+            "setting": "word_wrap"
+        }
+    }
 ]
