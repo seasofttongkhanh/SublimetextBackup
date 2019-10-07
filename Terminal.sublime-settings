@@ -6,5 +6,8 @@
     /* Windows  */
     // "terminal": "C:\\Program Files\\ConEmu\\ConEmu64.exe",
     // "terminal": "cmd.exe",
+    /* Windows  */
+    "terminal": "F:/SoftWorking/cmder_mini/Cmder.exe",
+    // "terminal": "cmd.exe",
 
 }

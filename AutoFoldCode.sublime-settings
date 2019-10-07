@@ -3416,6 +3416,16 @@
 				]
 			]
 		},
+		"E:\\THEME\\HTML\\UI_KIT\\demos.creative-tim.com\\material-kit-pro\\examples\\ecommerce.html":
+		{
+			"0x2da4a8bf":
+			[
+				[
+					35392,
+					39114
+				]
+			]
+		},
 		"E:\\laragon\\www\\SPA\\resources\\js\\components\\core\\NavigationDrawer.vue":
 		{
 			"0x4a37844":
@@ -3458,53 +3468,27 @@
 				]
 			]
 		},
-		"E:\\laragon\\www\\SPA\\routes\\api.php":
+		"E:\\laragon\\www\\laravel-nuxt\\client\\components\\blog\\Navbar.vue":
 		{
-			"0x8e5f30e2":
+			"0x2ea430b5":
 			[
 				[
-					593,
-					1475
-				],
-				[
-					1530,
-					4270
-				],
-				[
-					4332,
-					6313
-				],
-				[
-					6375,
-					7876
+					2117,
+					2560
 				]
 			]
 		},
 		"E:\\laragon\\www\\nuxt\\layouts\\vue-elmennt.vue":
 		{
-			"0x3e9c12c2":
+			"0x51dc5184":
 			[
 				[
-					509,
-					681
-				]
-			]
-		},
-		"E:\\laragon\\www\\nuxt\\pages\\index.vue":
-		{
-			"0xa5f59d2e":
-			[
-				[
-					333,
-					643
+					1893,
+					2428
 				],
 				[
-					917,
-					1045
-				],
-				[
-					1057,
-					1299
+					3093,
+					3292
 				]
 			]
 		},
@@ -3525,6 +3509,32 @@
 				[
 					3278,
 					3595
+				]
+			]
+		},
+		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\views\\admin\\management\\NhapHang\\DatHang.blade.php":
+		{
+			"0xc9a30bb8":
+			[
+				[
+					2706,
+					3027
+				],
+				[
+					3072,
+					3335
+				],
+				[
+					3378,
+					3617
+				],
+				[
+					3661,
+					3934
+				],
+				[
+					3981,
+					5187
 				]
 			]
 		},
