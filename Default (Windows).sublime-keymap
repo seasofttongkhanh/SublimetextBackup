@@ -1,10 +1,10 @@
 [
-  { "keys": ["alt+/"], "command": "afn_show_filenames",
-       "context":
-     [
-         { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
-     ]
-    },
+  // { "keys": ["alt+/"], "command": "afn_show_filenames",
+  //      "context":
+  //    [
+  //        { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
+  //    ]
+  //   },
     {
         "keys": ["ctrl+alt+p"],
         "command": "open_url",

@@ -3468,20 +3468,6 @@
 				]
 			]
 		},
-		"E:\\laragon\\www\\laravel-nuxt\\client\\components\\LayoutAdmin\\sidebar.vue":
-		{
-			"0x7ec5b639":
-			[
-				[
-					1241,
-					1456
-				],
-				[
-					1587,
-					1774
-				]
-			]
-		},
 		"E:\\laragon\\www\\laravel-nuxt\\client\\components\\blog\\Navbar.vue":
 		{
 			"0x2ea430b5":
@@ -3489,6 +3475,16 @@
 				[
 					2117,
 					2560
+				]
+			]
+		},
+		"E:\\laragon\\www\\laravel-nuxt\\client\\pages\\handsontable.vue":
+		{
+			"0x9e3f8ed1":
+			[
+				[
+					878,
+					13437
 				]
 			]
 		},
