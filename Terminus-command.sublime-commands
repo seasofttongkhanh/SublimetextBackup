@@ -1,0 +1,55 @@
+[
+// terminus
+  {
+      "caption": "terminus-string: git log current path",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git log -p ",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan serve",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan serve",
+      },
+  },
+  {
+      "caption": "terminus-string: npm run watch",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "npm run watch",
+      },
+  },
+  // Git -----------------
+
+  {
+      "caption": "terminus-string: git commit --amend",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git commit --amend",
+      },
+  },
+  // Artisan ---------------
+  {
+      "caption": "terminus-string: php artisan migrate",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan migrate",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan migrate:rollback",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan migrate:rollback",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan serve --port 81",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan serve --port 81",
+      },
+  },
+]

@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"A File Icon",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -31,6 +30,7 @@
 		"DocBlockr",
 		"EasyWorkspace",
 		"Emmet",
+		"Enki Theme",
 		"FavoriteFiles",
 		"Fold Javascript Functions",
 		"FuzzyFilePath",
