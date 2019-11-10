@@ -30,6 +30,13 @@
         "string": "git commit --amend",
       },
   },
+  {
+      "caption": "terminus-string: git add -A & git commit -m",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git add -A && git commit -m \"\"",
+      },
+  },
   // Artisan ---------------
   {
       "caption": "terminus-string: php artisan migrate",
