@@ -1,27 +1,27 @@
 {
+    "globals": {
+        "background": "#001e27"
+    }, 
     "name": "Terminus", 
     "variables": {
-        "black": "#000000", 
-        "magenta": "#b294bb", 
-        "light_green": "#b5bd68", 
-        "caret": "#c5c8c6", 
-        "light_red": "#cc6666", 
-        "brown": "#f0c674", 
-        "background": "#1d1f22", 
-        "light_magenta": "#b294bb", 
-        "light_white": "#ffffff", 
-        "white": "#ffffff", 
-        "blue": "#81a2be", 
-        "foreground": "#c5c8c6", 
-        "red": "#cc6666", 
-        "light_brown": "#f0c674", 
-        "green": "#b5bd68", 
-        "light_blue": "#81a2be", 
-        "light_black": "#000000", 
-        "light_cyan": "#8abeb7", 
-        "cyan": "#8abeb7"
-    }, 
-    "globals": {
-        "background": "#1d1f21"
+        "light_black": "#006488", 
+        "brown": "#a57706", 
+        "green": "#6cbe6c", 
+        "light_brown": "#b27e28", 
+        "light_red": "#f5163b", 
+        "cyan": "#259286", 
+        "white": "#eae3cb", 
+        "light_green": "#51ef84", 
+        "black": "#002831", 
+        "foreground": "#9cc2c3", 
+        "blue": "#2176c7", 
+        "light_white": "#fcf4dc", 
+        "background": "#001e28", 
+        "light_blue": "#178ec8", 
+        "magenta": "#c61c6f", 
+        "light_magenta": "#e24d8e", 
+        "red": "#d11c24", 
+        "light_cyan": "#00b39e", 
+        "caret": "#9cc2c3"
     }
 }

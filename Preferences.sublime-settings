@@ -46,10 +46,11 @@
 	"detect_indentation": false,
 	"enki_theme_accent_indigo": false,
 	"enki_theme_compact_sidebar": true,
+	"enki_theme_disable_tree_indicator": false,
 	"enki_theme_panel_separator": true,
 	"enki_theme_small_statusbar": true,
 	"enki_theme_small_tab": true,
-	"enki_theme_tree_headings": true,
+	"enki_theme_tree_headings": false,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[

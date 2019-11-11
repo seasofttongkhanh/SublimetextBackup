@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"theme": "tomorrow-night",
+	"theme": "solarized-dark-higher-contrast",
 	"unix_term": "xterm-256color",
 	"user_theme_colors":
 	{
