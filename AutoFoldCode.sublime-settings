@@ -3406,219 +3406,31 @@
 	],
 	"folds":
 	{
-		"C:\\Users\\Administrator\\Desktop\\get_started_complete\\popup.html":
-		{
-			"0xcfc6b87b":
-			[
-				[
-					479,
-					555
-				]
-			]
-		},
-		"E:\\THEME\\HTML\\UI_KIT\\demos.creative-tim.com\\material-kit-pro\\examples\\ecommerce.html":
-		{
-			"0x2da4a8bf":
-			[
-				[
-					35392,
-					39114
-				]
-			]
-		},
-		"E:\\laragon\\www\\SPA\\resources\\js\\components\\core\\NavigationDrawer.vue":
-		{
-			"0x4a37844":
-			[
-				[
-					3853,
-					4581
-				],
-				[
-					4610,
-					4811
-				]
-			]
-		},
-		"E:\\laragon\\www\\SPA\\resources\\js\\pages\\ElementUI.vue":
-		{
-			"0x66a9ecb6":
-			[
-				[
-					995,
-					1114
-				],
-				[
-					1129,
-					1348
-				]
-			]
-		},
-		"E:\\laragon\\www\\SPA\\resources\\js\\router\\routes.js":
-		{
-			"0x419afc2f":
-			[
-				[
-					126,
-					1125
-				],
-				[
-					1163,
-					7050
-				]
-			]
-		},
-		"E:\\laragon\\www\\laravel-nuxt\\client\\components\\blog\\Navbar.vue":
-		{
-			"0x2ea430b5":
-			[
-				[
-					2117,
-					2560
-				]
-			]
-		},
 		"E:\\laragon\\www\\laravel-nuxt\\client\\pages\\handsontable.vue":
 		{
-			"0x9e3f8ed1":
+			"0x576c67e6":
 			[
 				[
-					878,
-					13437
-				]
-			]
-		},
-		"E:\\laragon\\www\\nuxt\\layouts\\vue-elmennt.vue":
-		{
-			"0x51dc5184":
-			[
-				[
-					1893,
-					2428
+					629,
+					710
 				],
 				[
-					3093,
-					3292
-				]
-			]
-		},
-		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\js\\components\\excel\\DLmau.vue":
-		{
-			"0xad20d1ff":
-			[
-				[
-					3603,
-					3842
-				]
-			]
-		},
-		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\views\\admin\\management\\BangNhapHang.blade.php":
-		{
-			"0x5634cf0":
-			[
-				[
-					3278,
-					3595
-				]
-			]
-		},
-		"E:\\laragon\\www\\quanly_ShopDoSangTao\\resources\\views\\admin\\management\\NhapHang\\DatHang.blade.php":
-		{
-			"0xc9a30bb8":
-			[
-				[
-					2706,
-					3027
-				],
-				[
-					3072,
-					3335
-				],
-				[
-					3378,
-					3617
-				],
-				[
-					3661,
-					3934
-				],
-				[
-					3981,
-					5187
-				]
-			]
-		},
-		"E:\\laragon\\www\\quanly_shop\\resources\\views\\admin\\management\\BangDLMau\\DLmau.blade.php":
-		{
-			"0x83495689":
-			[
-				[
-					7425,
-					8652
+					752,
+					13431
 				]
 			]
 		},
 		"E:\\laragon\\www\\quanly_shop\\resources\\views\\admin\\management\\ThungHang\\NhapLieu.blade.php":
 		{
-			"0x17e73d9e":
+			"0xb9f40eba":
 			[
 				[
-					9734,
-					10315
-				]
-			]
-		},
-		"E:\\laragon\\www\\quanlyexcel_shop\\resources\\views\\admin\\calendars\\global.blade.php":
-		{
-			"0x28eaca97":
-			[
-				[
-					173,
-					4254
+					14230,
+					14274
 				],
 				[
-					4292,
-					7720
-				]
-			]
-		},
-		"E:\\laragon\\www\\wordpress\\wp-content\\plugins\\import-json\\assets\\scripts\\script.js":
-		{
-			"0x5f52a63a":
-			[
-				[
-					1363,
-					2315
-				]
-			]
-		},
-		"G:\\Project Lap Trinh\\quan-li-excel\\resources\\views\\admin\\management\\BangDLMau\\DLmau.blade.php":
-		{
-			"0xa42e7f31":
-			[
-				[
-					7424,
-					8651
-				]
-			]
-		},
-		"G:\\Project Lap Trinh\\quanly-dosangtao\\public\\handsontable\\js\\custom.js":
-		{
-			"0x34f26355":
-			[
-				[
-					105,
-					668
-				]
-			]
-		},
-		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\components\\FieldSwitchRowSKU.blade.php":
-		{
-			"0x9048c2c9":
-			[
-				[
-					2056,
-					2780
+					14298,
+					14773
 				]
 			]
 		}

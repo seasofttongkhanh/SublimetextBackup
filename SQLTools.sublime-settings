@@ -12,6 +12,6 @@
     },
     "debug": true,
     "show_query": true,
-    "thread_timeout": 20,
+    "thread_timeout": 20
 
 }
