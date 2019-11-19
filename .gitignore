@@ -3,3 +3,5 @@
 SQLToolsConnections.*
 SQLTools.*
 Terminal.*
+**.cache
+*.cache
