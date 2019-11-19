@@ -37,6 +37,55 @@
         "string": "git add -A && git commit -m \"\"",
       },
   },
+  {
+      "caption": "terminus-string: git reset --hard HEAD",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git reset --hard HEAD",
+      },
+  },
+  {
+      "caption": "terminus-string: git push --set-upstream origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git push --set-upstream origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git push -f origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git push -f origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git config credential.helper store",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git config credential.helper store",
+      },
+  },
+  {
+      "caption": "terminus-string: git pull origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git pull origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git add all && git commit \"commit\" && git push",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git add all && git commit \"commit\" && git push",
+      },
+  },
+  {
+      "caption": "terminus-string: git rm . -r --cached",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git rm . -r --cached",
+      },
+  },
   // Artisan ---------------
   {
       "caption": "terminus-string: php artisan migrate",
