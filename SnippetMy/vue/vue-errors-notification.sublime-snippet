@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<div v-if="errors.$1">
-    <small v-for="(item, i) in errors.$1" :key="i" style="color: #ff5050"> {{item}} </small>
-</div>]]></content>
-    <tabTrigger>vue-errors-notification</tabTrigger>
-    <description>vue</description>
-</snippet>

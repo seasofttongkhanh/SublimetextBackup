@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-		UPDATE ${1:database}.${2:table} SET ${3:column1} = '${4:value1}', ${5:column2} = '${6:value2}' WHERE ${8:columnID} = ${9:ID};
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>update</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.sql</scope>
-</snippet>

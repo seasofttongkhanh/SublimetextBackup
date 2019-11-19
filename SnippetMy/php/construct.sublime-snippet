@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-public function __construct(){
-    $1
-} ]]></content>
-    <tabTrigger>construct</tabTrigger>
-    <description>php</description>
-</snippet> 

@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-mapState
-]]></content>
-<tabTrigger>mapState</tabTrigger>
-<description>vuex</description>
-<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, variable.other.readwrite.js</scope>
-</snippet>

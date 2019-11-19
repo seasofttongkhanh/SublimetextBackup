@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[
-@import '${1:path}';
-]]></content>
-<tabTrigger>import</tabTrigger>
-<description>
-SCSS</description>
-<scope>source.scss, meta.at-rule.import.css, keyword.control.at-rule.import.css, punctuation.definition.keyword.css</scope>
-</snippet>

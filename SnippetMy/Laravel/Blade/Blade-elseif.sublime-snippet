@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@elseif (${1:\$condition})
-]]></content>
-    <tabTrigger>Blade_elseif</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Blade @elseif</description>
-</snippet>

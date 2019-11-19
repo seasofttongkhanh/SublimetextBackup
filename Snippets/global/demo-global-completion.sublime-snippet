@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{
-  "contents": "$1",
-  "trigger": "$1\tglobal"
-},]]></content>
-    <tabTrigger>demo-global-completion</tabTrigger>
-    <description>Global</description>
-</snippet>

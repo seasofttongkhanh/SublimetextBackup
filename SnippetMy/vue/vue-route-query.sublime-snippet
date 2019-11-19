@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-this.\$route.query.$1]]></content>
-    <tabTrigger>vue-route-query</tabTrigger>
-    <description>vue-route</description>
-</snippet> 

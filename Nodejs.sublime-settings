@@ -1,7 +1,0 @@
-// Settings in here override those in "Nodejs/Nodejs.sublime-settings",
-// and are overridden in turn by syntax-specific settings.
-{
-  "npm_command": true,
-  "node_command": "C:/Program Files/nodejs/node.exe",
-  "output_to_new_tab": true,
-}

@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-wp_get_attachment_url(${1:id})
-]]></content>
-<tabTrigger>wp_get_attachment_url</tabTrigger>
-<description>wp_get_attachment_url</description>
-<scope>text.blade, text.html.blade, meta.tag.block.any.html, meta.attribute-with-value.html, string.quoted.double.html, entity.name.tag.blade, source.php.blade, meta.function-call.php, variable.function.php</scope>
-</snippet>

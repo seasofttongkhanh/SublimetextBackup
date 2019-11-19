@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[
-import $1 from '$2'
-window.$1 = $1
-]]></content>
-<tabTrigger>import_window</tabTrigger>
-<description></description>
-<scope>source.js, source.ts, meta.import.ts, keyword.control.import.ts</scope>
-</snippet>

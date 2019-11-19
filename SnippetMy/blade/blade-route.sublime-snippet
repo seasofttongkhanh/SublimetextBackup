@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{ route('${0:name}') }}
-]]></content>
-    <tabTrigger>b_route</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

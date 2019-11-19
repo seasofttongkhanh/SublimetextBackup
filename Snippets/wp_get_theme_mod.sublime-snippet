@@ -1,7 +1,0 @@
-<snippet>
-<content><![CDATA[
-get_theme_mod($1, ${2:'value default'})
-]]></content>
-<tabTrigger>get_theme_mod</tabTrigger>
-<description>Wordpress</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[off();]]></content>
-	<tabTrigger>off</tabTrigger>
-	<description>.off() jQuery</description>
-
-</snippet>

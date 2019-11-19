@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-decrypt(${1:\$encryptedValue})
-]]></content>
-    <tabTrigger>Helper_misc-decrypt</tabTrigger>
-    <scope>source.php</scope>
-    <description>Decrypts the given value.</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{ asset('${0:path}') }}
-]]></content>
-    <tabTrigger>b_asset</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

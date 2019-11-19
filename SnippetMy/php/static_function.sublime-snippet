@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-${1:public} static function $2(){
-    $3
-}]]></content>
-    <tabTrigger>static_function</tabTrigger>
-    <description>PHP</description>
-    <scope>source.php</scope>
-</snippet>

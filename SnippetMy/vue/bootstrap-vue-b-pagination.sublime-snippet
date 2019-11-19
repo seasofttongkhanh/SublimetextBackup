@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<b-pagination align="center" :total-rows="100" v-model="currentPage" :per-page="10">
-</b-pagination> ]]></content>
-    <tabTrigger>b-pagination</tabTrigger>
-    <description>vue-bootstrap</description>
-    <scope>text.html</scope>
-</snippet>
-

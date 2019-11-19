@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-Route::get('${1}', '$2@$3');
-]]></content>
-<tabTrigger>Route_get_controller</tabTrigger>
-<description>laravel</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
-</snippet>
