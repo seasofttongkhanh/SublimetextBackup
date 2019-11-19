@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+innerText]]></content>
+    <tabTrigger>js-innerText</tabTrigger>
+    <description>js-Dom-getText</description>
+</snippet>

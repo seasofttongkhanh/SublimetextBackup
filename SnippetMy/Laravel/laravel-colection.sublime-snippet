@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+collection('utf8::unicode::ci');$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>collection-utf8</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>My Laravel</description>
+</snippet>

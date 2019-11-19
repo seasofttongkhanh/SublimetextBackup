@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$root
+]]></content>
+<tabTrigger>root</tabTrigger>
+<description>Vue Instance</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.round, meta.group.braces.curly</scope>
+</snippet>

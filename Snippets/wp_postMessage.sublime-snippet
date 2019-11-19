@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+postMessage
+]]></content>
+<tabTrigger>postMessage</tabTrigger>
+<description>WP | transport</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, meta.group.php, meta.array.php, string.quoted.single.php, meta.string-contents.quoted.single.php</scope>
+</snippet>

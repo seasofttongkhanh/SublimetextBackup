@@ -1,0 +1,5 @@
+// settings in here override those in "Open URL/open_url.sublime-settings",
+
+{
+    "web_browser_path": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s"
+}

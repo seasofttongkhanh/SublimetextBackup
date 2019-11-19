@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/*---------------------------------
+//   ${1}
+=====================================*/
+]]></content>
+
+<tabTrigger>comm</tabTrigger>
+<scope>source.css</scope>
+
+</snippet>

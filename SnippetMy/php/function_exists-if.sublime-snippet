@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+if (!function_exists('$1')) :
+    function $1(){
+        $2
+    }
+endif;
+]]></content>
+    <tabTrigger>function_exists-if</tabTrigger>
+    <description>php</description>
+</snippet> 

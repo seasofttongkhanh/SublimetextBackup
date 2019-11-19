@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+innerHTML = $1]]></content>
+<tabTrigger>js-innerHTML</tabTrigger>
+    <description>js-node</description>
+    <!-- <scope>source.js</scope> -->
+</snippet>

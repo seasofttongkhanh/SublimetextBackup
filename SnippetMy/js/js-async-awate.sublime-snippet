@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+async ${1: nameFunction}(){
+    return await ${2:something}
+}
+  ]]></content>
+    <tabTrigger>async-function</tabTrigger>
+    <description>async-function</description>
+    <scope>source.js,source.jsx,source.ts,source.tsx</scope>
+</snippet>
+

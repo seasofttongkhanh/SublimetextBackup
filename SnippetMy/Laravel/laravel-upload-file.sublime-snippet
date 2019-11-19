@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+if (count(\$request->file)) {
+    \$typeFileName = date('d::m::y::h::i::') . rand(1000, 999999999) . preg::replace('/(\w+)\//', '.', File::mimeType(\$request->file));
+    Storage::disk('public')->putFileAs("/client-files/", \$request->file, \$typeFileName);
+    return response()->json(true, 200);
+}
+return response()->json(false, 500);]]></content>
+    <tabTrigger>laravel-upload-file</tabTrigger>
+    <description>laravel</description>
+</snippet>

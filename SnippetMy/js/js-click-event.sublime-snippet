@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+document.getElementById("${1:id}").addEventListener("click", function(){
+    $2
+});
+]]></content>
+    <tabTrigger>js-click-event</tabTrigger>
+    <description>js</description>
+</snippet>

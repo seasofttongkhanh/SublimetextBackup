@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@lang('${1:file.message}')
+]]></content>
+    <tabTrigger>Blade_lang</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Blade @lang</description>
+</snippet>

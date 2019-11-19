@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+require($1).default
+]]></content>
+<tabTrigger>req</tabTrigger>
+<description>Require Default</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.function-call.without-arguments.js, entity.name.function.js</scope>
+</snippet>

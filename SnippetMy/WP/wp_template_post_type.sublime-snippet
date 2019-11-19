@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<?php
+/*
+Template Name: $1
+Template Post Type: post, page, product
+*/
+?>]]></content>
+    <tabTrigger>wp_template_post_type</tabTrigger>
+    <description>WP</description>
+</snippet>

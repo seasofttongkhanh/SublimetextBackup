@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cin >> ${1:comment};$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cin</tabTrigger>
+    <description>input</description>
+	<scope>source.cpp, source.c, source.c++</scope>
+</snippet>

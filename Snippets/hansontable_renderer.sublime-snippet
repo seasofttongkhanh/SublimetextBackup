@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+renderer: function(instance, td, row, col, prop, value, cellProperties)
+]]></content>
+<tabTrigger>hansontable_renderer</tabTrigger>
+<description>JS Handsontable</description>
+<scope></scope>
+</snippet>

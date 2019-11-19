@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+    import Vue from 'vue'
+    import VueRouter from 'vue-router'
+
+    Vue.use(VueRouter)
+
+    const router = new VueRouter({
+        mode: 'history',
+        routes:[
+            {
+                path: 'pathModule',
+                component: resolve => require(['./components/Home.vue'], resolve),
+                children:[
+                    {
+                        path: 'index',
+                        index: 'index',
+                        component: resolve => require(['./components/index.vue'], resolve),
+                    },
+                ]
+            }
+        ]
+    })
+
+    /**
+     *
+     * name: Middleware
+     * meta: requiresAuth
+     * name route: login
+     * localStorage: authUser
+     *
+     */
+
+    router.beforeEach((to, from, next) => {
+        if (to.meta.requiresAuth) {
+            const authUser = JSON.parse(window.localStorage.getItem('authUser'))
+            if (authUser && authUser.access_token) {
+                next()
+            } else {
+                next({ name: 'login' })
+            }
+        } else {
+            next()
+        }
+    })
+
+    export default router;
+]]></content>
+    <tabTrigger>vue-import-router</tabTrigger>
+    <description>vue-import</description>
+</snippet>

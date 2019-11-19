@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$refs
+]]></content>
+<tabTrigger>refs</tabTrigger>
+<description>Vue Instance</description>
+<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, variable.other.dollar.js, punctuation.dollar.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+{
+	"clients":
+	{
+		"intelephense-ls":
+		{
+			"enabled": true
+		},
+		"javascript-typescript-langserver":
+		{
+			"enabled": true
+		},
+		"phpls":
+		{
+			"enabled": true
+		}
+	},
+  "auto_show_diagnostics_panel": false
+}

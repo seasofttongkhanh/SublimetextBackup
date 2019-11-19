@@ -1,0 +1,60 @@
+[
+	{
+		"args":
+		{
+			"single_line": false
+		},
+		"command": "reindent"
+	},
+	{
+		"args": null,
+		"command": "indent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args": null,
+		"command": "unindent"
+	},
+	{
+		"args":
+		{
+			"single_line": false
+		},
+		"command": "reindent"
+	}
+]

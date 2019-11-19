@@ -1,0 +1,16 @@
+{
+
+	"break_chained_methods": true,
+	"e4x": true,
+
+	"keep_array_indentation": true,
+	"keep_function_indentation": true,
+	"eval_code": true,
+	// "format_on_save": true,
+	"space_in_empty_paren": true,
+	"jsbeautifyrc_files": true,
+	"indent_with_tabs": true,
+	"jslint_happy": true,
+	"eval_code": true,
+	"format_on_save_extensions": ["js", "json","jsx","ts","tsx","vue","html"]
+}

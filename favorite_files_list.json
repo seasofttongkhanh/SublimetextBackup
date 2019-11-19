@@ -1,0 +1,14 @@
+{
+    "files": [
+        {
+            "alias": "index.vue",
+            "file": "C:\\Users\\Administrator\\Desktop\\New folder\\test\\Modules\\Tree\\Resources\\assets\\Vuejs\\Pages\\menu\\index.vue"
+        },
+        {
+            "alias": "wrapMenu.js",
+            "file": "C:\\Users\\Administrator\\Desktop\\New folder\\test\\Modules\\Tree\\Resources\\assets\\Vuejs\\store\\modules\\wrapMenu.js"
+        }
+    ],
+    "groups": {},
+    "version": 2
+}

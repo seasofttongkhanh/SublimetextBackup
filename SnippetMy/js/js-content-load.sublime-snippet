@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+window.addEventListener("DOMContentLoaded",function(event){
+	$1
+},false);// loaded Dom and not load Xhr
+]]></content>
+    <tabTrigger>js-content-load</tabTrigger>
+    <description>js</description>
+</snippet> 

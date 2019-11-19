@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+<nuxt-link class="${0:navbar-brand}" to="{${1:path}:'${2:/}'}">${3:content}</nuxt-link>]]></content>
+    <tabTrigger>vue-nuxt-link</tabTrigger>
+    <description>vue-nuxt</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+data.push({})]]></content>
+    <tabTrigger>js-push-object</tabTrigger>
+    <description>js</description>
+</snippet> 

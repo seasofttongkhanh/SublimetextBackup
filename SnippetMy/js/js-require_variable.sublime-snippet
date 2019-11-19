@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${3:var} $2 = require('$1')
+  ]]></content>
+    <tabTrigger>require_variable</tabTrigger>
+    <description>require_variable</description>
+    <scope>source.js, source.jsx, source.ts, source.tsx</scope>
+</snippet>
+

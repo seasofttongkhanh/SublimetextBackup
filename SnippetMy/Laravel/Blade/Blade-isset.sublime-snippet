@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@isset('${1:\$records}')
+    ${2:content}
+@endisset
+]]></content>
+    <tabTrigger>Blade_isset</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Blade @isset</description>
+</snippet>

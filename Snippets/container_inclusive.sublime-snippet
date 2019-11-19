@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+container_inclusive
+]]></content>
+<tabTrigger>container_inclusive</tabTrigger>
+<description>WP wp_customize</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, meta.group.php, meta.array.php, string.quoted.single.php, meta.string-contents.quoted.single.php</scope>
+</snippet>

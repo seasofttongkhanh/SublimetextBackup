@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+{
+    "contents": "use $1\$1",
+    "trigger": "use-$1\\tlaravel"
+},
+]]></content>
+<tabTrigger>completion_create_php_use</tabTrigger>
+<description>PHP</description>
+<scope>source.json.sublime.completions, meta.completions.collection.sublime-completions, meta.mapping.value.json, meta.sequence.json, meta.completions.sublime-completions</scope>
+</snippet>

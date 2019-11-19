@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+${1:arr}.filter(item => ${2:arr2}.find(id => parseInt(id) === item.id))]]></content>
+    <tabTrigger>js-filter-array</tabTrigger>
+    <description>js</description>
+</snippet>
