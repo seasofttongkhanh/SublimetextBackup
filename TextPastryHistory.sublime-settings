@@ -60,19 +60,6 @@
 			{
 				"args":
 				{
-					"text": "7"
-				},
-				"command": "text_pastry_step",
-				"text": "7"
-			},
-			"key": "8f14e45fceea167a5a36dedd4bea2543",
-			"label": "7"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"stop": "10"
 				},
 				"command": "text_pastry_range",
@@ -304,15 +291,28 @@
 			},
 			"key": "e4da3b7fbbce2345d7772b0674a318d5",
 			"label": "5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "7"
+				},
+				"command": "text_pastry_step",
+				"text": "7"
+			},
+			"key": "8f14e45fceea167a5a36dedd4bea2543",
+			"label": "7"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "5"
+			"text": "7"
 		},
 		"command": "text_pastry_step",
-		"text": "5"
+		"text": "7"
 	}
 }

@@ -305,13 +305,12 @@
         "keys": ["ctrl+w"],
         "command": "close_file"
     },
-
     {
         "keys": ["ctrl+alt+f"],
         "command": "html_beautify",
     },
     {
-        "keys": ["alt+left"],
+        "keys": ["ctrl+keypad4"],
         "command": "resize_active_group",
         "args":
         {
@@ -319,7 +318,7 @@
         }
     },
     {
-        "keys": ["alt+right"],
+        "keys": ["ctrl+keypad6"],
         "command": "resize_active_group",
         "args":
         {
@@ -327,7 +326,7 @@
         }
     },
     {
-        "keys": ["alt+up"],
+        "keys": ["ctrl+keypad8"],
         "command": "resize_active_group",
         "args":
         {
@@ -335,7 +334,7 @@
         }
     },
     {
-        "keys": ["alt+down"],
+        "keys": ["ctrl+keypad2"],
         "command": "resize_active_group",
         "args":
         {
@@ -528,7 +527,8 @@
             {
                 "key": "setting.dired_rename_mode",
                 "operand": false
-            }]
+            }
+        ]
     },
     {
         "keys": ["f"],

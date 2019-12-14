@@ -3433,6 +3433,196 @@
 					14773
 				]
 			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\app\\Http\\Controllers\\QuetDonController.php":
+		{
+			"0xf7920178":
+			[
+				[
+					5594,
+					5951
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\public\\handsontable\\js\\config.js":
+		{
+			"0xc1ea0b59":
+			[
+				[
+					833,
+					2267
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\NhapHang\\DLDangNhap.blade.php":
+		{
+			"0x7e77d4a5":
+			[
+				[
+					10454,
+					12171
+				],
+				[
+					12967,
+					14312
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\NhapHang\\DatHang.blade.php":
+		{
+			"0xfdb7afea":
+			[
+				[
+					25753,
+					26692
+				],
+				[
+					28558,
+					29547
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\ThungHang\\ChiTiet.blade.php":
+		{
+			"0xc6221acb":
+			[
+				[
+					5034,
+					5940
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\ThungHang\\NhapLieu.blade.php":
+		{
+			"0x1d72afef":
+			[
+				[
+					3207,
+					5212
+				],
+				[
+					16289,
+					17080
+				],
+				[
+					28410,
+					28814
+				],
+				[
+					28852,
+					29447
+				],
+				[
+					29480,
+					29964
+				],
+				[
+					29998,
+					30535
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\VanDonDangTheoDoi.blade.php":
+		{
+			"0xe151901d":
+			[
+				[
+					22511,
+					23181
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\XuLyDon\\DinhNghiaNVC.blade.php":
+		{
+			"0x9c78075c":
+			[
+				[
+					1420,
+					1763
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\XuLyDon\\QuetDon.blade.php":
+		{
+			"0x99cada00":
+			[
+				[
+					5070,
+					8062
+				],
+				[
+					13848,
+					14102
+				],
+				[
+					25898,
+					26066
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\XuLyDon\\ThietLap.blade.php":
+		{
+			"0xe53c970e":
+			[
+				[
+					717,
+					1429
+				],
+				[
+					1468,
+					3175
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\XuLyDon\\ThietLapKenhBan.blade.php":
+		{
+			"0xc319ce92":
+			[
+				[
+					3018,
+					3574
+				],
+				[
+					3611,
+					4185
+				],
+				[
+					4222,
+					4503
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\resources\\views\\admin\\management\\XuLyDon\\XuLy.blade.php":
+		{
+			"0xc8dea24a":
+			[
+				[
+					11288,
+					11817
+				],
+				[
+					21041,
+					21496
+				],
+				[
+					23501,
+					23925
+				],
+				[
+					23956,
+					24575
+				]
+			]
+		},
+		"G:\\Project Lap Trinh\\quanly-dosangtao\\routes\\web.php":
+		{
+			"0xf87a5342":
+			[
+				[
+					6298,
+					8170
+				]
+			]
 		}
 	},
 	"max_buffer_size": 1000000,

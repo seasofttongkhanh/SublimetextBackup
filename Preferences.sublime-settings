@@ -12,6 +12,10 @@
 		{
 			"characters": "::",
 			"selector": "source.php"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
 		}
 	],
 	"auto_complete_with_fields": true,
