@@ -17,6 +17,7 @@
     { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
     "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
 },
+{ "keys": ["ctrl+keypad0"], "command": "focus_side_bar" },
 {
     "keys": ["ctrl+k", "ctrl+s"],
     "command": "show_overlay",
@@ -253,12 +254,6 @@
         {
             "forward": false
         },
-    },
-
-
-    {
-        "keys": ["ctrl+'"],
-        "command": "expand_selection_to_quotes"
     },
     {
         "keys": ["ctrl+shift+alt+'"],
