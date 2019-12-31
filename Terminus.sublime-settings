@@ -11,7 +11,7 @@
 	"shell_configs":
 	[
 		{
-			"cmd": "cmd.exe",
+			"cmd": "wsl.exe",
 			"default": true,
 			"enable": true,
 			"env":
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"theme": "solarized-dark-higher-contrast",
+	"theme": "user",
 	"unix_term": "xterm-256color",
 	"user_theme_colors":
 	{
