@@ -73,10 +73,10 @@
       },
   },
   {
-      "caption": "terminus-string: git add all && git commit \"commit\" && git push",
+      "caption": "terminus-string: git add -A && git commit \"commit\" && git push",
       "command": "terminus_send_string",
       "args": {
-        "string": "git add all && git commit \"commit\" && git push",
+        "string": "git add -A && git commit \"commit\" && git push",
       },
   },
   {
