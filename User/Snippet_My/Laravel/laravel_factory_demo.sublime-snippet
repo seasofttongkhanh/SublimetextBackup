@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+\$products = new App\Products;
+\$faker = Faker\Factory::create();
+
+for (\$i=1; \$i <= 30; \$i++) {
+    \$products->insert([
+        'pro::title' => \$faker->name,
+        'pro::imagePath' => "storage/images/image-\$i.jpg",
+        'pro::description' => \$faker->text,
+        'pro::price' => \$faker->randomNumber(4,true),
+        'created::at' => date('Y-m-d H:i:s'),
+        'updated::at' => date('Y-m-d H:i:s'),
+    ]);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>laravel_seeder::factory</tabTrigger>
+</snippet>

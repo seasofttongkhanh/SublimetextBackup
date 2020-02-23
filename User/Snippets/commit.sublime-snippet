@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+"always_show_minimap_viewport": true,
+	"auto_complete_selector": "text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+	"auto_complete_triggers":
+]]></content>
+<tabTrigger>commit</tabTrigger>
+<description>commit</description>
+<scope>source.json.sublime.settings, meta.settings-mapping.sublime-settings, meta.mapping.key.json, string.quoted.double.json, punctuation.definition.string.begin.json</scope>
+</snippet>

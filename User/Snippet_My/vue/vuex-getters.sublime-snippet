@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+getters:{
+	$1
+}, //getters
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>vuex-getters</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.vue,source.js,source.jsx,source.ts,source.tsx</scope>
+</snippet>

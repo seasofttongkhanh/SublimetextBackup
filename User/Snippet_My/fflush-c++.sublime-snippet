@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+fflush(stdin);$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fflush</tabTrigger>
+    <description>fflush clear cache</description>
+	<scope>source.cpp, source.c, source.c++</scope>
+</snippet>

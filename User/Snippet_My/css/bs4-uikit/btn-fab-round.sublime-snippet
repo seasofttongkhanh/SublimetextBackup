@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button class="btn btn-primary btn-fab btn-round">
+  <i class="material-icons"></i>
+</button>]]></content>
+    <tabTrigger>ui4-btn-fab-round</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

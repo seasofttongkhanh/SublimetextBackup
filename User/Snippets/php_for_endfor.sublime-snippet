@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+for (\$${3:i}=$1; \$${3:i} < $2; \$${3:i}++) :
+    $4
+endfor;
+]]></content>
+<tabTrigger>for_endfor</tabTrigger>
+<description>php</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, keyword.control.php</scope>
+</snippet>

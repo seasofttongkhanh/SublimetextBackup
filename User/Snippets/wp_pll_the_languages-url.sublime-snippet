@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+pll_the_languages(array('raw'=>1))['${1:en}']['url']
+]]></content>
+<tabTrigger>pll_the_languages-url</tabTrigger>
+<description>string | WP plugin polylang</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, meta.attribute-with-value.html, string.quoted.double.html, entity.name.tag.blade, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

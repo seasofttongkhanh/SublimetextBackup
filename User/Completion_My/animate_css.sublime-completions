@@ -1,0 +1,308 @@
+{
+    "completions": [
+      {
+        "contents" : "bounce",
+        "trigger": "animated_bounce\tanimate css"
+    },
+      {
+        "contents" : "flash",
+        "trigger": "animated_flash\tanimate css"
+    },
+      {
+        "contents" : "pulse",
+        "trigger": "animated_pulse\tanimate css"
+    },
+      {
+        "contents" : "rubberBand",
+        "trigger": "animated_rubberBand\tanimate css"
+    },
+      {
+        "contents" : "shake",
+        "trigger": "animated_shake\tanimate css"
+    },
+      {
+        "contents" : "swing",
+        "trigger": "animated_swing\tanimate css"
+    },
+      {
+        "contents" : "tada",
+        "trigger": "animated_tada\tanimate css"
+    },
+      {
+        "contents" : "wobble",
+        "trigger": "animated_wobble\tanimate css"
+    },
+      {
+        "contents" : "jello",
+        "trigger": "animated_jello\tanimate css"
+    },
+      {
+        "contents" : "bounceIn",
+        "trigger": "animated_bounceIn\tanimate css"
+    },
+      {
+        "contents" : "bounceInDown",
+        "trigger": "animated_bounceInDown\tanimate css"
+    },
+      {
+        "contents" : "bounceInLeft",
+        "trigger": "animated_bounceInLeft\tanimate css"
+    },
+      {
+        "contents" : "bounceInRight",
+        "trigger": "animated_bounceInRight\tanimate css"
+    },
+      {
+        "contents" : "bounceInUp",
+        "trigger": "animated_bounceInUp\tanimate css"
+    },
+      {
+        "contents" : "bounceOut",
+        "trigger": "animated_bounceOut\tanimate css"
+    },
+      {
+        "contents" : "bounceOutDown",
+        "trigger": "animated_bounceOutDown\tanimate css"
+    },
+      {
+        "contents" : "bounceOutLeft",
+        "trigger": "animated_bounceOutLeft\tanimate css"
+    },
+      {
+        "contents" : "bounceOutRight",
+        "trigger": "animated_bounceOutRight\tanimate css"
+    },
+      {
+        "contents" : "bounceOutUp",
+        "trigger": "animated_bounceOutUp\tanimate css"
+    },
+      {
+        "contents" : "fadeIn",
+        "trigger": "animated_fadeIn\tanimate css"
+    },
+      {
+        "contents" : "fadeInDown",
+        "trigger": "animated_fadeInDown\tanimate css"
+    },
+      {
+        "contents" : "fadeInDownBig",
+        "trigger": "animated_fadeInDownBig\tanimate css"
+    },
+      {
+        "contents" : "fadeInLeft",
+        "trigger": "animated_fadeInLeft\tanimate css"
+    },
+      {
+        "contents" : "fadeInLeftBig",
+        "trigger": "animated_fadeInLeftBig\tanimate css"
+    },
+      {
+        "contents" : "fadeInRight",
+        "trigger": "animated_fadeInRight\tanimate css"
+    },
+      {
+        "contents" : "fadeInRightBig",
+        "trigger": "animated_fadeInRightBig\tanimate css"
+    },
+      {
+        "contents" : "fadeInUp",
+        "trigger": "animated_fadeInUp\tanimate css"
+    },
+      {
+        "contents" : "fadeInUpBig",
+        "trigger": "animated_fadeInUpBig\tanimate css"
+    },
+      {
+        "contents" : "fadeOut",
+        "trigger": "animated_fadeOut\tanimate css"
+    },
+      {
+        "contents" : "fadeOutDown",
+        "trigger": "animated_fadeOutDown\tanimate css"
+    },
+      {
+        "contents" : "fadeOutDownBig",
+        "trigger": "animated_fadeOutDownBig\tanimate css"
+    },
+      {
+        "contents" : "fadeOutLeft",
+        "trigger": "animated_fadeOutLeft\tanimate css"
+    },
+      {
+        "contents" : "fadeOutLeftBig",
+        "trigger": "animated_fadeOutLeftBig\tanimate css"
+    },
+      {
+        "contents" : "fadeOutRight",
+        "trigger": "animated_fadeOutRight\tanimate css"
+    },
+      {
+        "contents" : "fadeOutRightBig",
+        "trigger": "animated_fadeOutRightBig\tanimate css"
+    },
+      {
+        "contents" : "fadeOutUp",
+        "trigger": "animated_fadeOutUp\tanimate css"
+    },
+      {
+        "contents" : "fadeOutUpBig",
+        "trigger": "animated_fadeOutUpBig\tanimate css"
+    },
+      {
+        "contents" : "flip",
+        "trigger": "animated_flip\tanimate css"
+    },
+      {
+        "contents" : "flipInX",
+        "trigger": "animated_flipInX\tanimate css"
+    },
+      {
+        "contents" : "flipInY",
+        "trigger": "animated_flipInY\tanimate css"
+    },
+      {
+        "contents" : "flipOutX",
+        "trigger": "animated_flipOutX\tanimate css"
+    },
+      {
+        "contents" : "flipOutY",
+        "trigger": "animated_flipOutY\tanimate css"
+    },
+      {
+        "contents" : "lightSpeedIn",
+        "trigger": "animated_lightSpeedIn\tanimate css"
+    },
+      {
+        "contents" : "lightSpeedOut",
+        "trigger": "animated_lightSpeedOut\tanimate css"
+    },
+      {
+        "contents" : "rotateIn",
+        "trigger": "animated_rotateIn\tanimate css"
+    },
+      {
+        "contents" : "rotateInDownLeft",
+        "trigger": "animated_rotateInDownLeft\tanimate css"
+    },
+      {
+        "contents" : "rotateInDownRight",
+        "trigger": "animated_rotateInDownRight\tanimate css"
+    },
+      {
+        "contents" : "rotateInUpLeft",
+        "trigger": "animated_rotateInUpLeft\tanimate css"
+    },
+      {
+        "contents" : "rotateInUpRight",
+        "trigger": "animated_rotateInUpRight\tanimate css"
+    },
+      {
+        "contents" : "rotateOut",
+        "trigger": "animated_rotateOut\tanimate css"
+    },
+      {
+        "contents" : "rotateOutDownLeft",
+        "trigger": "animated_rotateOutDownLeft\tanimate css"
+    },
+      {
+        "contents" : "rotateOutDownRight",
+        "trigger": "animated_rotateOutDownRight\tanimate css"
+    },
+      {
+        "contents" : "rotateOutUpLeft",
+        "trigger": "animated_rotateOutUpLeft\tanimate css"
+    },
+      {
+        "contents" : "rotateOutUpRight",
+        "trigger": "animated_rotateOutUpRight\tanimate css"
+    },
+      {
+        "contents" : "slideInUp",
+        "trigger": "animated_slideInUp\tanimate css"
+    },
+      {
+        "contents" : "slideInDown",
+        "trigger": "animated_slideInDown\tanimate css"
+    },
+      {
+        "contents" : "slideInLeft",
+        "trigger": "animated_slideInLeft\tanimate css"
+    },
+      {
+        "contents" : "slideInRight",
+        "trigger": "animated_slideInRight\tanimate css"
+    },
+      {
+        "contents" : "slideOutUp",
+        "trigger": "animated_slideOutUp\tanimate css"
+    },
+      {
+        "contents" : "slideOutDown",
+        "trigger": "animated_slideOutDown\tanimate css"
+    },
+      {
+        "contents" : "slideOutLeft",
+        "trigger": "animated_slideOutLeft\tanimate css"
+    },
+      {
+        "contents" : "slideOutRight",
+        "trigger": "animated_slideOutRight\tanimate css"
+    },
+      {
+        "contents" : "zoomIn",
+        "trigger": "animated_zoomIn\tanimate css"
+    },
+      {
+        "contents" : "zoomInDown",
+        "trigger": "animated_zoomInDown\tanimate css"
+    },
+      {
+        "contents" : "zoomInLeft",
+        "trigger": "animated_zoomInLeft\tanimate css"
+    },
+      {
+        "contents" : "zoomInRight",
+        "trigger": "animated_zoomInRight\tanimate css"
+    },
+      {
+        "contents" : "zoomInUp",
+        "trigger": "animated_zoomInUp\tanimate css"
+    },
+      {
+        "contents" : "zoomOut",
+        "trigger": "animated_zoomOut\tanimate css"
+    },
+      {
+        "contents" : "zoomOutDown",
+        "trigger": "animated_zoomOutDown\tanimate css"
+    },
+      {
+        "contents" : "zoomOutLeft",
+        "trigger": "animated_zoomOutLeft\tanimate css"
+    },
+      {
+        "contents" : "zoomOutRight",
+        "trigger": "animated_zoomOutRight\tanimate css"
+    },
+      {
+        "contents" : "zoomOutUp",
+        "trigger": "animated_zoomOutUp\tanimate css"
+    },
+      {
+        "contents" : "hinge",
+        "trigger": "animated_hinge\tanimate css"
+    },
+      {
+        "contents" : "jackInTheBox",
+        "trigger": "animated_jackInTheBox\tanimate css"
+    },
+      {
+        "contents" : "rollIn",
+        "trigger": "animated_rollIn\tanimate css"
+    },
+      {
+        "contents" : "rollOut",
+        "trigger": "animated_rollOut\tanimate css"
+    }
+    ]
+}

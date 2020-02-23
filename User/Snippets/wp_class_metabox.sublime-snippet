@@ -1,0 +1,265 @@
+<snippet>
+<content><![CDATA[
+<?php
+namespace Awps\Api;
+
+class Metabox
+{
+    /**
+     * Hook into the appropriate actions when the class is constructed.
+     */
+    public function __construct() {
+        if (is_admin()) {
+            add_action( 'add_meta_boxes', array( \$this, 'add_meta_box' ) );
+            add_action( 'save_post',      array( \$this, 'save' ) );
+            add_action( 'save_post',      array( \$this, 'edit_save' ) );
+        }
+    }
+
+
+    /**
+     * Adds the meta box container.
+     */
+    public function add_meta_box( \$post_type ) {
+        // Limit meta box to certain post types.
+        \$post_types = array( 'post', 'page' );
+
+        if ( in_array( \$post_type, \$post_types ) ) {
+            add_meta_box(
+                'some_meta_box_name',
+                __( 'Bản báo giá sản phẩm', 'huyminhcantho' ),
+                array( \$this, 'render_meta_box_content' ),
+                \$post_type,
+                'advanced',
+                'default'
+            );
+        }
+    }
+
+    /**
+     * set value default meta box
+     *
+     * @return array
+     */
+    public function defaults(){
+        return array(
+            'item_1' => 'value_1',
+            'item_2' => 'value_2',
+        );
+    }
+
+    /**
+     * Save the meta when the post is saved.
+     *
+     * @param int \$post_id The ID of the post being saved.
+     */
+    public function save( \$post_id ) {
+
+        /*
+         * We need to verify this came from the our screen and with proper authorization,
+         * because save_post can be triggered at other times.
+         */
+
+        // Check if our nonce is set.
+        if ( ! isset( \$_POST['form_metabox_process'] ) ) {
+            return \$post_id;
+        }
+
+        \$nonce = \$_POST['form_metabox_process'];
+
+        // Verify that the nonce is valid.
+        if ( ! wp_verify_nonce( \$nonce, 'myplugin_inner_custom_box' ) ) {
+            return \$post_id;
+        }
+
+        /*
+         * If this is an autosave, our form has not been submitted,
+         * so we don't want to do anything.
+         */
+        if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+            return \$post_id;
+        }
+
+        // Check the user's permissions.
+        if ( 'page' == \$_POST['post_type'] ) {
+            if ( ! current_user_can( 'edit_page', \$post_id ) ) {
+                return \$post_id;
+            }
+        } else {
+            if ( ! current_user_can( 'edit_post', \$post_id ) ) {
+                return \$post_id;
+            }
+        }
+
+        /* OK, it's safe for us to save the data now. */
+
+        // Set up an empty array
+		\$sanitized = array();
+
+        // Sanitize the user input.
+        \$contents = \$_POST['_meta_field'];
+
+        // Update the meta field.
+        if(is_array(\$contents) && isset(\$contents))
+        {
+            foreach(\$contents as \$key => \$value){
+                \$sanitized[\$key] = wp_filter_post_kses( \$value );
+            }
+            update_post_meta( \$post_id, '_meta_key', \$sanitized );
+        }
+    }
+
+    public function edit_save(\$post_id){
+        // check if it's edit
+        \$edit_post_id = wp_is_post_revision( \$post_id );
+
+        if(\$edit_post_id){
+            // get saved data
+            \$parent = get_post( \$edit_post_id );
+			\$data = get_post_meta( \$parent->ID, '_namespace', true );
+            if( !empty( \$data ) && is_array(\$data)){
+                \$defaults = \$this->defaults();
+                foreach( \$defaults as \$key => \$value ){
+                    if(array_key_exists(\$key, \$data)){
+                        add_metadata( 'post', \$post_id, "meta_\$key", \$value );
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+	 * Get the data to display on the revisions page
+	 * @param  Array \$fields The fields
+	 * @return Array The fields
+	 */
+	function get_default_value( \$fields ) {
+		// Get our default values
+		\$defaults = \$this->defaults();
+		// For each field, use the key as the title
+		foreach ( \$defaults as \$key => \$value ) {
+			\$fields['_namespace_' . \$key] = ucfirst( \$key );
+		}
+		return \$fields;
+	}
+
+    /**
+     * Render Meta Box content.
+     *
+     * @param WP_Post \$post The post object.
+     */
+    public function render_meta_box_content( \$post ) {
+
+        // Add an nonce field so we can check for it later.
+        wp_nonce_field( 'myplugin_inner_custom_box', 'form_metabox_process' );
+
+        // Use get_post_meta to retrieve an existing value from the database.
+        \$value = get_post_meta( \$post->ID, '_meta_key', true );
+        if(empty(\$value)) \$value = array();
+        // check empty key
+        if(!array_key_exists('don_gia', \$value) && empty(\$value['don_gia']))
+            \$value['don_gia'] = 0;
+        if(!array_key_exists('nha_san_xuat', \$value) && empty(\$value['nha_san_xuat']))
+            \$value['nha_san_xuat'] = '';
+        if(!array_key_exists('bao_hanh', \$value) && empty(\$value['bao_hanh']))
+            \$value['bao_hanh'] = '';
+        if(!array_key_exists('thue_vat', \$value) && empty(\$value['thue_vat']))
+            \$value['thue_vat'] = 0;
+        ?>
+        <label for="_meta_field[don_gia]"><strong>Đơn giá: </strong> </label>
+        <input type="text" data-type="currency" name="_meta_field[don_gia]" value="<?php echo \$value['don_gia'] ?>">
+
+        <label for="_meta_field[nha_san_xuat]"><strong>Nhà sản xuất: </strong> </label>
+        <input type="text" name="_meta_field[nha_san_xuat]" value="<?php echo \$value['nha_san_xuat'] ?>">
+
+        <label for="_meta_field[bao_hanh]"><strong>Bảo hành: </strong> </label>
+        <input type="text" name="_meta_field[bao_hanh]" value="<?php echo \$value['bao_hanh'] ?>">
+
+        <label for="_meta_field[thue_vat]"><strong>Thuế Vat: </strong> </label>
+        <input type="checkbox" name="_meta_field[thue_vat]" <?php if(\$value['thue_vat']) echo 'checked' ?> >
+        <script>
+            jQuery("input[data-type='currency']").on({
+                keyup: function() {
+                    formatCurrency(jQuery(this));
+                },
+                blur: function() {
+                    formatCurrency(jQuery(this), "blur");
+                }
+            });
+            function formatNumber(n) {
+                // format number 1000000 to 1,234,567
+                return n.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+            }
+            function formatCurrency(input, blur) {
+                // appends jQuery to value, validates decimal side
+                // and puts cursor back in right position.
+
+                // get input value
+                var input_val = input.val();
+
+                // don't validate empty input
+                if (input_val === "") {
+                    return;
+                }
+
+                // original length
+                var original_len = input_val.length;
+
+                // initial caret position
+                var caret_pos = input.prop("selectionStart");
+
+                // check for decimal
+                if (input_val.indexOf(".") >= 0) {
+
+                    // get position of first decimal
+                    // this prevents multiple decimals from
+                    // being entered
+                    var decimal_pos = input_val.indexOf(".");
+
+                    // split number by decimal point
+                    var left_side = input_val.substring(0, decimal_pos);
+                    var right_side = input_val.substring(decimal_pos);
+
+                    // add commas to left side of number
+                    left_side = formatNumber(left_side);
+
+                    // validate right side
+                    right_side = formatNumber(right_side);
+
+                    // Limit decimal to only 2 digits
+                    right_side = right_side.substring(0, 2);
+
+                    // join number by .
+                    input_val = left_side + "." + right_side;
+
+                } else {
+                    // no decimal entered
+                    // add commas to number
+                    // remove all non-digits
+                    input_val = formatNumber(input_val);
+                    input_val = input_val;
+
+                    // final formatting
+                    if (blur === "blur") {
+                        input_val += "";
+                    }
+                }
+
+                // send updated string to input
+                input.val(input_val);
+
+                // put caret back in the right position
+                var updated_len = input_val.length;
+                caret_pos = updated_len - original_len + caret_pos;
+                input[0].setSelectionRange(caret_pos, caret_pos);
+            }
+        </script>
+        <?php
+    }
+}
+ ?>
+]]></content>
+<tabTrigger>wp_class_metabox</tabTrigger>
+<description>Wordpress</description>
+<scope>source.php, text.html.basic, meta.embedded.block.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

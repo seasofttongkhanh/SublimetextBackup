@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -33,6 +34,7 @@
 		"Expand Selection to Quotes",
 		"ExpandRegion",
 		"FavoriteFiles",
+		"FileIcons",
 		"Fold Javascript Functions",
 		"FuzzyFilePath",
 		"Git badges like VS Code",
@@ -43,6 +45,7 @@
 		"HTMLBeautify",
 		"Icon Fonts",
 		"Icon Fonts (Legacy)",
+		"ImagePreview",
 		"INI",
 		"JavaScript Completions",
 		"JavaScript Next Snippets",
@@ -65,10 +68,12 @@
 		"MarkdownPreview",
 		"October Twig Highlighter",
 		"Open URL",
+		"Origami",
 		"Package Control",
 		"PackageDev",
 		"PackageResourceViewer",
 		"PackagesUI",
+		"PanePane",
 		"PHP Companion",
 		"PHP-Twig",
 		"phpfmt",
@@ -99,7 +104,6 @@
 		"Vue Syntax Highlight",
 		"Vuejs Snippets",
 		"WordPress",
-		"WordPress Completions",
-		"ImagePreview"
+		"WordPress Completions"
 	]
 }

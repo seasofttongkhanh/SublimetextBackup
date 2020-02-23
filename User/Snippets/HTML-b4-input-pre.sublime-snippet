@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<div class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text bg-success text-white" id=""></span>
+  </div>
+  <input type="text" class="form-control" placeholder="Enter..." id="filter-sku" aria-describedby="">
+</div>
+]]></content>
+<tabTrigger>b4-input-pre</tabTrigger>
+<description>bootstrap 4</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

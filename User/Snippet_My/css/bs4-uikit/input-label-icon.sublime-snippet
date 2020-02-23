@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group bmd-form-group">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">
+            <i class="material-icons">group</i>
+        </span>
+      </div>
+      <input type="text" class="form-control" placeholder="With Material Icons">
+    </div>
+</div>]]></content>
+    <tabTrigger>ui4-input-label-icon</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+        <!-- Type `add_image` and hit tab to output the add_image_size function. -->
+        <!-- The cursor will be placed inside of the function where you can enter the name of your custom image size. -->
+        <!-- Hitting tab once will allow you to set the width of the image. -->
+        <!-- Hitting tab a second time will allow you to set the height of the image. -->
+        <!-- Hitting tab a third time will select the entire crop setting. This can be a boolean (true/false) or an array with more custom settings. -->
+        <!-- If using the crop array, hitting tab again will allow you to specify the x-crop position. -->
+        <!-- If using the crop array, hitting tab a final time will allow you to specify the y-crop position. -->
+        <content><![CDATA[
+/**=======================================
+*  @ ${1}
+*  @ ${2}
+*  @ ${3}
+*  @ ${4}
+*  @ ${5}
+*  @ ${6}
+* =======================================*/
+]]></content>
+        <tabTrigger>comment</tabTrigger>
+        <description>comment_php</description>
+        <scope>source.php</scope>
+    </snippet>

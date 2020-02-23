@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+\$wp_customize->add_setting(
+	'$1',
+	array(
+		'default'           => '$2',
+		'transport'         => 'postMessage',
+	)
+);
+\$wp_customize->add_control(
+	'$1',
+	array(
+		'label'           => __( 'Page Layout', 'twentyseventeen' ),
+		'section'         => 'theme_options',
+		'type'            => 'text',
+	)
+);
+]]></content>
+<tabTrigger>wp_add_customize</tabTrigger>
+<description>WP wp_customize</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+directives: {
+    focus: {
+        inserted: function (el) {
+            el.focus()
+        }
+    }// v-focus
+},// directives]]></content>
+    <tabTrigger>vue-directives-focus</tabTrigger>
+    <description>vue</description>
+</snippet>

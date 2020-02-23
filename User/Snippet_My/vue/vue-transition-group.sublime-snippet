@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<transition-group name="${1:list}" tag="$2">
+    <span class="" v-for="(${3:item}, ${4:index}) in ${5:items}" v-bind:key="$4">
+      $0
+    </span>
+  </transition-group>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>transition-group</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>

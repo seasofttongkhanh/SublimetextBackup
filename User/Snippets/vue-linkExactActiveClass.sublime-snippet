@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+linkExactActiveClass
+]]></content>
+<tabTrigger>linkExactActiveClass</tabTrigger>
+<description>vue-router</description>
+<scope>source.ts, source.js, meta.var.expr.ts, new.expr.ts, meta.objectliteral.ts, meta.object.member.ts, meta.array.literal.ts, meta.objectliteral.ts, meta.object.member.ts, meta.object-literal.key.ts</scope>
+</snippet>

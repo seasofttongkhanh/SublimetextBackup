@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+    "scope": "source.php",
+    "completions": [
+      {
+        "contents": "$1",
+        "trigger": "$2\\t$3"
+      },
+    ]
+}
+]]></content>
+    <tabTrigger>demo-completion</tabTrigger>
+    <description>sublime-completion</description>
+</snippet>

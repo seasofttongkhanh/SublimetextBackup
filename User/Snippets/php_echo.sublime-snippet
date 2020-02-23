@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo $1 ?>
+]]></content>
+<tabTrigger>php_echo</tabTrigger>
+<description>php</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

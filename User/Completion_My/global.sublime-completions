@@ -1,0 +1,46 @@
+{
+    "completions": [
+      {
+        "contents": "excerpt",
+        "trigger": "excerpt\tglobal"
+      },
+      // cdn
+      {
+        "trigger": "cdn_bootstrap-css-4\tcdn",
+        "contents": "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">"
+      },
+      {
+        "trigger": "cdn_jquery\tcdn",
+        "contents": "<script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>"
+      },
+      {
+        "trigger": "cdn_bootstrap-popper\tcdn",
+        "contents": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "trigger": "cdn_bootstrap-js\tcdn",
+        "contents": "<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "trigger": "cdn_fullcalendar-css\tcdn",
+        "contents": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.css\" integrity=\"sha256-saO3mkZVAcyqsfgsGMrmE7Cs/TLN1RgVykZ5dnnJKug=\" crossorigin=\"anonymous\" />"
+      },
+      {
+        "trigger": "cdn_fullcalendar-js\tcdn",
+        "contents": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/list/main.min.js\" integrity=\"sha256-q57s73NpMCTQ4ZXqb1X5bIywrICySeB6WvYxFGfz/PA=\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "trigger": "cdn_jquery-ui\tcdn",
+        "contents": "<script src=\"https://code.jquery.com/ui/1.12.1/jquery-ui.min.js\"></script>"
+      },
+      {
+        "trigger": "cdn_momment-js\tcdn",
+        "contents": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js\" integrity=\"sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=\" crossorigin=\"anonymous\"></script>"
+      },
+      {
+        "trigger": "cdn_fullcalendar_locale_vi_js\tcdn 3.4.0",
+        "contents": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/locale/vi.js\"></script>\n"
+      },
+    ]
+}
+

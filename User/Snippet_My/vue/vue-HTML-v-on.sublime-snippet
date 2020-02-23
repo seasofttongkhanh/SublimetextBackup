@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+v-on:$1="$2"]]></content>
+    <tabTrigger>v-on</tabTrigger>
+    <description>event Vue</description>
+    <scope>text.html</scope>
+</snippet>
+

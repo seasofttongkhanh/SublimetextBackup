@@ -1,0 +1,387 @@
+{
+    "scope": "source.php",
+    "completions": [
+        {
+            "contents": "_POST['$1']",
+            "trigger": "_POST\tphp",
+        },{
+            "contents": "_GET['$1']",
+            "trigger": "_GET\tphp",
+        },{
+            "contents": "_COOKIE['$1']",
+            "trigger": "_COOKIE\tphp",
+        },{
+            "contents": "_SESSION['$1']",
+            "trigger": "_SESSION\tphp",
+        },
+
+        // class LARAVEL
+        {
+          "contents": "Illuminate\\Support\\Facades\\Schema;",
+          "trigger": "use-Illuminate\\Support\\Facades\\Schema;   \tlaravel"
+      },
+      {
+          "contents": "Illuminate\\Database\\Schema\\Blueprint",
+          "trigger": "use-Illuminate\\Database\\Schema\\Blueprint   \tlaravel"
+      },
+      {
+          "contents": "Illuminate\\Database\\Migrations\\Migration;",
+          "trigger": "use-Illuminate\\Database\\Migrations\\Migration;   \tlaravel"
+      },
+      {
+        "contents": "Illuminate\\Database\\Eloquent$1",
+        "trigger": "use-Illuminate\\Database\\Eloquent   \tlaravel"
+    },
+    {
+        "contents": "App\\Http\\Controllers$1",
+        "trigger": "use-App\\Http\\Controllers   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Http\\Request$1",
+        "trigger": "use-Illuminate\\Http\\Request   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Foundation\\Auth\\AuthenticatesUsers$1",
+        "trigger": "use-Illuminate\\Foundation\\Auth\\AuthenticatesUsers   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Support\\Facades\\Schema$1",
+        "trigger": "use-Illuminate\\Support\\Facades\\Schema   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Support\\Facades\\$1",
+        "trigger": "use-Illuminate\\Support\\Facades\\   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Auth\\Notifications\\ResetPassword$1",
+        "trigger": "use-Illuminate\\Auth\\Notifications\\ResetPassword   \tlaravel"
+    },
+    {
+        "contents": "Illuminate\\Notifications\\Messages\\MailMessage$1",
+        "trigger": "use-Illuminate\\Notifications\\Messages\\MailMessage   \tlaravel"
+    },
+        // END
+
+        {
+            "contents": "isset(\\$_POST['$1'])",
+            "trigger": "isset_post\tPHP"
+        },
+        {
+            "contents": "isset(\\$_GET['$1'])",
+            "trigger": "isset_get\tPHP"
+        },
+
+        /*=================================
+        =            Wordpress (WP)       =
+        =================================*/
+        {
+            "contents": "define( 'WP_DEBUG_LOG', true );",
+            "trigger": "wp_debug_log\tWP"
+        },
+        {
+            "contents": "get_the_post_thumbnail_url()",
+            "trigger": "get_the_post_thumbnail_url\tWP"
+        },
+        {
+            "contents": "%$1\\$s",
+            "trigger": "%%\tWP get var"
+        },
+
+        /*===============================
+        =            Laravel            =
+        ===============================*/
+        {
+            "contents": "hasMany('${1:class}')",
+            "trigger": "hasMany\tEloquent laravel"
+        },
+        {
+            "contents": "belongsTo('${1:class}')",
+            "trigger": "belongsTo\tEloquent laravel"
+        },
+        {
+            "contents": "belongsToMany('${1:class}')",
+            "trigger": "belongsToMany\tEloquent laravel"
+        },
+        {
+            "contents": "hasManyThrough('${1:class}')",
+            "trigger": "hasManyThrough\tEloquent laravel"
+        },
+        {
+            "contents": "morphTo('${1:class}')",
+            "trigger": "morphTo\tEloquent laravel"
+        },
+        {
+            "contents": "has('${1:class}')",
+            "trigger": "has\tEloquent laravel"
+        },
+        {
+            "contents": "whereHas('${1:class}')",
+            "trigger": "whereHas\tEloquent laravel"
+        },
+        {
+            "contents": "with('${1:class}')",
+            "trigger": "with\tEloquent laravel"
+        },
+        {
+            "contents": "orderBy('${1:class}')",
+            "trigger": "orderBy\tEloquent laravel"
+        },
+        {
+            "contents": "find('${1:class}')",
+            "trigger": "find\tEloquent laravel"
+        },
+        {
+            "contents": "whereIn()",
+            "trigger": "whereIn\tBuilder laravel"
+        },
+        {
+            "contents": "lists()",
+            "trigger": "lists\tBuilder laravel"
+        },
+        {
+            "contents": "distinct()",
+            "trigger": "distinct\tBuilder laravel"
+        },
+        {
+            "contents": "addSelect()",
+            "trigger": "addSelect\tBuilder laravel"
+        },
+        {
+            "contents": "orWhere()",
+            "trigger": "orWhere\tBuilder laravel"
+        },
+        {
+            "contents": "whereBetween()",
+            "trigger": "whereBetween\tBuilder laravel"
+        },
+        {
+            "contents": "whereNotIn()",
+            "trigger": "whereNotIn\tBuilder laravel"
+        },
+        {
+            "contents": "whereNull()",
+            "trigger": "whereNull\tBuilder laravel"
+        },
+        {
+            "contents": "whereIdAndEmail()",
+            "trigger": "whereIdAndEmail\tBuilder laravel"
+        },
+        {
+            "contents": "whereId()",
+            "trigger": "whereId\tBuilder laravel"
+        },
+        {
+            "contents": "whereNameOrAge()",
+            "trigger": "whereNameOrAge\tBuilder laravel"
+        },
+        {
+            "contents": "orderBy()",
+            "trigger": "orderBy\tBuilder laravel"
+        },
+        {
+            "contents": "groupBy()",
+            "trigger": "groupBy\tBuilder laravel"
+        },
+        {
+            "contents": "having()",
+            "trigger": "having\tBuilder laravel"
+        },
+        {
+            "contents": "skip()",
+            "trigger": "skip\tBuilder laravel"
+        },
+        {
+            "contents": "skip()",
+            "trigger": "skip\tBuilder laravel"
+        },
+        {
+            "contents": "join()",
+            "trigger": "join\tBuilder laravel"
+        },
+        {
+            "contents": "max()",
+            "trigger": "max\tBuilder laravel"
+        },
+        {
+            "contents": "min()",
+            "trigger": "min\tBuilder laravel"
+        },
+        {
+            "contents": "avg()",
+            "trigger": "avg\tBuilder laravel"
+        },
+        {
+            "contents": "sum()",
+            "trigger": "sum\tBuilder laravel"
+        },
+        {
+            "contents": "insertGetId()",
+            "trigger": "insertGetId\tBuilder laravel"
+        },
+        {
+            "contents":"bigIncrements('id')",
+            "trigger": "bigIncrements\tLaravel Schema"
+        },
+        {
+            "contents":"bigInteger('votes')",
+            "trigger": "bigInteger\tLaravel Schema"
+        },
+        {
+            "contents":"binary('data')",
+            "trigger": "binary\tLaravel Schema"
+        },
+        {
+            "contents":"boolean('confirmed')",
+            "trigger": "boolean\tLaravel Schema"
+        },
+        {
+            "contents":"char('name', 4)",
+            "trigger": "char\tLaravel Schema"
+        },
+        {
+            "contents":"date('created_at')",
+            "trigger": "date\tLaravel Schema"
+        },
+        {
+            "contents":"dateTime('created_at')",
+            "trigger": "dateTime\tLaravel Schema"
+        },
+        {
+            "contents":"decimal('amount', 5, 2)",
+            "trigger": "decimal\tLaravel Schema"
+        },
+        {
+            "contents":"double('column', 15, 8)",
+            "trigger": "double\tLaravel Schema"
+        },
+        {
+            "contents":"enum('choices', ['foo', 'bar'])",
+            "trigger": "enum\tLaravel Schema"
+        },
+        {
+            "contents":"float('amount')",
+            "trigger": "float\tLaravel Schema"
+        },
+        {
+            "contents":"increments('id')",
+            "trigger": "increments\tLaravel Schema"
+        },
+        {
+            "contents":"integer('votes')",
+            "trigger": "integer\tLaravel Schema"
+        },
+        {
+            "contents":"json('options')",
+            "trigger": "json\tLaravel Schema"
+        },
+        {
+            "contents":"jsonb('options')",
+            "trigger": "jsonb\tLaravel Schema"
+        },
+        {
+            "contents":"longText('description')",
+            "trigger": "longText\tLaravel Schema"
+        },
+        {
+            "contents":"mediumInteger('numbers')",
+            "trigger": "mediumInteger\tLaravel Schema"
+        },
+        {
+            "contents":"mediumText('description')",
+            "trigger": "mediumText\tLaravel Schema"
+        },
+        {
+            "contents":"morphs('taggable')",
+            "trigger": "morphs('taggable')"
+        },
+        {
+            "contents":"nullableTimestamps()",
+            "trigger": "nullableTimestamps()"
+        },
+        {
+            "contents":"smallInteger('votes')",
+            "trigger": "smallInteger\tLaravel Schema"
+        },
+        {
+            "contents":"tinyInteger('numbers')",
+            "trigger": "tinyInteger\tLaravel Schema"
+        },
+        {
+            "contents":"softDeletes()",
+            "trigger": "softDeletes\tLaravel Schema"
+        },
+        {
+            "contents":"string('email')",
+            "trigger": "string\tLaravel Schema"
+        },
+        {
+            "contents":"string('name', 100)",
+            "trigger": "string\tLaravel Schema"
+        },
+        {
+            "contents":"text('description')",
+            "trigger": "text\tLaravel Schema"
+        },
+        {
+            "contents":"time('sunrise')",
+            "trigger": "time\tLaravel Schema"
+        },
+        {
+            "contents":"timestamp('added_on')",
+            "trigger": "timestamp\tLaravel Schema"
+        },
+        {
+            "contents":"timestamps()",
+            "trigger": "timestamps\tLaravel Schema"
+        },
+        {
+            "contents":"rememberToken()",
+            "trigger": "rememberToken()"
+        },
+        {
+            "contents":"unsigned()",
+            "trigger": "unsigned\tLaravel Schema"
+        },
+        {
+            "contents":"nullable()",
+            "trigger": "nullable\tLaravel Schema"
+        },
+        {
+            "contents":"primary('id')",
+            "trigger": "primary\tLaravel Schema"
+        },
+        {
+            "contents":"primary(['first', 'last'])",
+            "trigger": "primary\tLaravel Schema"
+        },
+        {
+            "contents":"unique('email')",
+            "trigger": "unique\tLaravel Schema"
+        },
+        {
+            "contents":"index('state')",
+            "trigger": "index\tLaravel Schema"
+        },
+        {
+            "contents":"dropPrimary('users_id_primary')",
+            "trigger": "dropPrimary\tLaravel Schema"
+        },
+        {
+            "contents":"dropUnique('users_email_unique')",
+            "trigger": "dropUnique\tLaravel Schema"
+        },
+        {
+            "contents":"dropIndex('geo_state_index')",
+            "trigger": "dropIndex\tLaravel Schema"
+        },
+        {
+            "contents":"dropTimestamps()",
+            "trigger": "dropTimestamps\tLaravel Schema"
+        },
+        {
+            "contents":"dropSoftDeletes()",
+            "trigger": "dropSoftDeletes()"
+        }
+
+    ]
+}

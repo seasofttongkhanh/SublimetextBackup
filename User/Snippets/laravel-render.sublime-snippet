@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+render(${1:request}, ${2:e})
+]]></content>
+<tabTrigger>render</tabTrigger>
+<description>Laravel</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

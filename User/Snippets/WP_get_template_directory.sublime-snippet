@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+get_template_directory($1)$0
+]]></content>
+<tabTrigger>get_template_directory</tabTrigger>
+<description>Wordpress</description>
+<scope>text.blade, text.html.blade, meta.tag.block.any.html, meta.attribute-with-value.html, string.quoted.double.html, entity.name.tag.blade, source.php.blade, meta.function-call.php, variable.function.php</scope>
+</snippet>

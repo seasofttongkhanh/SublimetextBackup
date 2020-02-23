@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+belongTo('${1:class}')
+]]></content>
+<tabTrigger>belongTo</tabTrigger>
+<description>Laravel</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

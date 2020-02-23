@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+async ${1:fucntion_name}({commit, state}) {
+	return await $2
+},
+]]></content>
+<tabTrigger>vuexActions_function</tabTrigger>
+<scope>source.ts, source.js, meta.export.default.ts, new.expr.ts, meta.objectliteral.ts, meta.object.member.ts, meta.objectliteral.ts, meta.method.declaration.ts, meta.definition.method.ts, entity.name.function.ts</scope>
+</snippet>

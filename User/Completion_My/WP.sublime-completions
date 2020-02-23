@@ -1,0 +1,116 @@
+{
+    "scope": "source.php, source.php.blade, meta.attribute-with-value.class.html, text.blade",
+    "completions": [
+      {
+        "contents": "wp_head()",
+        "trigger" : "wp_head\t WP"
+      },{
+        "contents": "body_class('body_class')",
+        "trigger" : "body_class\t WP"
+      },{
+        "contents": "bloginfo('name')",
+        "trigger" : "bloginfo-name\tbloginfo() WP"
+      },{
+        "contents": "bloginfo('description')",
+        "trigger" : "bloginfo-description\tbloginfo() WP"
+      },{
+        "contents": "bloginfo('wpurl')",
+        "trigger" : "bloginfo-wpurl\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('url')",
+        "trigger" : "bloginfo-url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('admin_email')",
+        "trigger" : "bloginfo-admin_email\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('charset')",
+        "trigger" : "bloginfo-charset\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('version')",
+        "trigger" : "bloginfo-version\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('html_type')",
+        "trigger" : "bloginfo-html_type\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('text_direction')",
+        "trigger" : "bloginfo-text_direction\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('language')",
+        "trigger" : "bloginfo-language\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('stylesheet_url')",
+        "trigger" : "bloginfo-stylesheet_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('stylesheet_directory')",
+        "trigger" : "bloginfo-stylesheet_directory\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('template_url')",
+        "trigger" : "bloginfo-template_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('pingback_url')",
+        "trigger" : "bloginfo-pingback_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('atom_url')",
+        "trigger" : "bloginfo-atom_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('rdf_url')",
+        "trigger" : "bloginfo-rdf_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('rss_url')",
+        "trigger" : "bloginfo-rss_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('rss2_url')",
+        "trigger" : "bloginfo-rss2_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('comments_atom_url')",
+        "trigger" : "bloginfo-comments_atom_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('comments_rss2_url')",
+        "trigger" : "bloginfo-comments_rss2_url\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('siteurl')",
+        "trigger" : "bloginfo-siteurl\tbloginfo() WP"
+      },
+      {
+        "contents": "bloginfo('home')",
+        "trigger" : "bloginfo-home\tbloginfo() WP"
+      },
+      {
+        "contents": "the_permalink()",
+        "trigger": "the_permalink\tWP"
+      },{
+        "contents": "the_excerpt()",
+        "trigger": "the_excerpt\tWP"
+      },{
+        "contents": "the_content()",
+        "trigger": "the_content\tWP"
+      },{
+        "contents": "the_field()",
+        "trigger": "the_field\tWP"
+      },{
+        "contents": "get_the_post_thumbnail_url()",
+        "trigger": "get_the_post_thumbnail_url\tWP"
+      },{
+        "contents": "admin_url('${1:admin-ajax.php}')",
+        "trigger": "admin_url\tWP"
+      },
+    ]
+}

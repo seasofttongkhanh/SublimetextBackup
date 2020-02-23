@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+axios.post('$1',{}).then(function(response){
+	$2
+})
+]]></content>
+<tabTrigger>axiosPost</tabTrigger>
+<description></description>
+<scope>source.ts, source.js, meta.export.default.ts, new.expr.ts, meta.objectliteral.ts, meta.object.member.ts, meta.objectliteral.ts, meta.method.declaration.ts, meta.block.ts, meta.function-call.ts, variable.other.object.ts</scope>
+</snippet>

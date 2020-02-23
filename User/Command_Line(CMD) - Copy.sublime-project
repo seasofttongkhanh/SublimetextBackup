@@ -1,0 +1,11 @@
+{
+  "folders":
+  [{
+    "path": "src"
+  }],
+  "build_systems":
+  [{
+    "name": "Run with args",
+    "cmd": ["python", "$file", "some", "args"]
+  }]
+}

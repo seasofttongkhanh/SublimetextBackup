@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+whereRaw(${1:string}, ${2:array})
+]]></content>
+<tabTrigger>whereRaw</tabTrigger>
+<description>Laravel</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

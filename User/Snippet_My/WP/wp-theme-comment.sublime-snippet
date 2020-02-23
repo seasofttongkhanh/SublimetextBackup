@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/*
+Theme Name: Vue
+Theme URI: Vuejs
+description: Create by vuejs
+Version: 1.0
+Author: hkdark
+Author URI:no
+License: plugin test
+*/
+]]></content>
+    <tabTrigger>wp-theme-comment</tabTrigger>
+    <description>wp</description>
+</snippet> 

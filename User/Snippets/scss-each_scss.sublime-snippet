@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+@each ${1:item} in ${2:width_column} {
+	\$i: index(${2:width_column}, ${1:item});
+	&.col-#{\$i} {
+		width: ${1:item};
+	}
+}
+]]></content>
+<tabTrigger>each_scss</tabTrigger>
+<description>Scss</description>
+<scope>source.scss, meta.at-rule.each.sass, keyword.control.flow.sass, punctuation.definition.keyword.sass</scope>
+</snippet>

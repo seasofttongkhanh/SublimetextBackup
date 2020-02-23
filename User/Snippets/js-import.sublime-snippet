@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import('$1')
+]]></content>
+<tabTrigger>import</tabTrigger>
+<description>javascript</description>
+<scope>source.ts, source.js, meta.import.ts, keyword.control.import.ts</scope>
+</snippet>

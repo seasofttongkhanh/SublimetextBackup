@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+mounted: function() {
+    this.\$nextTick(() => {
+		$1
+    });
+},]]></content>
+    <tabTrigger>vue-mounted-nextTick</tabTrigger>
+    <description>vue</description>
+</snippet>

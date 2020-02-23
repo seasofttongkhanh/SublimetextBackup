@@ -1,0 +1,111 @@
+[
+// terminus
+  {
+      "caption": "terminus-string: git log current path",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git log -p ",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan serve",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan serve",
+      },
+  },
+  {
+      "caption": "terminus-string: npm run watch",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "npm run watch",
+      },
+  },
+  // Git -----------------
+
+  {
+      "caption": "terminus-string: git commit --amend",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git commit --amend",
+      },
+  },
+  {
+      "caption": "terminus-string: git add -A & git commit -m",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git add -A && git commit -m \"\"",
+      },
+  },
+  {
+      "caption": "terminus-string: git reset --hard HEAD",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git reset --hard HEAD",
+      },
+  },
+  {
+      "caption": "terminus-string: git push --set-upstream origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git push --set-upstream origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git push -f origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git push -f origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git config credential.helper store",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git config credential.helper store",
+      },
+  },
+  {
+      "caption": "terminus-string: git pull origin master",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git pull origin master",
+      },
+  },
+  {
+      "caption": "terminus-string: git add all && git commit \"commit\" && git push",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git add all && git commit \"commit\" && git push",
+      },
+  },
+  {
+      "caption": "terminus-string: git rm . -r --cached",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git rm . -r --cached",
+      },
+  },
+  // Artisan ---------------
+  {
+      "caption": "terminus-string: php artisan migrate",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan migrate",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan migrate:rollback",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan migrate:rollback",
+      },
+  },
+  {
+      "caption": "terminus-string: php artisan serve --port 81",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "php artisan serve --port 81",
+      },
+  },
+]

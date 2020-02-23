@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+<div class="togglebutton">
+  <label>
+      <input type="checkbox" checked="">
+          <span class="toggle"></span>
+            Toggle is on
+  </label>
+</div>]]></content>
+    <tabTrigger>ui4-toggle-button</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

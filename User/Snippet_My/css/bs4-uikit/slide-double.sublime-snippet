@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+<div id="sliderDouble" class="slider slider-info noUi-target noUi-ltr noUi-horizontal">
+    <div class="noUi-base">
+        <div class="noUi-origin" style="left: 17.963%;">
+            <div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="60.0" aria-valuenow="18.0" aria-valuetext="17.96" style="z-index: 5;"></div>
+        </div>
+        <div class="noUi-connect" style="left: 17.963%; right: 40%;"></div>
+        <div class="noUi-origin" style="left: 60%;">
+            <div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="18.0" aria-valuemax="100.0" aria-valuenow="60.0" aria-valuetext="60.00" style="z-index: 4;"></div>
+        </div>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>ui4-slide-double</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

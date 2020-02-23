@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+arr.splice(-1, 1)]]></content>
+    <tabTrigger>js-remove-last-item</tabTrigger>
+    <description>js</description>
+</snippet>

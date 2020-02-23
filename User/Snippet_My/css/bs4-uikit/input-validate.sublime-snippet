@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group has-${danger} bmd-form-group">
+    <label for="exampleInput3" class="bmd-label-floating">Error input</label>
+    <input type="email" class="form-control" id="exampleInput3">
+    <span class="form-control-feedback">
+        <i class="material-icons">clear</i>
+    </span>
+</div>]]></content>
+    <tabTrigger>ui4-input-validate</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+@mixin keyframes( \$var )
+  {
+      @-webkit-keyframes #{\$var} {
+          @content;
+      }
+      @-moz-keyframes #{\$var} {
+          @content;
+      }
+      @-o-keyframes #{\$var} {
+          @content;
+      }
+      @keyframes #{\$var} {
+          @content;
+      }
+  }
+]]></content>
+<tabTrigger>keyframes</tabTrigger>
+<description>SCSS</description>
+<scope>text.html.vue, source.scss.embedded.html, source.scss, meta.function.declaration.sass, keyword.control.at-rule.sass, punctuation.definition.keyword.sass</scope>
+</snippet>

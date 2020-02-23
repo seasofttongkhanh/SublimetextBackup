@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+requests.post('http://localhost:${1:8000/${2:api/menu/}}',
+  headers={'Authorization': 'Bearer my_secret_token'},
+  json={
+    $3
+	}
+)
+]]></content>
+<tabTrigger>rest_post</tabTrigger>
+<description>Requester</description>
+<scope></scope>
+</snippet>

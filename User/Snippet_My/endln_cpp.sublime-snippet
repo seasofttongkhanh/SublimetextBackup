@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cout << endl;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>endl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++,source.c</scope>
+</snippet>

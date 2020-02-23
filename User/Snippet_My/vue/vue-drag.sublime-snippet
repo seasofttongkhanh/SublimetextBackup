@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@ondragenter="dragEnter(e)"
+@ondragleave="dragLeave(e)"
+@ondrop="ondrop(e)"
+@ondragover="allowDrop(e)"]]></content>
+    <tabTrigger>vue-drag</tabTrigger>
+    <description>vue-event</description>
+</snippet>

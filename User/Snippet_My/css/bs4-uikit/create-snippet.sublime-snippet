@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<snippet>
+    <content><![CDATA[
+$1]$100]></content>
+    <tabTrigger>${2:tab}</tabTrigger>
+    <description>$3</description>
+</snippet> ]]></content>
+    <tabTrigger>demo-snippet</tabTrigger>
+    <description>sublime-snippet</description>
+</snippet>

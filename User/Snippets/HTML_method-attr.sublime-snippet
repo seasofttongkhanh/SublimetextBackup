@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+method=""
+]]></content>
+<tabTrigger>method-attr</tabTrigger>
+<description>HTML</description>
+<scope>entity.other.attribute-name.html</scope>
+</snippet>

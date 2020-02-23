@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+@click.prevent="$1"
+]]></content>
+<tabTrigger>click_prevent</tabTrigger>
+<description>vue</description>
+<scope>text.html.vue, meta.tag.other.html, punctuation.definition.attribute.html</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$table->date('${1:created::at}')${2:->nullable()}${3:->default(${4:'1970-01-01'})};
+]]></content>
+    <tabTrigger>column_date</tabTrigger>
+    <scope>source.php</scope>
+    <description>DATE equivalent to the table</description>
+</snippet>

@@ -1,0 +1,25 @@
+[
+    { "keys": ["ctrl+alt+t"], "command": "terminal_view_open" },
+
+	{  "keys": ["alt+c"], "command": "terminal_view_copy", "context": [{"key": "setting.terminal_view"}]},
+
+    // better bookmark
+    {
+       "description": "Moves the viewport to the previous bookmark in the current visible layer.",
+       "keys": ["ctrl+alt+j"], "command": "better_bookmarks",
+       "args": {"subcommand": "cycle_mark", "direction": "prev"}
+    },
+    {
+       "description": "Moves the viewport to the next bookmark in the current visible layer.",
+       "keys": ["ctrl+alt+l"], "command": "better_bookmarks",
+       "args": {"subcommand": "cycle_mark", "direction": "next"}
+    },
+    {
+       "description": "Adds a single bookmark to the current visible layer.",
+       "keys": ["ctrl+alt+k"], "command": "better_bookmarks",
+       "args": {"subcommand": "mark_line"}
+    },
+    // .better bookmark
+
+    //
+]

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+File::get(${1:path}) ]]></content>
+    <tabTrigger>File_get</tabTrigger>
+    <description>File::get</description>
+    <scope>source.php</scope>
+</snippet>
+
