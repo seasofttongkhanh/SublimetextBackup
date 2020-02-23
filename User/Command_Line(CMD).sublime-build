@@ -115,7 +115,6 @@
 			"name": "git pull origin master",
 			"shell_cmd": "echo git... && git pull origin master"
 		},
-
 		{
 			"name": "git commit -a -m \"%date%\" && git push",
 			"shell_cmd": "echo git commit... && git commit -a -m \"%date%\" && echo git pushing... && git push"
