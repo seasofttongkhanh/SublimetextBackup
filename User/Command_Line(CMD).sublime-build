@@ -117,7 +117,7 @@
 		},
 		{
 			"name": "git commit -a -m \"%date%\" && git push",
-			"shell_cmd": "git commit -a -m \"%date%\" && git pushing... && git push"
+			"shell_cmd": "git commit -a -m \"%date%\" && echo git pushing... && git push"
 		},
 		{
 			/*
