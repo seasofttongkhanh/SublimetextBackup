@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@continue${1:('${2:condition}')}
-]]></content>
-    <tabTrigger>b_continue</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

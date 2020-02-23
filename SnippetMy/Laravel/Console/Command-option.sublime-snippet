@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-\$this->option('${1:key}');
-]]></content>
-  <tabTrigger>Console_option</tabTrigger>
-  <scope>source.php</scope>
-  <description>Get an option from constructor</description>
-</snippet>

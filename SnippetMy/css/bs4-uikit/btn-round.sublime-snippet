@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<button class="btn btn-primary btn-round">Round</button>]]></content>
-    <tabTrigger>ui4-btn-round</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-catch( ${1:error} => console.error(error))
-]]></content>
-<tabTrigger>catch</tabTrigger>
-<description>js</description>
-<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly</scope>
-</snippet>

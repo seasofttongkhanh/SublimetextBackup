@@ -1,6 +1,0 @@
-<snippet>
-<content><![CDATA[
-<span class="tag badge">tag value<span data-role="remove"></span></span>]]></content>
-    <tabTrigger>ui4-tag-badge</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

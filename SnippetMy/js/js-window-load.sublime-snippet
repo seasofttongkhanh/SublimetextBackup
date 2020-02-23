@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-window.onload = function(){
-    $1
-};
-]]></content>
-    <tabTrigger>js-window-load</tabTrigger>
-    <description>js</description>
-</snippet> 

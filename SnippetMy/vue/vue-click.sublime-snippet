@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@click="$1"]]></content>
-    <tabTrigger>vue-click</tabTrigger>
-    <description>vue</description>
-</snippet>
-

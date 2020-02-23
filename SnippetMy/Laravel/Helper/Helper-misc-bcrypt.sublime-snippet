@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-bcrypt(${1:'my-secret-password'});
-]]></content>
-    <tabTrigger>Helper_misc-bcrypt</tabTrigger>
-    <scope>source.php</scope>
-    <description>Hashes the given value with BCrypt.</description>
-</snippet>

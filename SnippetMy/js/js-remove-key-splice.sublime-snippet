@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-this.data.splice(this.data.findIndex(key => key.id === item.id), 1)]]></content>
-    <tabTrigger>js-remove-key-splice</tabTrigger>
-    <description>js</description>
-</snippet>

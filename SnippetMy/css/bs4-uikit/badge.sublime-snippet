@@ -1,7 +1,0 @@
-<snippet>
-<content><![CDATA[
-<span class="badge badge-pill badge-secondary">Default</span>
-]]></content>
-    <tabTrigger>ui4-badge</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

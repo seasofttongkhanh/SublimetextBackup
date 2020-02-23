@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<button class="btn btn-social btn-fill btn-twitter">
-    <i class="fa fa-twitter"></i> Connect with Twitter
-</button>]]></content>
-    <tabTrigger>ui4-btn-social-defautl</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

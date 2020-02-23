@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$table->integer('${1:int}')${2:->unsigned()}${3:->nullable()};
-]]></content>
-    <tabTrigger>column_integer</tabTrigger>
-    <scope>source.php</scope>
-    <description>INTEGER equivalent to the table</description>
-</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{ __('${0:language.line}') }}
-]]></content>
-    <tabTrigger>b___</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

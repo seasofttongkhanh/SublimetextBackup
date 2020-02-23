@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-toggleable="${1:md}" ]]></content>
-    <tabTrigger>toggleable-attr</tabTrigger>
-    <description>vue-bootstrap</description>
-    <scope>text.html</scope>
-</snippet>
-

@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-default
-]]></content>
-<tabTrigger>default</tabTrigger>
-<description></description>
-<scope>source.js, source.ts</scope>
-</snippet>

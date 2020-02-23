@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[
-${1:fucntion_name}(state, payload) {
-	$2
-},
-]]></content>
-<tabTrigger>vuexMutations_function</tabTrigger>
-<scope>source.ts, source.js, meta.export.default.ts, new.expr.ts, meta.objectliteral.ts, meta.object.member.ts, meta.objectliteral.ts, meta.method.declaration.ts, meta.definition.method.ts, entity.name.function.ts</scope>
-</snippet>

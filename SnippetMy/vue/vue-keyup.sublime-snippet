@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@keyup.${1:enter/esc}="$2"]]></content>
-    <tabTrigger>vue-keyup</tabTrigger>
-    <description>vue</description>
-</snippet>

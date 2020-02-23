@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<button class="btn btn-link btn-facebook">
-    <i class="fa fa-facebook"> </i>
-</button>]]></content>
-    <tabTrigger>ui4-btn-link-social</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

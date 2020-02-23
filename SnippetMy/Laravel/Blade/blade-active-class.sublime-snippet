@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{ Request::is('$1') ? 'active' : '' }}]]></content>
-    <tabTrigger>blade-active-class</tabTrigger>
-    <description>blade-laravel</description>
-</snippet>

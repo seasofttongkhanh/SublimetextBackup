@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-'Content-Type': '${1:application/json}' ]]></content>
-    <tabTrigger>application/json</tabTrigger>
-    <description>'Content-Type': 'application/json'</description>
-    <scope>source.php, source.js, source.ts, source.tsx, text.html</scope>
-</snippet>
-

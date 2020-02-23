@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-active-class="${1:class}"
-]]></content>
-<tabTrigger>active-class</tabTrigger>
-<description>vue router</description>
-<scope>text.html.vue, meta.tag.custom.html, meta.attribute-with-value.html, string.quoted.double.html, punctuation.definition.string.end.html</scope>
-</snippet>

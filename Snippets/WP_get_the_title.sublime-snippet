@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-get_the_title()
-]]></content>
-<tabTrigger>get_the_title</tabTrigger>
-<description>WP</description>
-<scope>text.blade, text.html.blade, entity.name.tag.blade, source.php.blade, meta.function-call.php, variable.function.php</scope>
-</snippet>

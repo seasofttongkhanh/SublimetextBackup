@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-
-}]]></content>
-    <tabTrigger>js_mobile_android</tabTrigger>
-    <description>JS</description>
-</snippet>

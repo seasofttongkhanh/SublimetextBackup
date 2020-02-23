@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-this.\$store.state.$1
-]]></content>
-<tabTrigger>state</tabTrigger>
-<description>vuex</description>
-<scope>text.html.vue, source.js.embedded.html, source.js, meta.group.braces.curly, meta.group.braces.curly, meta.group.braces.curly, variable.language.this.js</scope>
-</snippet>

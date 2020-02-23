@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-DB::table($1)->get(${2:[select]});
-]]></content>
-    <tabTrigger>DB_table</tabTrigger>
-    <scope>source.php</scope>
-    <description>Run an Table statement against the database.</description>
-</snippet>

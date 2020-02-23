@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<?php if($1): ?>
-    $0
-<?php endif;?> ]]></content>
-    <tabTrigger>if-end</tabTrigger>
-    <description>php</description>
-</snippet>

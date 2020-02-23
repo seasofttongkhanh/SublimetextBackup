@@ -1,8 +1,0 @@
-<snippet>
-<content><![CDATA[
-firstOrCreate(${1:array})
-]]></content>
-<tabTrigger>firstOrCreate</tabTrigger>
-<description>laravel</description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
-</snippet>

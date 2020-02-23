@@ -1,8 +1,0 @@
-{
-
-  "persistent_sticky": true,
-  "menu_layout":
-  [
-    "sticky", "open", "clone", "save", "delete", "rename", "reveal", "path", "revert", "sort"
-  ]
-}

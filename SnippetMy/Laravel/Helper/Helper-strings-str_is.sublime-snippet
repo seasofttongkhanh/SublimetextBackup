@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-str::is(${1:'foo*'}, ${2:'foobar'});
-]]></content>
-    <tabTrigger>Helper_strings-str::is</tabTrigger>
-    <scope>source.php</scope>
-    <description>Determines if a given string matches a given pattern. Asterisks may be used to indicate wildcards.</description>
-</snippet>

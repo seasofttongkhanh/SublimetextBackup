@@ -1,9 +1,0 @@
-{
-	"autocomplete": true,
-	"format_on_save": false,
-	"indent_with_space": 2,
-	"psr1": false,
-	"psr1_naming": false,
-	"psr2": true,
-	"version": 1
-}
