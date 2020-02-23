@@ -76,7 +76,7 @@
       "caption": "terminus-string: git commit -a -m \"%date%\" && git push",
       "command": "terminus_send_string",
       "args": {
-        "string": "git commit -a -m \"%date%\" && git push",
+        "string": "currentDate=`date` && git commit -a -m \"$currentDate\" && git push",
       },
   },
   {
