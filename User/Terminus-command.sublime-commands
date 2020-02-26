@@ -66,10 +66,10 @@
       },
   },
   {
-      "caption": "terminus-string: git config credential.helper store",
+      "caption": "terminus-string: git config --global credential.helper store",
       "command": "terminus_send_string",
       "args": {
-        "string": "git config credential.helper store",
+        "string": "git config --global credential.helper store",
       },
   },
   {

@@ -99,7 +99,7 @@
             "windows"
         ]
     }],
-    "theme": "desert",
+    "theme": "user",
     "unix_lang": "en_US.UTF-8",
     "user_theme_colors":
     {
