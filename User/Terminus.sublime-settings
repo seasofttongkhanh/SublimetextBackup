@@ -1,164 +1,133 @@
 {
-	"default_config":
-	{
-		"linux": null,
-		"osx": null,
-		"windows": "CMDER"
-	},
-	"natural_keyboard": true,
-	"preserve_keys":
-	[
-    "ctrl+f",
-    "ctrl+k",
-	],
-	"scrollback_history_size": 10000,
-	"shell_configs":
-	[
-		{
-			"cmd":
-			[
-				"bash",
-				"-i",
-				"-l"
-			],
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Bash",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
-		},
-		{
-			"cmd":
-			[
-				"zsh",
-				"-i",
-				"-l"
-			],
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Zsh",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
-		},
-		{
-			"cmd": "F:/laragon/bin/cmder/cmder.bat",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "CMDER",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "cmd.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "Command Prompt",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "pwsh.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "PowerShell Core",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "powershell.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "PowerShell",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd":
-			[
-				"cmd.exe",
-				"/k",
-				"%CMDER_ROOT%\\vendor\\init.bat"
-			],
-			"enable": false,
-			"env":
-			{
-			},
-			"name": "Cmder",
-			"platforms":
-			[
-				"windows"
-			]
-		},
-		{
-			"cmd": "wsl.exe",
-			"enable": true,
-			"env":
-			{
-			},
-			"name": "WSL Login Shell",
-			"platforms":
-			[
-				"windows"
-			]
-		}
-	],
-	"theme": "user",
-	"unix_lang": "en_US.UTF-8",
-	"unix_term": "xterm-256color",
-	"user_theme_colors":
-	{
-		"00": "#000000",
-		"01": "#D74242",
-		"02": "#00cd00",
-		"03": "#cdcd00",
-		"04": "#0000ee",
-		"05": "#FF9BFF",
-		"06": "#00cdcd",
-		"07": "#e5e5e5",
-		"08": "#7f7f7f",
-		"09": "#ff0000",
-		"10": "#00ff00",
-		"11": "#ffff00",
-		"12": "#5c5cff",
-		"13": "#A803A8",
-		"14": "#00ffff",
-		"15": "#ffffff",
-		"background": "#535353",
-		"block_caret": "white",
-		"caret": "white",
-		"foreground": "#fff",
-		"selection": "#444444",
-		"selection_foreground": "#ffffff"
-	},
-	"view_settings":
-	{
-		"font_size": 10.5
-	},
-  "256color": true
+    "256color": true,
+    "default_config":
+    {
+        "linux": null,
+        "osx": null,
+        "windows": "CMD"
+    },
+    "natural_keyboard": true,
+    "preserve_keys": [
+        "ctrl+f",
+        "ctrl+k"
+    ],
+    "scrollback_history_size": 10000,
+    "shell_configs": [
+    {
+        "cmd": ["bash", "-i", "-l"],
+        "enable": true,
+        "env":
+        {},
+        "name": "Bash",
+        "platforms": [
+            "linux",
+            "osx"
+        ]
+    },
+    {
+        "cmd": ["zsh", "-i", "-l"],
+        "enable": true,
+        "env":
+        {},
+        "name": "Zsh",
+        "platforms": [
+            "linux",
+            "osx"
+        ]
+    },
+    {
+        "cmd": "F:/laragon/bin/cmder/cmder.bat",
+        "enable": true,
+        "env":
+        {},
+        "name": "CMDER",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "cmd.exe",
+        "enable": true,
+        "env":
+        {},
+        "name": "CMD",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "pwsh.exe",
+        "enable": true,
+        "env":
+        {},
+        "name": "PowerShell Core",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "powershell.exe",
+        "enable": true,
+        "env":
+        {},
+        "name": "PowerShell",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": [
+            "cmd.exe",
+            "/k",
+            "%CMDER_ROOT%\\vendor\\init.bat"
+        ],
+        "enable": false,
+        "env":
+        {},
+        "name": "Cmder",
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "cmd": "wsl.exe",
+        "enable": true,
+        "env":
+        {},
+        "name": "WSL Login Shell",
+        "platforms": [
+            "windows"
+        ]
+    }],
+    "theme": "desert",
+    "unix_lang": "en_US.UTF-8",
+    "user_theme_colors":
+    {
+        "00": "#000000",
+        "01": "#D74242",
+        "02": "#00cd00",
+        "03": "#cdcd00",
+        "04": "#0000ee",
+        "05": "#FF9BFF",
+        "06": "#00cdcd",
+        "07": "#e5e5e5",
+        "08": "#7f7f7f",
+        "09": "#ff0000",
+        "10": "#00ff00",
+        "11": "#ffff00",
+        "12": "#5c5cff",
+        "13": "#A803A8",
+        "14": "#00ffff",
+        "15": "#ffffff",
+        "background": "#535353",
+        "block_caret": "white",
+        "caret": "white",
+        "foreground": "#fff",
+        "selection": "#444444",
+        "selection_foreground": "#ffffff"
+    },
+    "view_settings":
+    {
+        "font_size": 10.5
+    }
 }

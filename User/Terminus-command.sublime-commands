@@ -24,6 +24,13 @@
   // Git -----------------
 
   {
+      "caption": "terminus-string: git config global",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "git config --global user.email \"hkngokhong@gmail.com\" && git config --global user.name \"khanh github\"",
+      },
+  },
+  {
       "caption": "terminus-string: git commit --amend",
       "command": "terminus_send_string",
       "args": {
