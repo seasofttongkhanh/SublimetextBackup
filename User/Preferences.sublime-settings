@@ -1,5 +1,4 @@
 {
-  "update_check": false,
 	"always_show_minimap_viewport": true,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
@@ -89,5 +88,6 @@
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"update_check": false,
 	"word_wrap": false
 }
