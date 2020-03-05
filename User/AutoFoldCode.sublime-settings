@@ -91,13 +91,13 @@
 				]
 			]
 		},
-		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\resources\\views\\admin\\management\\QuanLyCongViec.blade.php":
+		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\app\\Http\\Controllers\\SanPhamController.php":
 		{
-			"0x573024ad":
+			"0x68bbd235":
 			[
 				[
-					16603,
-					17527
+					220,
+					788
 				]
 			]
 		},

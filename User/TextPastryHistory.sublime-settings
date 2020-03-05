@@ -179,19 +179,6 @@
 			{
 				"args":
 				{
-					"text": "3"
-				},
-				"command": "text_pastry_step",
-				"text": "3"
-			},
-			"key": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
-			"label": "3"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"stop": "0"
 				},
 				"command": "text_pastry_range",
@@ -244,32 +231,6 @@
 			{
 				"args":
 				{
-					"stop": "2"
-				},
-				"command": "text_pastry_range",
-				"text": "range 2"
-			},
-			"key": "3a7d910a1f9af0c965c93a249c7dc552",
-			"label": "range 2"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "2"
-				},
-				"command": "text_pastry_step",
-				"text": "2"
-			},
-			"key": "c81e728d9d4c2f636f067f89cc14862c",
-			"label": "2"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"start": "5",
 					"stop": "5"
 				},
@@ -304,15 +265,54 @@
 			},
 			"key": "8f14e45fceea167a5a36dedd4bea2543",
 			"label": "7"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "2"
+				},
+				"command": "text_pastry_range",
+				"text": "range 2"
+			},
+			"key": "3a7d910a1f9af0c965c93a249c7dc552",
+			"label": "range 2"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3"
+				},
+				"command": "text_pastry_step",
+				"text": "3"
+			},
+			"key": "eccbc87e4b5ce2fe28308fd9f2a7baf3",
+			"label": "3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2"
+				},
+				"command": "text_pastry_step",
+				"text": "2"
+			},
+			"key": "c81e728d9d4c2f636f067f89cc14862c",
+			"label": "2"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "7"
+			"text": "2"
 		},
 		"command": "text_pastry_step",
-		"text": "7"
+		"text": "2"
 	}
 }

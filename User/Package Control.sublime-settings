@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -34,7 +35,6 @@
 		"Expand Selection to Quotes",
 		"ExpandRegion",
 		"FavoriteFiles",
-		"FileIcons",
 		"Fold Javascript Functions",
 		"FuzzyFilePath",
 		"Git badges like VS Code",

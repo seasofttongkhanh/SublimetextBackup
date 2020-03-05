@@ -21,8 +21,8 @@
         "string": "npm run watch",
       },
   },
-  // Git -----------------
 
+  // Git -----------------
   {
       "caption": "terminus-string: git config global",
       "command": "terminus_send_string",
@@ -113,6 +113,29 @@
       "command": "terminus_send_string",
       "args": {
         "string": "php artisan serve --port 81",
+      },
+  },
+  // js-beautify
+  //
+  {
+      "caption": "terminus-string: format HTML",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "js-beautify -s=2 --type=html -r FILE",
+      },
+  },
+  {
+      "caption": "terminus-string: format CSS",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "js-beautify -s=2 --type=css -r FILE",
+      },
+  },
+  {
+      "caption": "terminus-string: format CSS",
+      "command": "terminus_send_string",
+      "args": {
+        "string": "js-beautify -s=2 --type=js -r FILE",
       },
   },
 ]
