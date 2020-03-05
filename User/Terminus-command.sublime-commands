@@ -116,7 +116,6 @@
       },
   },
   // js-beautify
-  //
   {
       "caption": "terminus-string: format HTML",
       "command": "terminus_send_string",
@@ -129,8 +128,8 @@
       "command": "terminus_send_string",
       "args": {
         "string": "js-beautify -s=2 --type=css -r FILE",
-      },
   },
+      },
   {
       "caption": "terminus-string: format CSS",
       "command": "terminus_send_string",
