@@ -46,7 +46,7 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/User/Oceanic-scheme.sublime-color-scheme",
+	"color_scheme": "Packages/HighlightTrailingWhitespace/Oceanic-scheme.sublime-color-scheme",
 	"detect_indentation": false,
 	"enki_theme_accent_indigo": false,
 	"enki_theme_compact_sidebar": true,
@@ -64,7 +64,7 @@
 		"CVS"
 	],
 	"font_face": "consolas",
-	"font_size": 9,
+	"font_size": 10,
 	"gruvbox_highlight_active_tree_row": true,
 	"gruvbox_sidebar_heading_bold": true,
 	"gruvbox_tabs_xxs": true,

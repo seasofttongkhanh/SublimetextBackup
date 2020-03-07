@@ -4,7 +4,7 @@
     {
         "linux": null,
         "osx": null,
-        "windows": "CMD"
+        "windows": "CMDER"
     },
     "natural_keyboard": true,
     "preserve_keys": [
@@ -14,43 +14,52 @@
     "scrollback_history_size": 10000,
     "shell_configs": [
     {
+        "name": "Bash",
         "cmd": ["bash", "-i", "-l"],
         "enable": true,
         "env":
         {},
-        "name": "Bash",
         "platforms": [
             "linux",
             "osx"
         ]
     },
     {
+        "name": "Zsh",
         "cmd": ["zsh", "-i", "-l"],
         "enable": true,
         "env":
         {},
-        "name": "Zsh",
         "platforms": [
             "linux",
             "osx"
         ]
-    },
-    {
-        "cmd": "F:/laragon/bin/cmder/cmder.bat",
+    },{
+        "name": "GIT",
+        "cmd": "F:/laragon/bin/git/bin/sh.exe",
         "enable": true,
         "env":
         {},
-        "name": "CMDER",
         "platforms": [
             "windows"
         ]
     },
     {
+        "name": "CMDER",
+        "cmd": "F:/laragon/bin/cmder/cmder.bat",
+        "enable": true,
+        "env":
+        {},
+        "platforms": [
+            "windows"
+        ]
+    },
+    {
+        "name": "CMD",
         "cmd": "cmd.exe",
         "enable": true,
         "env":
         {},
-        "name": "CMD",
         "platforms": [
             "windows"
         ]
