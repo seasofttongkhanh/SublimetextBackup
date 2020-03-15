@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+let urlSearchParams = new URLSearchParams(location.search);
+urlSearchParams.set('page', page);
+window.history.pushState( '', '', '?' + urlSearchParams.toString());
+]]></content>
+<tabTrigger>url_search_params</tabTrigger>
+<description>DEMO_URLSearchParams(location.search)</description>
+<scope></scope>
+</snippet>

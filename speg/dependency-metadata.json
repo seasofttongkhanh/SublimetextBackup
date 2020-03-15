@@ -1,0 +1,1 @@
+{"url": "https://github.com/idleberg/sublime-speg/issues", "platforms": ["*"], "version": "0.2.0", "description": "A PEG-based parser interpreter with memoization - https://github.com/avakar/speg", "sublime_text": "*"}
