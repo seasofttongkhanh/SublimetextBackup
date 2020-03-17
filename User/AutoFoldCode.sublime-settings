@@ -384,44 +384,6 @@
 				]
 			]
 		},
-		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\resources\\views\\admin\\management\\QuanLyDongGoi\\QuetDon.blade.php":
-		{
-			"0x5c3c84c7":
-			[
-				[
-					5270,
-					5776
-				],
-				[
-					5873,
-					6631
-				],
-				[
-					6722,
-					7688
-				],
-				[
-					21252,
-					22310
-				],
-				[
-					22647,
-					22950
-				],
-				[
-					22982,
-					23254
-				],
-				[
-					33420,
-					33926
-				],
-				[
-					34018,
-					34201
-				]
-			]
-		},
 		"F:\\laragon\\www\\chuyennha24hvn\\wp-content\\themes\\zigcy-lite\\single.php":
 		{
 			"0x9576fd15":
@@ -429,6 +391,16 @@
 				[
 					391,
 					1112
+				]
+			]
+		},
+		"F:\\laragon\\www\\laravel-nuxt\\Modules\\Home\\Http\\Controllers\\HomeController.php":
+		{
+			"0x18d835c4":
+			[
+				[
+					703,
+					816
 				]
 			]
 		},

@@ -1,6 +1,9 @@
 .git/**
 # ignore file
 JavaScript Completions/
+node_modules
+node_modules/*
+**node_modules**
 SQLToolsConnections.*
 SQLTools.*
 Terminal.*
