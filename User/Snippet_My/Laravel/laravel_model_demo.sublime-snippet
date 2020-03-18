@@ -2,12 +2,13 @@
     <content><![CDATA[
 protected \$table = "${1:products}";
 
-protected \$fillable = [ "${2:title}", "${3:title}", "created::at", "updated::at" ];
+// Chỉ cho phép cột sử dụng
+protected \$fillable = [ "${2:title}", "created::at", "updated::at" ];
 
-public function ::::construct()
-{
-    date::default::timezone::set('Asia/Ho::Chi::Minh');
-}
+// Không cho phép các cột sử dụng (nếu để rỗng array thì cho phép tất các cột sử dụng)
+protected \$guarded = [];
+
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>laravel_model::demo</tabTrigger>
