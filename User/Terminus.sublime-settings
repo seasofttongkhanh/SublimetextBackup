@@ -2,9 +2,9 @@
     "256color": true,
     "default_config":
     {
-        "linux": null,
-        "osx": null,
-        "windows": "CMDER"
+        "linux": true,
+        "osx": true,
+        "windows": "GIT"
     },
     "natural_keyboard": true,
     "preserve_keys": [
@@ -138,5 +138,7 @@
     "view_settings":
     {
         "font_size": 10.5
-    }
+    },
+    "debug": false,
+    "unix_term": "linux"
 }
