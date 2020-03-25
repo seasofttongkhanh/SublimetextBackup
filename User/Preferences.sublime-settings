@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+	"auto_complete": false,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
 	"auto_complete_selector": "text.blade text.html.blade meta.tag.block.any.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php variable.function.php ,meta.attribute-with-value.html, text, meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
@@ -80,7 +81,6 @@
 		"draw_active"
 	],
 	"indent_to_bracket": true,
-	"index_files": true,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"margin": 0,

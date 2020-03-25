@@ -1,1 +1,1 @@
-{"sublime_text": ">=3000", "description": "Python winpty module", "platforms": ["windows"], "url": "https://github.com/packagecontrol/pywinpty/issues", "version": "0.5.7"}
+{"platforms": ["windows"], "url": "https://github.com/packagecontrol/pywinpty/issues", "version": "0.5.7", "description": "Python winpty module", "sublime_text": ">=3000"}

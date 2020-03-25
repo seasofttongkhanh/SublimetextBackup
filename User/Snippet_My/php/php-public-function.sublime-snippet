@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-public function ${1:namefunction}() {
+public function ${1:namefunction}()
+{
     $2
 } ]]></content>
     <tabTrigger>pub</tabTrigger>

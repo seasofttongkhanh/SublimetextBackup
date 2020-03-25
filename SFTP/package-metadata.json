@@ -1,1 +1,1 @@
-{"version": "1.14.1", "dependencies": [], "url": "https://codexns.io/products/sftp_for_sublime", "sublime_text": ">=3000", "description": "Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration", "platforms": ["windows"]}
+{"platforms": ["windows"], "sublime_text": ">=3000", "description": "Commercial SFTP/FTP plugin - upload, sync, browse, remote edit, diff and vcs integration", "dependencies": [], "url": "https://codexns.io/products/sftp_for_sublime", "version": "1.14.1"}
