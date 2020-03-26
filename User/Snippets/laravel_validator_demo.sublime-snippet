@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+\$validator = Validator::make(\$request->all(), [
+	'key' => 'required',
+], \$this->messageValidate);
+if (\$validator->fails()) {
+  return response()->json(\$validator->errors(), 503);
+}
+]]></content>
+<tabTrigger>laravel_validator_demo</tabTrigger>
+<description>validate</description>
+<scope></scope>
+</snippet>
