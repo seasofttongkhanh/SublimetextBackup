@@ -137,7 +137,7 @@
     },
     "view_settings":
     {
-        "font_size": 10.5
+        "font_size": 9.5
     },
     "debug": false,
     "unix_term": "linux"
