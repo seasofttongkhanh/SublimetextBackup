@@ -10,7 +10,25 @@
             "fields_label": "Commit:",
         }
     },
-
+    // Npm
+    {
+        "caption": "Dịch VI-EN: translate -s vi -t en",
+        "command": "command_my_plugin",
+        "args": {
+            "command": "translate -s vi -t en ",
+            "fill_in": true,
+            "fill_in_lable": "VI",
+        }
+    },
+    {
+        "caption": "Dịch EN-VI: translate -s en -t vi",
+        "command": "command_my_plugin",
+        "args": {
+            "command": "translate -s en -t vi ",
+            "fill_in": true,
+            "fill_in_lable": "EN",
+        }
+    },
     // --------------  Linux -----------------------
     {
         "caption": "Linux: Kill port",
