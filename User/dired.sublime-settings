@@ -1,5 +1,7 @@
 {
 	"dired_autorefresh": false,
+  "dired_show_full_path": true,
+  "dired_header": true,
 	"dired_jump_points":
 	{
 	},
@@ -16,5 +18,15 @@
 	[
 		"directwrite"
 	],
-	"font_size": 9
+  "caret_extra_width": 2,
+  "dired_smart_jump": true,
+  "line_numbers": false,
+  "word_wrap": false,
+  "spell_check": false,
+  "scroll_past_end": true,
+  "draw_indent_guides": true,
+  "fold_buttons": true,
+  "drag_text": false,
+	"font_size": 10,
+  "color_scheme": "Packages/User/dired.hidden-tmTheme"
 }
