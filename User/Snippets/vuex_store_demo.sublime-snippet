@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+export const state = () => {
+  return {
+
+  }
+}
+
+export const getters = {
+}
+
+export const mutations = {
+}
+
+export const actions = {
+}
+
+]]></content>
+<tabTrigger>vuex_store_demo</tabTrigger>
+<description>vuex</description>
+<scope>source.js</scope>
+</snippet>
