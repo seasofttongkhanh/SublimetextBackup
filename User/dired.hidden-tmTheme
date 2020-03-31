@@ -10,7 +10,7 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#708090</string>
+        <string>#d9dee5</string>
         <key>foreground</key>
         <string>#222222</string>
         <key>caret</key>
@@ -20,7 +20,7 @@
         <key>gutter</key>
         <string>#d9dee5</string>
         <key>invisibles</key>
-        <string>#88222233</string>
+        <string>#33333c</string>
         <key>selection</key>
         <string>#22222233</string>
         <key>selectionBorder</key>
@@ -44,9 +44,24 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#</string>
+        <string>#669</string>
       </dict>
     </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Header project</string>
+      <key>scope</key>
+      <string>text.dired header.dired</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#669</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
     <dict>
       <key>name</key>
       <string>Project Symbols > Chevron</string>
@@ -55,7 +70,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7c869266</string>
+        <string>#669</string>
       </dict>
     </dict>
 
@@ -67,7 +82,19 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707e8b</string>
+        <string>#ccc</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Extension</string>
+      <key>scope</key>
+      <string>text.dired dired.item.file string.name.file.dired string.name.file.extension.dired</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#669</string>
       </dict>
     </dict>
 
@@ -79,7 +106,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#7c8692</string>
+        <string>#669</string>
       </dict>
     </dict>
 
@@ -127,7 +154,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707e8b</string>
+        <string>#ccc</string>
       </dict>
     </dict>
 
@@ -178,7 +205,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#707E8B</string>
+        <string>#ccc</string>
         <key>fontStyle</key>
         <string>bold</string>
       </dict>

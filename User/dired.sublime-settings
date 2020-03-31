@@ -1,32 +1,33 @@
 {
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/User/dired.hidden-tmTheme",
 	"dired_autorefresh": false,
-  "dired_show_full_path": true,
-  "dired_header": true,
+	"dired_header": true,
 	"dired_jump_points":
 	{
 	},
+	"dired_show_full_path": true,
+	"dired_smart_jump": true,
 	"dired_to_copy":
 	[
 		"C:\\Users\\Administrator\\Desktop\\PROJECT\\Laravel\\lara-oauth\\node_modules\\@babel\\core\\lib\\config\\",
-		"C:\\Users\\Administrator\\Desktop\\PROJECT\\Laravel\\lara-oauth\\node_modules\\@babel\\core\\lib\\config\\config-descriptors.js",
-		"C:\\Users\\Administrator\\Desktop\\PROJECT\\Laravel\\lara-oauth\\node_modules\\@babel\\core\\lib\\config\\index.js"
+		"C:\\Users\\Administrator\\Desktop\\PROJECT\\Laravel\\lara-oauth\\node_modules\\@babel\\core\\lib\\config\\index.js",
+		"F:\\laragon\\www\\laravel-nuxt\\Modules\\SettingJson\\",
+		"C:\\Users\\Administrator\\Desktop\\PROJECT\\Laravel\\lara-oauth\\node_modules\\@babel\\core\\lib\\config\\config-descriptors.js"
 	],
 	"dired_to_move":
 	[
 	],
+	"drag_text": false,
+	"draw_indent_guides": true,
+	"fold_buttons": true,
 	"font_options":
 	[
 		"directwrite"
 	],
-  "caret_extra_width": 2,
-  "dired_smart_jump": true,
-  "line_numbers": false,
-  "word_wrap": false,
-  "spell_check": false,
-  "scroll_past_end": true,
-  "draw_indent_guides": true,
-  "fold_buttons": true,
-  "drag_text": false,
 	"font_size": 10,
-  "color_scheme": "Packages/User/dired.hidden-tmTheme"
+	"line_numbers": false,
+	"scroll_past_end": true,
+	"spell_check": false,
+	"word_wrap": false
 }

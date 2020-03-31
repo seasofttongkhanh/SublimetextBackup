@@ -239,16 +239,6 @@
 				]
 			]
 		},
-		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\resources\\views\\admin\\management\\TuVan\\CauHoiVaTraLoi.blade.php":
-		{
-			"0x80eb7869":
-			[
-				[
-					20413,
-					22058
-				]
-			]
-		},
 		"F:\\laragon\\www\\chuyennha24hvn\\wp-content\\themes\\zigcy-lite\\single.php":
 		{
 			"0x9576fd15":
@@ -261,25 +251,11 @@
 		},
 		"F:\\laragon\\www\\laravel-nuxt\\Modules\\Home\\Http\\Controllers\\HomeController.php":
 		{
-			"0x18d835c4":
+			"0xa1c25c9c":
 			[
 				[
-					703,
-					816
-				]
-			]
-		},
-		"F:\\laragon\\www\\laravel-nuxt\\Modules\\Home\\Resources\\views\\layouts\\master.blade.php":
-		{
-			"0xf576b2be":
-			[
-				[
-					769,
-					966
-				],
-				[
-					1141,
-					1883
+					1230,
+					2720
 				]
 			]
 		},
@@ -322,6 +298,16 @@
 				[
 					5644,
 					5748
+				]
+			]
+		},
+		"F:\\laragon\\www\\laravel-nuxt\\client\\pages\\hkdark-admin\\setting.vue":
+		{
+			"0x612b04c5":
+			[
+				[
+					77,
+					4941
 				]
 			]
 		},
