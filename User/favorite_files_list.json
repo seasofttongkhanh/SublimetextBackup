@@ -1,5 +1,12 @@
 {
     "files": [],
-    "groups": {},
+    "groups": {
+        "laravel-nuxt": [
+            {
+                "alias": "todo.md",
+                "file": "F:\\laragon\\www\\laravel-nuxt\\todo.md"
+            }
+        ]
+    },
     "version": 2
 }
