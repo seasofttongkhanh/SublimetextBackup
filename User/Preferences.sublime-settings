@@ -47,7 +47,7 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/HighlightTrailingWhitespace/Oceanic-scheme.sublime-color-scheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
 	"detect_indentation": false,
 	"enki_theme_accent_indigo": false,
 	"enki_theme_compact_sidebar": true,
@@ -87,7 +87,7 @@
 	"margin": 0,
 	"shell_environment": false,
 	"tab_size": 2,
-	"theme": "MyAdaptive.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
 	"word_wrap": false

@@ -2,6 +2,16 @@
     "name": "Highlight Trailing Whitespace", 
     "rules": [
         {
+            "background": "#000000B2",
+            "scope": "col_000000B2",
+            "foreground": "#878787FF"
+        },
+        {
+            "background": "#000000CC",
+            "scope": "col_000000CC",
+            "foreground": "#858585FF"
+        },
+        {
             "scope": "col_gutter",
             "background": "#000000",
             "foreground": "#ffffff"
