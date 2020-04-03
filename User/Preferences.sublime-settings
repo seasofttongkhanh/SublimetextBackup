@@ -1,5 +1,6 @@
 {
 	"allow_git_home_dir": true,
+	"always_show_minimap_viewport": true,
 	"auto_complete": false,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
@@ -49,6 +50,7 @@
 	"caret_extra_width": 2,
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
 	"detect_indentation": false,
+	"draw_minimap_border": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
 	[
@@ -85,7 +87,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
-	"word_wrap": false,
-  "always_show_minimap_viewport": true,
-  "draw_minimap_border": true
+	"word_wrap": false
 }

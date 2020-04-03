@@ -1,3 +1,11 @@
 {
-	"version": 1
+	"format_on_save": false,
+	"indent_with_space": 2,
+	"option": "value",
+	"passes":
+	[
+		"AddMissingParentheses"
+	],
+	"psr2": true,
+	"version": 2
 }

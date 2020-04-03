@@ -11,6 +11,28 @@
 				]
 			]
 		},
+		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\app\\Http\\Controllers\\KenhTuVanController.php":
+		{
+			"0xce02f718":
+			[
+				[
+					411,
+					533
+				],
+				[
+					585,
+					981
+				],
+				[
+					1033,
+					1498
+				],
+				[
+					1537,
+					1919
+				]
+			]
+		},
 		"F:\\laragon\\www\\Shop Đồ Sáng Tạo\\app\\Http\\Controllers\\NhapDonController.php":
 		{
 			"0x4f5055e9":
@@ -64,6 +86,16 @@
 				[
 					7924,
 					8854
+				]
+			]
+		},
+		"F:\\laragon\\www\\laravel-nuxt\\Modules\\Blog\\Http\\Controllers\\BlogController.php":
+		{
+			"0x1e603f03":
+			[
+				[
+					710,
+					800
 				]
 			]
 		},
