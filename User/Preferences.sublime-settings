@@ -1,6 +1,5 @@
 {
 	"allow_git_home_dir": true,
-	"always_show_minimap_viewport": true,
 	"auto_complete": false,
 	"auto_complete_cycle": true,
 	"auto_complete_delay": 500,
@@ -86,5 +85,7 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false,
-	"word_wrap": false
+	"word_wrap": false,
+  "always_show_minimap_viewport": true,
+  "draw_minimap_border": true
 }

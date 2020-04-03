@@ -1,0 +1,58 @@
+[{
+  "id": "side-bar-files-open-with",
+  "children": [
+    //application 1
+    {
+      "caption": "Photoshop",
+      "id": "side-bar-files-open-with-photoshop",
+      "command": "side_bar_files_open_with",
+      "args": {
+        "paths": [
+
+        ],
+        "application": "G:\\SoftWorking\\Graphics\\PhotoshopCC2014\\Photoshop64Portable.exe",
+        "extensions": "psd|png|jpg|jpeg|ico",
+        "args": [
+
+        ]
+      }
+    },
+    {
+      "caption": "-"
+    },
+    //application 2
+    {
+      "caption": "Firefox",
+      "id": "side-bar-files-open-with-Firefox",
+      "command": "side_bar_files_open_with",
+      "args": {
+        "paths": [
+
+        ],
+        "application": "C:\\Program Files\\Firefox Developer Edition\\firefox.exe",
+        "extensions": "",
+        "args": [
+
+        ]
+      }
+    },
+    {
+      "caption": "Chrome",
+      "id": "side-bar-files-open-with-chrome",
+      "command": "side_bar_files_open_with",
+      "args": {
+        "paths": [
+
+        ],
+        "application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "extensions": ".*",
+        "args": [
+
+        ]
+      }
+    },
+    {
+      "caption": "-"
+    }
+  ]
+}]

@@ -169,16 +169,9 @@
     "keys": ["ctrl+f11"],
     "command": "typescript_go_to_type_definitiontion"
   },
-  // {
-  //     "keys": ["ctrl+shift+m"],
-  //     "command": "expand_region",
-  // },
   {
-    "keys": ["ctrl+shift+m"],
-    "command": "expand_selection",
-    "args": {
-      "to": "scope"
-    }
+      "keys": ["ctrl+shift+m"],
+      "command": "expand_region",
   },
   {
     "keys": ["alt+shift+right"],
