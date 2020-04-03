@@ -1,4 +1,15 @@
 [
+    // Folding
+    { "caption": "Folding 1", "command": "fold_by_level", "args": {"level": 1} },
+    { "caption": "Folding 2", "command": "fold_by_level", "args": {"level": 2} },
+    { "caption": "Folding 3", "command": "fold_by_level", "args": {"level": 3} },
+    { "caption": "Folding 4", "command": "fold_by_level", "args": {"level": 4} },
+    { "caption": "Folding 5", "command": "fold_by_level", "args": {"level": 5} },
+    { "caption": "Folding 6", "command": "fold_by_level", "args": {"level": 6} },
+    { "caption": "Folding 7", "command": "fold_by_level", "args": {"level": 7} },
+    { "caption": "Folding 8", "command": "fold_by_level", "args": {"level": 8} },
+    { "caption": "Folding 9", "command": "fold_by_level", "args": {"level": 9} },
+    // End Folding
     {
         "caption": "html_beautify selector",
         "command": "html_beautify", // command that executes html_beautify
