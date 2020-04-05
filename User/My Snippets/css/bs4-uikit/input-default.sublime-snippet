@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group has-default bmd-form-group">
+    <input type="text" class="form-control" placeholder="Regular">
+</div>]]></content>
+    <tabTrigger>ui4-input-default</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

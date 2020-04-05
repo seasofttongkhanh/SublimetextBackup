@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-variant="$1" ]]></content>
-    <tabTrigger>variant</tabTrigger>
-    <description>vue-bootstrap</description>
-    <scope>text.html</scope>
-</snippet>
-

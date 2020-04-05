@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-this.\$store.getters.$1]]></content>
-    <tabTrigger>vue-store_getters</tabTrigger>
-    <description>vue-store_getters</description>
-    <scope>source.js</scope>
-</snippet>
-

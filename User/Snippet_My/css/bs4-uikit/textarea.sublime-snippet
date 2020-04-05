@@ -1,9 +1,0 @@
-<snippet>
-<content><![CDATA[
-<div class="form-group label-floating bmd-form-group">
-	<label class="form-control-label bmd-label-floating" for="exampleInputTextarea"> You can write your text here...</label>
-	<textarea class="form-control" rows="5" id="exampleInputTextarea"></textarea>
-</div>]]></content>
-    <tabTrigger>ui4-textarea</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

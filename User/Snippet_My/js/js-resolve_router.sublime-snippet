@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-const $2 = resolve => require(['${1:path}'],resolve);
- ]]></content>
-    <tabTrigger>resolve-router</tabTrigger>
-    <description>resolve-router</description>
-    <scope>source.js,source.jsx,source.ts,source.tsx</scope>
-</snippet>
-

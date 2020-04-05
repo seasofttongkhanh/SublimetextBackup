@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+bloginfo('template_url')]]></content>
+    <tabTrigger>wp-bloginfo</tabTrigger>
+    <description>wordpress</description>
+</snippet>

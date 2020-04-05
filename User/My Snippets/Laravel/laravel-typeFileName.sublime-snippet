@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$typeFileName = date('d::m::y::h::i::') . rand(1000, 999999999) . preg::replace('/(\w+)\//', '.', File::mimeType(\$image));]]></content>
+    <tabTrigger>typeFileName</tabTrigger>
+    <description>laravel</description>
+    <scope>source.php</scope>
+</snippet>
+

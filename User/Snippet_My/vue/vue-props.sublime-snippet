@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-props: [$1], // props]]></content>
-    <tabTrigger>vue-props</tabTrigger>
-    <description>vue</description>
-</snippet> 

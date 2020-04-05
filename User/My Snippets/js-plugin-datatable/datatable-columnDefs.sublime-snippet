@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+"column": [
+    {
+        data: $1,
+        "render": function(data, type, row, meta) {
+            return ${2:data};
+        }
+    },
+],]]></content>
+    <tabTrigger>js-datatable-column</tabTrigger>
+    <description>js-plugin-datatable</description>
+</snippet>

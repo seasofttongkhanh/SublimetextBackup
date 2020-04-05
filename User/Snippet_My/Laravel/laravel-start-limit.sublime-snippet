@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-skip(${1:start})->take(${2:limit}) //interger]]></content>
-    <tabTrigger>laravel-start-limit</tabTrigger>
-    <description>laravel</description>
-</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+v-b-toggle="${1:idtoggle}"
+  ]]></content>
+    <tabTrigger>v-b-toggle</tabTrigger>
+    <description>vue-bootstrap</description>
+    <scope>text.html</scope>
+</snippet>
+

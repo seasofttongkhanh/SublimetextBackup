@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$wp_customize->add_section('${2:id_section}', array(
+    'title' => __('Slider Images', 'name-theme'),
+    'priority' => 70,
+    'panel' => '${1:id_panel}'
+));]]></content>
+    <tabTrigger>wp_add_section</tabTrigger>
+    <description>WP</description>
+    <scope>source.php</scope>
+</snippet>

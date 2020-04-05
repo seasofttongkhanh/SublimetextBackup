@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-:to="{ ${1:path}:'${2:string}' }"]]></content>
-    <tabTrigger>vue-to</tabTrigger>
-    <description>vue</description>
-    <scope>text.html</scope>
-</snippet>
-

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{{-- ${0:comment} --}}
-]]></content>
-    <tabTrigger>b_comment</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

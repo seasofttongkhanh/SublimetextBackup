@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{!! ${1:some unescaped value} !!}
+]]></content>
+    <tabTrigger>Blade_unescaped</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Blade {!! echo raw data !!}</description>
+</snippet>

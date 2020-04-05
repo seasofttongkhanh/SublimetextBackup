@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+if (has_nav_menu( '$1' )) {
+	wp_nav_menu( array(
+	    'theme_location' => '$1',
+	    'walker' => new $2,
+	 ) );
+ }]]></content>
+    <tabTrigger>wp_nav_menu</tabTrigger>
+    <description>WP</description>
+</snippet>

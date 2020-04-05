@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if(${1:arrData}.indexOf(${2:itemPush}) === -1)
-    ${1:arrData}.push(${2:itemPush})]]></content>
-    <tabTrigger>js-push-not-exist</tabTrigger>
-    <description>js</description>
-</snippet> 

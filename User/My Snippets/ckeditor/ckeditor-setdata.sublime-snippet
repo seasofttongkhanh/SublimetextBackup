@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+CKEDITOR.instances['id'].setData(${1:data})]]></content>
+    <tabTrigger>ckeditor-setdata</tabTrigger>
+    <description>ckeditor</description>
+</snippet>

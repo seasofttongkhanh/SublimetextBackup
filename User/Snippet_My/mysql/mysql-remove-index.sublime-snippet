@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-SUBSTRING_INDEX(${1:column},'${2:/}','${3:-2}')]]></content>
-    <tabTrigger>mysql-remove-index</tabTrigger>
-    <description>mysql</description>
-</snippet> 

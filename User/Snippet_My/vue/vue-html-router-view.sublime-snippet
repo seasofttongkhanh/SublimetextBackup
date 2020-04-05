@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<router-view/>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>vue-router_view</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+removeItem(item) {
+    ${1:this}.items.splice(${1:this}.items.indexOf(item),1)
+},]]></content>
+    <tabTrigger>vue-remove-item</tabTrigger>
+    <description>vue</description>
+</snippet> 

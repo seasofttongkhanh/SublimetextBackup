@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+preg_match(pattern, subject, matches); ]]></content>
+    <tabTrigger>preg_match</tabTrigger>
+    <description>php</description>
+    <scope>source.php</scope>
+</snippet>
+

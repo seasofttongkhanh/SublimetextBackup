@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$response->cookie(cookie()->forever('${1:key}', ${2:\$value}));
-]]></content>
-    <tabTrigger>Cookie_forever</tabTrigger>
-    <scope>source.php</scope>
-    <description>Make a Permanent Cookie</description>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[end()$0]]></content>
-	<tabTrigger>end</tabTrigger>
-	<description>.end() jQuery</description>
-
-</snippet>

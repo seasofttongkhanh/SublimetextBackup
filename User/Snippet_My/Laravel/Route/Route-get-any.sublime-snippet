@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Route::get('/{any}', function(){
-    $1
-})->where('any', '.*');
-]]></content>
-    <tabTrigger>Route-get-any</tabTrigger>
-    <description>Route Create Vue</description>
-</snippet>

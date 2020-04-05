@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+define('WP_SITEURL','${1:url}');
+define('WP_HOME', WP_SITEURL);
+]]></content>
+    <tabTrigger>wp_config_url</tabTrigger>
+    <description>wp-custom</description>
+</snippet>

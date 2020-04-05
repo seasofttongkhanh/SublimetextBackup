@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<slot name="$1">
+    $2
+    <!-- <div slot="$1">template</div> -->
+</slot>]]></content>
+    <tabTrigger>vue-slot</tabTrigger>
+    <description>vue</description>
+</snippet> 

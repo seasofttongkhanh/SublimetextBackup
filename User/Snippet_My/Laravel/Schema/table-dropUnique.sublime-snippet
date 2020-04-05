@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$table->dropUnique('${1:users::email::unique}')
-]]></content>
-    <tabTrigger>column_dropUnique</tabTrigger>
-    <scope>source.php</scope>
-    <description>Drop a Unique Index</description>
-</snippet>

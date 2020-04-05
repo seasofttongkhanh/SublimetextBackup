@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+array::pull(${1:\$array}, ${2:'value'});
+]]></content>
+    <tabTrigger>Helper_array::pull</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get a value from the array, and remove it.</description>
+</snippet>

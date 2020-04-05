@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-typedef $1;$0
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>typedef</tabTrigger>
-    <description>type define</description>
-	<scope>source.cpp, source.c, source.c++</scope>
-</snippet>

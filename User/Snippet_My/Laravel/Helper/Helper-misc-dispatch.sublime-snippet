@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-dispatch(${1:new App\Jobs\SendEmails});
-]]></content>
-    <tabTrigger>Helper_misc-dispatch</tabTrigger>
-    <scope>source.php</scope>
-    <description>Pushes the given job onto the Laravel job queue.</description>
-</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-private function ${1:namefunction}() {
-    $2
-} ]]></content>
-    <tabTrigger>pri</tabTrigger>
-    <description>php</description>
-</snippet>

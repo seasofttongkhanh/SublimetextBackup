@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-@lang('${1:language.line}'${2:, [${3:'variable'} => ${4:'replacement'}]})
-]]></content>
-    <tabTrigger>b_lang</tabTrigger>
-    <scope>text.blade</scope>
-</snippet>

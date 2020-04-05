@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:comments}()
+{
+    return \$this->hasMany(${2:Comment::class}${3:, '${4:foreign::key}'}${5:, '${6:local::key}'});
+}
+]]></content>
+    <tabTrigger>Relation_hasMany</tabTrigger>
+    <scope>source.php</scope>
+    <description>A one-to-many relationship.</description>
+</snippet>

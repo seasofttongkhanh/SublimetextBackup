@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+router.beforeEach( (to, from, next) => {
+	if (to.matched.some(record => record.meta.isLoginned)) {
+	    if (localStorage.getItem('tokenUser') != null) {
+	    	next({
+	    		path: '/login',
+	    		query: { redirect: to.fullPath }
+	    	})
+	    } else {
+	    	next()
+	    }
+	} else {
+	    next() // make sure to always call next()!
+	}
+})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vue-beforeEach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js,source.ts</scope>
+</snippet>

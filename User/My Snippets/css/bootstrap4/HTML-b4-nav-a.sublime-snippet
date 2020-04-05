@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+		<ul class="nav justify-content-center|justify-content-end">
+				<li class="nav-item">
+						<a class="nav-link active" href="#">${1:Active link}</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#">${2:Link}</a>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link disabled" href="#">${3:Disabled link}</a>
+				</li>
+		</ul>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>b4-nav-a</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-let data = CKEDITOR.instances['id'].getData()]]></content>
-    <tabTrigger>ckeditor-getdata</tabTrigger>
-    <description>ckeditor</description>
-</snippet>

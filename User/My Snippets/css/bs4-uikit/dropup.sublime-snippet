@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+<div class="dropup">
+    <button href="#pablo" class="dropdown-toggle btn btn-primary btn-round btn-block" data-toggle="dropdown" aria-expanded="false">Dropup <b class="caret"></b><div class="ripple-container"></div></button>
+    <div class="dropdown-menu dropdown-menu-left" x-placement="top-start" style="position: absolute; top: -2px; left: 0px; will-change: top, left;">
+      <h6 class="dropdown-header">Dropdown header</h6>
+      <a href="#pablo" class="dropdown-item">Action</a>
+      <a href="#pablo" class="dropdown-item">Another action</a>
+      <a href="#pablo" class="dropdown-item">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a href="#pablo" class="dropdown-item">Separated link</a>
+      <div class="dropdown-divider"></div>
+      <a href="#pablo" class="dropdown-item">One more separated link</a>
+  </div>
+</div>]]></content>
+    <tabTrigger>ui4-dropup</tabTrigger>
+    <description>bs4-uikit</description>
+</snippet>

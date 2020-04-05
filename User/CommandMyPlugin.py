@@ -7,16 +7,16 @@ import sublime_plugin
 class CommandMyPlugin(sublime_plugin.WindowCommand):
     def __init__(self, *args, **kwargs):
         super(CommandMyPlugin, self).__init__(*args, **kwargs)
-        settings = sublime.load_settings('Laravel 5 Artisan.sublime-settings')
+        settings = sublime.load_settings('Command User.sublime-settings')
         # self.php_path = settings.get('php_path')
-        self.php_path = "php"
-        self.artisan_path = 'artisan'
+        # self.php_path = "php"
+        # self.artisan_path = 'artisan'
 
     def run(self, *args, **kwargs):
         try:
             # The first folder needs to be the Laravel Project
-            self.PROJECT_PATH = self.window.folders()[0]
-            artisan_path = os.path.join(self.PROJECT_PATH, self.artisan_path)
+            # self.PROJECT_PATH = self.window.folders()[0]
+            # artisan_path = os.path.join(self.PROJECT_PATH, self.artisan_path)
             self.args = []
 
             # if os.path.isfile("%s" % artisan_path):
@@ -75,7 +75,6 @@ class CommandMyPlugin(sublime_plugin.WindowCommand):
             self.window.run_command("exec", {
                 "cmd": self.args,
                 "shell": os.name == 'nt',
-                "working_dir": self.PROJECT_PATH
-                })
+            })
         except IOError:
             sublime.status_message('IOError - command aborted')

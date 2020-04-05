@@ -56,10 +56,25 @@
             ]
         }
     },
+    // Set layout
     {
+      "caption": "Layout: 4 pane (3 top, 1 bottm)",
+      "command": "set_layout",
+      "args":     {
+        "cells": [
+          [0, 0, 1, 1 ],
+          [1, 0, 2, 1 ],
+          [0, 1, 3, 2 ],
+          [2, 0, 3, 1 ]
+        ],
+        "cols": [0.0, 0.125, 0.875, 1.0 ],
+        "rows": [0.0, 0.6, 1.0 ]
+      }
+    },
+    {
+        "caption" : "Layout: 3 Pane bottom",
         "command": "set_layout",
         "keys": ["alt+shift+7"],
-        "caption" : "Layout: 3 Pane bottom",
         "args": {
             "cols": [0.0, 0.5, 1.0],
             "rows": [0.0, 0.5, 1.0],

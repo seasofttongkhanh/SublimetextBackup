@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-query: {$1:$2, $3}]]></content>
-    <tabTrigger>vue-query</tabTrigger>
-    <description>vue-router</description>
-</snippet> 

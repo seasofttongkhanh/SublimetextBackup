@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-resource::path(${1:'file'});
-]]></content>
-    <tabTrigger>Helper_path-resource</tabTrigger>
-    <scope>source.php</scope>
-    <description>Get the fully qualified path to the resources directory.</description>
-</snippet>

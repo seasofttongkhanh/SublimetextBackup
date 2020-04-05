@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<button class="btn btn-primary btn-lg">Small</button>]]></content>
-    <tabTrigger>ui4-btn-lg</tabTrigger>
-    <description>bs4-uikit</description>
-</snippet>

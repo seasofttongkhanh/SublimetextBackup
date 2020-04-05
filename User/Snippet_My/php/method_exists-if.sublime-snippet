@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if(method_exists(\$this,'${1:method}')){
-    $2
-}]]></content>
-    <tabTrigger>method_exists-if</tabTrigger>
-    <description>PHP</description>
-</snippet>

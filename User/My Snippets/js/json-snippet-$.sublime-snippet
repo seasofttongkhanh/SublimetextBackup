@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\${$1:$2}]]></content>
+    <tabTrigger>${</tabTrigger>
+    <description>${nummber}</description>
+    <scope>source.json, source.JSON, text.xml</scope>
+</snippet>
+
