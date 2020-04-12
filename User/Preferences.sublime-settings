@@ -48,7 +48,7 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"color_scheme": "Packages/User/Oceanic Next.tmTheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
 	"fade_fold_buttons": false,

@@ -5,8 +5,9 @@ node_modules
 node_modules/*
 **node_modules**
 SQLToolsConnections.*
-SQLTools.*
 Terminal.*
 **.cache
 *.cache
 Package Control.cache
+HighlightTrailingWhitespace
+**HighlightTrailingWhitespace**
