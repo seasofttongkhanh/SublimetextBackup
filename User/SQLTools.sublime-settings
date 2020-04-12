@@ -1,0 +1,14 @@
+// Settings in here override those in "SQLTools/SQLTools.sublime-settings"
+{
+  "cli": {
+      "mysql"   : "F:/laragon/bin/mysql/mysql-5.7.24-winx64/bin/mysql.exe",
+      "pgsql"   : "psql",
+      "mssql"   : "sqlcmd",
+      "oracle"  : "sqlplus",
+      "sqlite"  : "sqlite3",
+      "vertica" : "vsql",
+      "firebird": "isql",
+      "sqsh"    : "sqsh",
+      "snowsql" : "snowsql"
+  },
+}
