@@ -1,8 +1,0 @@
-binaries/*
-!binaries/2.6.0
-
-**.DS_Store
-
-registration_key
-sig
-auth

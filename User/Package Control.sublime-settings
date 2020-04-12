@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"TabNine"
 	],
 	"installed_packages":
 	[
@@ -95,7 +96,6 @@
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"SyncedSideBar",
-		"TabNine",
 		"TabsExtra",
 		"Terminal",
 		"Terminus",
