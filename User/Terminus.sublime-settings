@@ -131,7 +131,7 @@
         "background": "#535353",
         "block_caret": "white",
         "caret": "white",
-        "foreground": "#fff",
+        "foreground": "#ccc",
         "selection": "#444444",
         "selection_foreground": "#ffffff"
     },

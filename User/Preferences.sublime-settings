@@ -48,8 +48,7 @@
 	],
 	"caret_extra_top": 5,
 	"caret_extra_width": 2,
-	"color_scheme": "Packages/User/Oceanic Next.tmTheme",
-	"detect_indentation": false,
+	"color_scheme": "Packages/User/Solarized.sublime-color-scheme",
 	"draw_minimap_border": true,
 	"fade_fold_buttons": false,
 	"folder_exclude_patterns":
@@ -60,16 +59,11 @@
 		"CVS"
 	],
 	"font_face": "consolas",
-	"font_size": 10,
+	"font_size": 12,
 	"git_diff_target": "head",
-	"gruvbox_highlight_active_tree_row": true,
-	"gruvbox_sidebar_heading_bold": true,
-	"gruvbox_tabs_xxs": true,
-	"gruvbox_underline_modified_tabs_thick": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"TabNine",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -81,8 +75,6 @@
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"margin": 0,
-	"mini_diff": "auto",
-	"shell_environment": false,
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,

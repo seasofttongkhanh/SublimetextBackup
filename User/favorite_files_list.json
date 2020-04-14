@@ -1,6 +1,12 @@
 {
     "files": [],
     "groups": {
+        "Settings": [
+            {
+                "alias": "Origami.sublime-settings",
+                "file": "C:\\Users\\Admin\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Origami.sublime-settings"
+            }
+        ],
         "laravel-nuxt": [
             {
                 "alias": "todo.md",
