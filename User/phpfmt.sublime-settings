@@ -4,8 +4,9 @@
 	"option": "value",
 	"passes":
 	[
-		"AddMissingParentheses"
+		"AddMissingParentheses",
+		"ReindentSwitchBlocks"
 	],
 	"psr2": true,
-	"version": 3
+	"version": 4
 }
