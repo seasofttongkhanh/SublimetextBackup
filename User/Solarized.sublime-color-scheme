@@ -52,7 +52,7 @@
         "brackets_foreground": "var(green)",
         "bracket_contents_options": "stippled_underline",
         "bracket_contents_foreground": "var(green)",
-        "tags_options": "stippled_underline",
+        "tags_options": "underline",
         "tags_foreground": "var(green)",
 
         "shadow": "color(var(base03) blend(#000 75%))",

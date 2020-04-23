@@ -1,6 +1,20 @@
 {
 	"folds":
 	{
+		"C:\\Users\\Admin\\Desktop\\quasar\\src\\pages\\Test.vue":
+		{
+			"0xef23733c":
+			[
+				[
+					1184,
+					1376
+				],
+				[
+					1397,
+					1594
+				]
+			]
+		},
 		"C:\\Users\\hkdark\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Side Bar.sublime-menu":
 		{
 			"0xb04f78a6":
@@ -725,6 +739,42 @@
 				]
 			]
 		},
+		"F:\\laragon\\www\\laravel-AD-Cheki\\app\\Http\\Controllers\\RequestEmailController.php":
+		{
+			"0x6bd227b4":
+			[
+				[
+					4541,
+					4716
+				]
+			]
+		},
+		"F:\\laragon\\www\\laravel-AD-Cheki\\resources\\views\\home.blade.php":
+		{
+			"0xe37cdaf5":
+			[
+				[
+					530,
+					3549
+				],
+				[
+					5827,
+					6063
+				],
+				[
+					6107,
+					6133
+				],
+				[
+					12448,
+					12865
+				],
+				[
+					12927,
+					12969
+				]
+			]
+		},
 		"F:\\laragon\\www\\laravel-hkdark\\routes\\api.php":
 		{
 			"0xfd49b513":
@@ -770,6 +820,20 @@
 				[
 					138,
 					2221
+				]
+			]
+		},
+		"F:\\laragon\\www\\quasar\\src\\pages\\Test.vue":
+		{
+			"0x748d5aee":
+			[
+				[
+					815,
+					1731
+				],
+				[
+					1774,
+					7000
 				]
 			]
 		},

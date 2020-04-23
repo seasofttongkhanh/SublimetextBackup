@@ -11,11 +11,10 @@
 		},
 		"phpls":
 		{
-			"enabled": true
+			"enabled": false
 		}
 	},
   "auto_show_diagnostics_panel": false,
   "show_symbol_action_links": true,
   "show_diagnostics_count_in_view_status": true,
-  "only_show_lsp_completions": true
 }

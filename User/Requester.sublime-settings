@@ -2,5 +2,6 @@
 
 {
   "fmt": "indent",
-  "pin_tabs_by_default": true
+  "pin_tabs_by_default": true,
+  "timeout_env": 50
 }
